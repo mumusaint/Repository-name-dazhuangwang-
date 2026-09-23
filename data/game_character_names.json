@@ -1,0 +1,421 @@
+{
+  "source": "stringdata.bundle / CharacterStr_*.bytes",
+  "updated": "2026-09-10T08:22:00Z",
+  "summary": {
+    "mapped": 42,
+    "CharacterStr_sc_u16_records": 91,
+    "CharacterStr_en_u16_records": 67,
+    "CharacterStr_tc_u16_records": 93,
+    "mapped_char_ids": 42,
+    "unmapped_sc_titles": 48
+  },
+  "byId": {
+    "10202": {
+      "id": 10202,
+      "nameSc": "娜莉",
+      "nameEn": "Nali",
+      "nameTc": "娜莉",
+      "title": "邪恶之星",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_tc"
+      ]
+    },
+    "10197": {
+      "id": 10197,
+      "nameSc": "小泱",
+      "nameEn": "Cos.Yanko",
+      "nameTc": "小泱",
+      "title": "浪行魅狐",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_tc"
+      ]
+    },
+    "10198": {
+      "id": 10198,
+      "nameSc": "毛毛",
+      "nameEn": "Cos.Momo",
+      "nameTc": "毛毛",
+      "title": "冷豔锋刃",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_tc"
+      ]
+    },
+    "10100": {
+      "id": 10100,
+      "nameSc": "兔姬",
+      "nameEn": "Usagihime",
+      "nameTc": "兔姬",
+      "title": "御前神使",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_tc"
+      ]
+    },
+    "10003": {
+      "id": 10003,
+      "nameSc": "伊布力斯",
+      "nameEn": "Iblis",
+      "nameTc": "伊布力斯",
+      "title": "凋零蔷薇",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_en",
+        "CharacterStr_tc"
+      ]
+    },
+    "10001": {
+      "id": 10001,
+      "nameSc": "巴尔",
+      "nameEn": "Baal",
+      "title": "破败玫瑰",
+      "sources": [
+        "CharacterStr_sc"
+      ]
+    },
+    "10004": {
+      "id": 10004,
+      "nameSc": "赛露西亚",
+      "nameEn": "Salucia",
+      "title": "优雅女僕",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_en"
+      ]
+    },
+    "10006": {
+      "id": 10006,
+      "nameSc": "露露",
+      "nameEn": "Lulu",
+      "nameTc": "露露",
+      "title": "白衣天使",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_en",
+        "CharacterStr_tc"
+      ]
+    },
+    "10149": {
+      "id": 10149,
+      "nameSc": "椿",
+      "nameEn": "Tsubaki",
+      "nameTc": "椿",
+      "title": "美艳少妇",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_tc"
+      ]
+    },
+    "10152": {
+      "id": 10152,
+      "nameSc": "苏珊",
+      "nameEn": "Susan",
+      "title": "治癒之星",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_en"
+      ]
+    },
+    "10002": {
+      "id": 10002,
+      "nameSc": "撒旦",
+      "nameEn": "Satan",
+      "nameTc": "撒旦",
+      "title": "夏日",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_en",
+        "CharacterStr_tc"
+      ]
+    },
+    "10069": {
+      "id": 10069,
+      "nameSc": "铃兰",
+      "nameEn": "Lillane",
+      "title": "春情白兔",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_en"
+      ]
+    },
+    "10124": {
+      "id": 10124,
+      "nameSc": "香草奈若",
+      "nameEn": "Nyoro",
+      "nameTc": "香草奈若",
+      "title": "沁夏淡粉",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_tc"
+      ]
+    },
+    "10071": {
+      "id": 10071,
+      "nameSc": "丝塔夏",
+      "nameEn": "Sasha",
+      "title": "诅咒凝视",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_en"
+      ]
+    },
+    "10005": {
+      "id": 10005,
+      "nameSc": "兰儿",
+      "nameEn": "Lana",
+      "title": "乘风破浪",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_en"
+      ]
+    },
+    "10009": {
+      "id": 10009,
+      "nameSc": "艾可",
+      "nameEn": "Aiko",
+      "nameTc": "艾可",
+      "title": "夏日",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_en",
+        "CharacterStr_tc"
+      ]
+    },
+    "10050": {
+      "id": 10050,
+      "nameSc": "凯萨",
+      "nameEn": "F.Caesar",
+      "title": "娇蛮凶护",
+      "sources": [
+        "CharacterStr_sc"
+      ]
+    },
+    "10048": {
+      "id": 10048,
+      "nameSc": "莫默",
+      "nameEn": "Momo",
+      "nameTc": "莫默",
+      "title": "毒蝎",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_tc"
+      ]
+    },
+    "10047": {
+      "id": 10047,
+      "nameSc": "狄",
+      "nameEn": "Didi",
+      "nameTc": "狄",
+      "title": "夜星",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_tc"
+      ]
+    },
+    "10007": {
+      "id": 10007,
+      "nameSc": "圣米勒",
+      "nameEn": "Milae",
+      "title": "夏日",
+      "sources": [
+        "CharacterStr_sc"
+      ]
+    },
+    "10049": {
+      "id": 10049,
+      "nameSc": "法雅",
+      "nameEn": "Faya",
+      "nameTc": "法雅",
+      "title": "高等魔族",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_tc"
+      ]
+    },
+    "10028": {
+      "id": 10028,
+      "nameSc": "千鹤",
+      "nameEn": "Chizuru",
+      "title": "梦游魔境",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_en"
+      ]
+    },
+    "10058": {
+      "id": 10058,
+      "nameSc": "沃沃",
+      "nameEn": "Fufu",
+      "nameTc": "沃沃",
+      "title": "胆小纸袋狼",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_tc"
+      ]
+    },
+    "10008": {
+      "id": 10008,
+      "nameSc": "KS-Ⅷ",
+      "nameEn": "KS-Ⅷ",
+      "nameTc": "KS-Ⅷ",
+      "title": "夏日",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_tc"
+      ]
+    },
+    "10036": {
+      "id": 10036,
+      "nameSc": "娜芙菈菈",
+      "nameEn": "Nafrala",
+      "nameTc": "娜芙菈菈",
+      "title": "史莱姆女王",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_tc"
+      ]
+    },
+    "10012": {
+      "id": 10012,
+      "nameSc": "凛月",
+      "nameEn": "Ritsuki",
+      "title": "女忍者",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_en"
+      ]
+    },
+    "10013": {
+      "id": 10013,
+      "nameSc": "神无雪",
+      "nameEn": "Minayomi",
+      "title": "剑圣",
+      "sources": [
+        "CharacterStr_sc",
+        "CharacterStr_en"
+      ]
+    },
+    "10057": {
+      "id": 10057,
+      "nameSc": "煌星",
+      "nameEn": "Daphne",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10022": {
+      "id": 10022,
+      "nameSc": "狂犬",
+      "nameEn": "Noma",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10174": {
+      "id": 10174,
+      "nameSc": "鯊魚",
+      "nameEn": "Forneusa",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10085": {
+      "id": 10085,
+      "nameSc": "花魁",
+      "nameEn": "Kana",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10161": {
+      "id": 10161,
+      "nameSc": "赤龙",
+      "nameEn": "Zaskia",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10133": {
+      "id": 10133,
+      "nameSc": "奈奈美",
+      "nameEn": "Nanami",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10140": {
+      "id": 10140,
+      "nameSc": "主祭",
+      "nameEn": "Lelya",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10136": {
+      "id": 10136,
+      "nameSc": "雪豹",
+      "nameEn": "Angelina",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10033": {
+      "id": 10033,
+      "nameSc": "睡萝",
+      "nameEn": "Aridya",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10021": {
+      "id": 10021,
+      "nameSc": "贤者",
+      "nameEn": "Shiro",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10068": {
+      "id": 10068,
+      "nameSc": "莲",
+      "nameEn": "Lotus",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10020": {
+      "id": 10020,
+      "nameSc": "未勇",
+      "nameEn": "Muila",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10018": {
+      "id": 10018,
+      "nameSc": "古勇",
+      "nameEn": "Uruta",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10054": {
+      "id": 10054,
+      "nameSc": "驯鹿",
+      "nameEn": "Evie",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    },
+    "10038": {
+      "id": 10038,
+      "nameSc": "托特拉",
+      "nameEn": "Tyrella",
+      "sources": [
+        "CharacterStr_en"
+      ]
+    }
+  }
+}

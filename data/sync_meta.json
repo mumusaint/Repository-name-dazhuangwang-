@@ -1,0 +1,23 @@
+{
+  "compdata_remote": {
+    "etag": "W/\"5fd79b-8qRznBw7W22JKNGO/n35X3Db8TU\"",
+    "last_modified": null,
+    "content_length": "6281115"
+  },
+  "compdata_bytes": 6281115,
+  "compdata_updated_at": "2026-09-23T13:53:17Z",
+  "revision": 1790171597,
+  "last_sync_at": "2026-09-23T13:53:06Z",
+  "last_sync_ok": true,
+  "character_total": 250,
+  "characters_ok": true,
+  "characters_updated_at": "2026-09-23T13:27:00Z",
+  "characters_remote": {
+    "etag": "\"6ab15ae4-c2f0\"",
+    "last_modified": "Mon, 21 Sep 2026 16:27:16 GMT",
+    "content_length": "49904"
+  },
+  "compdata_ok": true,
+  "characters_error": null,
+  "compdata_error": null
+}

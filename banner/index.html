@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>卡池推荐 - 打桩网</title>
+  <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main class="main-container">
+    <div class="block-header">
+      <h1 class="page-title" style="margin:0">卡池抽取推荐</h1>
+      <div class="btn-group">
+        <button class="btn btn-primary" id="analyzeBtn" onclick="startBannerAnalysis()">分析卡池</button>
+        <a href="../have/index.html" class="btn btn-sm">管理持有</a>
+        <a href="../smart/index.html" class="btn btn-sm">智能打桩</a>
+      </div>
+    </div>
+
+    <div class="notice">
+      点选当前卡池 <strong>UP / 限定</strong> 角色，系统会根据你的持有与社区高配队，计算<strong>优先抽谁</strong>、能解锁多少套队。
+    </div>
+
+    <div class="block" id="eventPanel">
+      <div class="block-header" style="margin-bottom:0.5rem">
+        <div class="block-title" style="margin:0">当期卡池（公告）</div>
+        <button class="btn btn-sm btn-primary" id="compareBtn" onclick="compareThreeWayBanners()">三向对比 ROI</button>
+        <button class="btn btn-sm" id="exportBannerBtn" onclick="exportCurrentBannerReport()" style="display:none">导出报告</button>
+      </div>
+      <p id="eventMeta" style="font-size:0.82rem;color:var(--text-muted);margin-bottom:0.75rem">加载公告…</p>
+      <div id="bannerSectionsHost"></div>
+      <div id="gachaMechanics" class="banner-mechanics" style="display:none"></div>
+    </div>
+
+    <div id="comparePanel" class="block" style="display:none;margin-top:0.75rem">
+      <div class="block-title">三向对比 · 魔晶 / 魂晶 / 全库</div>
+      <div id="compareContent"></div>
+    </div>
+
+    <div id="pullSimPanel" class="block" style="display:none;margin-top:0.75rem">
+      <div class="block-title">再抽 N 张模拟</div>
+      <div id="pullSimContent"></div>
+    </div>
+
+    <div id="pullVsBondPanel" class="block" style="display:none;margin-top:0.75rem">
+      <div class="block-title">再抽 vs 升羁绊</div>
+      <div id="pullVsBondContent"></div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">当前账号</div>
+      <p id="userInfo" class="user-info-bar">加载中…</p>
+    </div>
+
+    <div class="block">
+      <div class="block-header" style="margin-bottom:0.5rem">
+        <div class="block-title" style="margin:0">卡池角色</div>
+        <button class="btn btn-sm" onclick="clearBannerPool()">清空</button>
+      </div>
+      <p id="poolHint" style="font-size:0.8rem;color:var(--text-muted);margin-bottom:0.5rem"></p>
+      <div id="poolSelectedBar" class="banner-selected-bar"></div>
+      <div class="filter-row" style="margin-top:0.75rem;gap:0.5rem;flex-wrap:wrap">
+        <span style="font-size:0.8rem;color:var(--text-muted)">快捷预设</span>
+        <span id="presetChips"></span>
+      </div>
+      <div class="filter-row" style="margin-top:0.75rem">
+        <input type="text" id="poolSearch" class="search-input" placeholder="搜索角色加入卡池…">
+      </div>
+      <div id="poolCharGrid" class="char-grid" style="margin-top:0.75rem"></div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">分析条件</div>
+      <div class="filter-row" style="margin-top:0.75rem;gap:0.75rem;flex-wrap:wrap">
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          参考伤害下限（亿）
+          <select id="minOfficial" class="sort-select" style="margin-left:0.35rem">
+            <option value="10">10</option>
+            <option value="15" selected>15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+          </select>
+        </label>
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          假设抽到花数
+          <select id="assumeBond" class="sort-select" style="margin-left:0.35rem">
+            <option value="1" selected>1 花</option>
+            <option value="3">3 花</option>
+            <option value="5">5 花</option>
+          </select>
+        </label>
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          最少解锁配队
+          <select id="minTeams" class="sort-select" style="margin-left:0.35rem">
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </label>
+        <label id="pullsOnBannerWrap" style="font-size:0.85rem;color:var(--text-muted)">
+          <span id="pullsOnBannerLabel">本池已抽次数</span>
+          <input type="number" id="pullsOnBanner" class="sort-select" min="0" max="9999" value="0" style="width:4.5rem;margin-left:0.35rem" title="用于估算保底/心愿/STEP">
+        </label>
+        <label id="shellTenPullsWrap" style="font-size:0.85rem;color:var(--text-muted);display:none">
+          眷恋贝壳已用十连
+          <select id="shellTenPullsUsed" class="sort-select" style="margin-left:0.35rem">
+            <option value="0">0 次</option>
+            <option value="1">1 次</option>
+            <option value="2">2 次（已满）</option>
+          </select>
+        </label>
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          队长生命加成
+          <select id="hpUpMin" class="sort-select" style="margin-left:0.35rem">
+            <option value="0">0</option>
+            <option value="15">15</option>
+            <option value="20" selected>20</option>
+            <option value="25">25</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div class="block" id="progressPanel" style="display:none">
+      <div class="block-title">分析进度</div>
+      <p id="progressText" style="margin-top:0.5rem;font-size:0.85rem;color:var(--text-muted)">准备中…</p>
+      <div class="boss-bar" style="margin-top:0.5rem">
+        <div id="progressBar" class="boss-bar-fill" style="width:0%;background:var(--accent)"></div>
+      </div>
+    </div>
+
+    <div id="summaryPanel" class="block banner-summary" style="display:none"></div>
+
+    <div id="ownedPoolSection" style="display:none;margin-top:0.75rem">
+      <div class="block">
+        <div class="block-title">卡池内已持有</div>
+        <p style="font-size:0.8rem;color:var(--text-muted);margin-bottom:0.75rem">以下角色已在卡池中且你已有，无需再抽；可考虑升羁绊。</p>
+        <div id="ownedPoolList"></div>
+      </div>
+    </div>
+
+    <div id="resultsSection" style="display:none;margin-top:0.75rem">
+      <div class="comp-list-header">
+        <h2 class="page-title" style="margin:0;font-size:1.1rem">抽取优先级</h2>
+        <span id="resultSummary" class="comp-count"></span>
+      </div>
+      <div id="pullCompactPanel"></div>
+      <div id="resultList" style="margin-top:1rem"></div>
+    </div>
+  </main>
+
+  <script src="../assets/js/accounts.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/userdata.js"></script>
+  <script src="../assets/js/export-report.js"></script>
+  <script src="../assets/js/banner-mechanics.js"></script>
+  <script src="banner.js"></script>
+</body>
+</html>

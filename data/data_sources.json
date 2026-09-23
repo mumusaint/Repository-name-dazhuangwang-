@@ -1,0 +1,74 @@
+{
+  "data_map": {
+    "角色中英文名_属性_面板": {
+      "本地文件": [
+        "characters_parsed.json",
+        "characters_parsed.csv",
+        "characterJson.js"
+      ],
+      "字段": "id, nameSc, nameEn, elementName, roleName, rarityName, hp, atk, cd, atkMag, ultMag, hpUp, po",
+      "来源": "https://inittt.github.io/tenkaassist/js/characterJson.js",
+      "更新": "python scripts/update_all_data.py --chars"
+    },
+    "头像_立绘_TenkaAssist": {
+      "URL 规则": "https://inittt.github.io/tenkaassist/images/characters/cs{角色ID}_0_0.webp",
+      "示例": "https://inittt.github.io/tenkaassist/images/characters/cs10001_0_0.webp",
+      "说明": "角色 ID 为 10001 格式；由前端 common.js charImageUrl 加载"
+    },
+    "头像_立绘_游戏资源": {
+      "索引": "scripts/game_dump/index/catalog_all.csv",
+      "按角色": "scripts/game_dump/index/local_by_character.json",
+      "bundle 命名": "cg/cb/scg + 5位ID，如 cb10941_*.bundle",
+      "说明": "bundle 为 Unity 加密包，索引仅文件名；解包需游戏密钥"
+    },
+    "配队_伤害_打桩": {
+      "本地缓存": "data/compdata.json",
+      "在线 API": "http://localhost:8080/api/comps/...（server.py 代理）",
+      "精确计算": "assets/js/calculator.v3.js + autocalc.v3.js + characterJson.js",
+      "更新配队库": "python scripts/update_all_data.py --comps"
+    },
+    "新角色预警": {
+      "输出": "scripts/game_dump/index/missing_characters.json",
+      "更新": "python scripts/find_new_character_ids.py"
+    },
+    "maindata_面板": {
+      "本地文件": "data/maindata_overlay.json",
+      "原始解析": "scripts/game_dump/extracted/characters_maindata.json",
+      "说明": "从游戏 maindata.bundle Character_C 解析 hp_base/atk_base；ATK 优先 maindata，HP 未完全匹配时用 TenkaAssist 参考",
+      "更新": "python scripts/update_all_data.py --maindata"
+    },
+    "手动收录角色": {
+      "本地文件": "data/manual_characters.json",
+      "说明": "TenkaAssist 尚未收录的新角色",
+      "更新": "编辑 manual_characters.json 后运行 python parse_characters.py"
+    },
+    "简中译名覆盖": {
+      "本地文件": "data/character_name_overrides.json",
+      "说明": "官方面板 + 本地简中/别名（不覆盖 hp/atk）",
+      "更新": "编辑后运行 python parse_characters.py"
+    },
+    "游戏译名_stringdata": {
+      "本地文件": "data/game_character_names.json",
+      "原始": "scripts/game_dump/extracted/character_names_from_game.json",
+      "更新": "python scripts/export_game_data_to_site.py"
+    },
+    "Il2Cpp_dump": {
+      "本地文件": "scripts/game_dump/il2cpp_dump/dump.cs",
+      "状态": "data/game_data_status.json",
+      "关键类": "TCharData, BattleCalculator, TStageData, BattleSys",
+      "更新": "Zygisk 拉取后 python scripts/pull_zygisk_il2cpp_dump.py"
+    },
+    "新角色候选": {
+      "本地文件": "data/new_character_candidates.json",
+      "原始": "scripts/game_dump/index/missing_characters.json",
+      "更新": "python scripts/update_all_data.py --index"
+    },
+    "自动同步": {
+      "配置": "data/sync_config.json",
+      "状态": "data/sync_meta.json",
+      "说明": "python server.py 启动后每 6 小时与 TenkaAssist 比对更新；页眉「已同步」可手动刷新",
+      "API": "GET /api/sync/status · POST /api/sync/run"
+    }
+  },
+  "启动站点": "python server.py  →  http://localhost:8080"
+}

@@ -1,0 +1,47 @@
+{
+  "note": "快捷预设；完整卡池见 banner_events.json",
+  "presets": [
+    {
+      "id": "maou-featured-v220",
+      "name": "魔王精选",
+      "ids": [10072, 10098, 10134, 10147, 10017, 10123, 10125, 10155, 10164, 10175],
+      "eventBannerId": "maou-featured-v220"
+    },
+    {
+      "id": "freezing-summer-1",
+      "name": "严寒之夏",
+      "ids": [10204, 10203],
+      "eventBannerId": "freezing-summer-1"
+    },
+    {
+      "id": "freezing-summer-2",
+      "name": "严寒之夏 2",
+      "ids": [10205, 10206],
+      "eventBannerId": "freezing-summer-2"
+    },
+    {
+      "id": "anniversary-55-v220",
+      "name": "5.5周年纪念",
+      "ids": [10072, 10098, 10134, 10147, 10017, 10123, 10125, 10155, 10164, 10175],
+      "eventBannerId": "anniversary-55-v220"
+    },
+    {
+      "id": "magical-girl-v220",
+      "name": "闪耀☆变身",
+      "ids": [10114, 10115],
+      "eventBannerId": "magical-girl-v220"
+    },
+    {
+      "id": "step-soul-jun-v220",
+      "name": "STEP魂晶（6月）",
+      "ids": [10190, 10186, 10181],
+      "eventBannerId": "step-soul-jun-v220"
+    },
+    {
+      "id": "wish-gacha-v220",
+      "name": "心愿召唤",
+      "ids": [10044, 10149, 10143, 10159, 10117, 10108, 10169, 10152],
+      "eventBannerId": "wish-gacha-v220"
+    }
+  ]
+}

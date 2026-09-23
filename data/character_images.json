@@ -1,0 +1,73 @@
+{
+  "updated": "2026-06-11T09:44:50Z",
+  "note": "本地提取的游戏立绘；前端 charImageUrl 优先使用",
+  "count": 11,
+  "byId": {
+    "10222": {
+      "id": 10222,
+      "path": "assets/images/new-characters/cs10222_0_0.webp",
+      "source": "cb",
+      "bundle": "cb10222_assets_all_7926e9c102195c182317dfac495e8874.bundle"
+    },
+    "10931": {
+      "id": 10931,
+      "path": "assets/images/new-characters/cs10931_0_0.webp",
+      "source": "cb",
+      "bundle": "cb10931_assets_all_8e39cb6d80b73fb9604d3228709d11c4.bundle"
+    },
+    "10941": {
+      "id": 10941,
+      "path": "assets/images/new-characters/cs10941_0_0.webp",
+      "source": "charpics",
+      "bundle": "charpics941_assets_all_e357efded6ddb905e36d0669531a3016.bundle"
+    },
+    "10942": {
+      "id": 10942,
+      "path": "assets/images/new-characters/cs10942_0_0.webp",
+      "source": "charpics",
+      "bundle": "charpics941_assets_all_e357efded6ddb905e36d0669531a3016.bundle"
+    },
+    "10951": {
+      "id": 10951,
+      "path": "assets/images/new-characters/cs10951_0_0.webp",
+      "source": "charpics",
+      "bundle": "charpics951_assets_all_b0927330ffd01fa79d5a7a42d416bf50.bundle"
+    },
+    "10952": {
+      "id": 10952,
+      "path": "assets/images/new-characters/cs10952_0_0.webp",
+      "source": "charpics",
+      "bundle": "charpics951_assets_all_b0927330ffd01fa79d5a7a42d416bf50.bundle"
+    },
+    "10961": {
+      "id": 10961,
+      "path": "assets/images/new-characters/cs10961_0_0.webp",
+      "source": "cb",
+      "bundle": "cb10961_assets_all_578e6d00d1f3f433e872e7ad61d9e970.bundle"
+    },
+    "10962": {
+      "id": 10962,
+      "path": "assets/images/new-characters/cs10962_0_0.webp",
+      "source": "charpics",
+      "bundle": "charpics961_assets_all_04918ae5a11215e27403ee791bba037b.bundle"
+    },
+    "12001": {
+      "id": 12001,
+      "path": "assets/images/new-characters/cs12001_0_0.webp",
+      "source": "cb",
+      "bundle": "cb12001_assets_all_3ee36ce99850e02f2354dccecd2ee12a.bundle"
+    },
+    "12002": {
+      "id": 12002,
+      "path": "assets/images/new-characters/cs12002_0_0.webp",
+      "source": "charpics",
+      "bundle": "charpics12002_assets_all_9ae1cc32497e673caf4b100a4f0816a4.bundle"
+    },
+    "12011": {
+      "id": 12011,
+      "path": "assets/images/new-characters/cs12011_0_0.webp",
+      "source": "cb",
+      "bundle": "cb12011_assets_all_02784c0e33537eb8b02ec386ce08b32a.bundle"
+    }
+  }
+}

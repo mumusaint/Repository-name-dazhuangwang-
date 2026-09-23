@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>持有角色 - 打桩网</title>
+  <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main class="main-container">
+    <div class="block-header">
+      <h1 class="page-title" style="margin:0">持有角色</h1>
+      <div class="btn-group">
+        <button class="btn btn-sm" onclick="exportOwned()">导出</button>
+        <button class="btn btn-sm" onclick="importOwned()">导入</button>
+        <button class="btn btn-sm" onclick="importTenkaAssist()">TenkaAssist</button>
+        <button class="btn btn-sm" onclick="clearOwned()">清空</button>
+        <a href="../smart/index.html" class="btn btn-primary btn-sm">智能打桩</a>
+        <button class="btn btn-sm" onclick="goTeam()">去编队</button>
+      </div>
+    </div>
+    <p id="userInfo" class="user-info-bar">加载中…</p>
+
+    <div class="notice">
+      点击角色标记持有；再点循环羁绊 1→5；第三次点击移除。也可在 TenkaAssist 已拥有页「复制代码」后，点上方 <strong>TenkaAssist</strong> 一键导入。
+      <strong>社区库未收录的新角色</strong>在 <a href="../new/index.html" style="color:var(--accent)">新角色</a> 页单独管理。
+    </div>
+
+    <div class="block">
+      <div class="block-title">已选角色（点击循环羁绊 1→5，再点移除）</div>
+      <div id="selectedBar" class="selected-bar" style="margin-top:0.75rem">
+        <div class="empty-hint">请选择你持有的角色</div>
+      </div>
+    </div>
+
+    <div class="block" id="filters">
+      <div class="filter-row">
+        <input type="text" id="searchInput" class="search-input" placeholder="搜索角色名...">
+        <button class="filter-chip" data-group="element" data-value="all">全部属性</button>
+        <button class="filter-chip" data-group="element" data-value="0">火</button>
+        <button class="filter-chip" data-group="element" data-value="1">水</button>
+        <button class="filter-chip" data-group="element" data-value="2">风</button>
+        <button class="filter-chip" data-group="element" data-value="3">光</button>
+        <button class="filter-chip" data-group="element" data-value="4">暗</button>
+      </div>
+      <div class="filter-row" style="margin-top:0.5rem">
+        <button class="filter-chip" data-group="role" data-value="all">全部职业</button>
+        <button class="filter-chip" data-group="role" data-value="0">输出</button>
+        <button class="filter-chip" data-group="role" data-value="1">治疗</button>
+        <button class="filter-chip" data-group="role" data-value="2">坦克</button>
+        <button class="filter-chip" data-group="role" data-value="3">辅助</button>
+        <button class="filter-chip" data-group="role" data-value="4">干扰</button>
+      </div>
+      <div class="filter-row" style="margin-top:0.5rem">
+        <button class="filter-chip active" data-group="rarity" data-value="3">超稀有</button>
+        <button class="filter-chip" data-group="rarity" data-value="2">稀有</button>
+        <button class="filter-chip" data-group="rarity" data-value="1">罕见</button>
+        <button class="filter-chip" data-group="rarity" data-value="0">普通</button>
+        <button class="filter-chip" data-group="toggle" data-value="eternal">常驻</button>
+      </div>
+    </div>
+
+    <div class="block">
+      <div id="charGrid" class="char-grid"></div>
+    </div>
+  </main>
+  <script src="../assets/js/accounts.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="have.js"></script>
+</body>
+</html>

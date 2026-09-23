@@ -1,0 +1,2359 @@
+{
+  "source": "maindata.bundle / Character_C.bytes",
+  "updated": "2026-09-10T08:21:59Z",
+  "formula": {
+    "k_hp": 44.422,
+    "k_atk": 442.8826
+  },
+  "parse_status": {
+    "hp_atk_panel": "partial_formula",
+    "detail": "atk=atk_base×442.8826；hp=hp_base×44.422（ok=双匹配，atk_ok=仅攻击）",
+    "indexed_characters": 393,
+    "with_tenka_ref": 184,
+    "hp_parsed": 2,
+    "atk_parsed": 251
+  },
+  "summary": {
+    "overlay_count": 251,
+    "hp_from_maindata": 2,
+    "atk_from_maindata": 251,
+    "by_status": {
+      "ok": 2,
+      "atk_ok": 40,
+      "base_only": 209,
+      "other": 0
+    }
+  },
+  "byId": {
+    "10000": {
+      "parse_status": "base_only",
+      "atk": 414538,
+      "atkSource": "maindata",
+      "hp_base": 2479,
+      "atk_base": 936,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10001": {
+      "parse_status": "ok",
+      "atk": 254657,
+      "atkSource": "maindata",
+      "hp": 962847,
+      "hpSource": "maindata",
+      "cd": 3,
+      "hp_base": 21675,
+      "atk_base": 575,
+      "property": 6,
+      "note": "hp=hp_base×44.422, atk=atk_base×442.8826"
+    },
+    "10002": {
+      "parse_status": "atk_ok",
+      "atk": 177153,
+      "atkSource": "maindata",
+      "hp": 1384007,
+      "hpSource": "tenka_ref",
+      "cd": 3,
+      "hp_base": 1844,
+      "atk_base": 400,
+      "hp_scale": 16.8959,
+      "property": 7,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10003": {
+      "parse_status": "atk_ok",
+      "atk": 276802,
+      "atkSource": "maindata",
+      "hp": 885764,
+      "hpSource": "tenka_ref",
+      "cd": 3,
+      "hp_base": 3125,
+      "atk_base": 625,
+      "hp_scale": 6.3807,
+      "property": 6,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10004": {
+      "parse_status": "atk_ok",
+      "atk": 243585,
+      "atkSource": "maindata",
+      "hp": 1006228,
+      "hpSource": "tenka_ref",
+      "cd": 6,
+      "hp_base": 4481,
+      "atk_base": 550,
+      "hp_scale": 5.055,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10005": {
+      "parse_status": "atk_ok",
+      "atk": 235171,
+      "atkSource": "maindata",
+      "hp": 1041659,
+      "hpSource": "tenka_ref",
+      "cd": 6,
+      "hp_base": 4864,
+      "atk_base": 531,
+      "hp_scale": 4.821,
+      "property": 6,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10006": {
+      "parse_status": "atk_ok",
+      "atk": 248900,
+      "atkSource": "maindata",
+      "hp": 984084,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 3586,
+      "atk_base": 562,
+      "hp_scale": 6.1777,
+      "property": 3,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10008": {
+      "parse_status": "atk_ok",
+      "atk": 261301,
+      "atkSource": "maindata",
+      "hp": 938024,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1845,
+      "atk_base": 590,
+      "hp_scale": 11.445,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10010": {
+      "parse_status": "base_only",
+      "atk": 227642,
+      "atkSource": "maindata",
+      "hp_base": 6029,
+      "atk_base": 514,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10011": {
+      "parse_status": "base_only",
+      "atk": 453512,
+      "atkSource": "maindata",
+      "hp_base": 10012,
+      "atk_base": 1024,
+      "property": 4,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10015": {
+      "parse_status": "base_only",
+      "atk": 252443,
+      "atkSource": "maindata",
+      "hp_base": 421681,
+      "atk_base": 570,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10016": {
+      "parse_status": "base_only",
+      "atk": 232956,
+      "atkSource": "maindata",
+      "hp_base": 225694,
+      "atk_base": 526,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10019": {
+      "parse_status": "atk_ok",
+      "atk": 259086,
+      "atkSource": "maindata",
+      "hp": 945996,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 2189,
+      "atk_base": 585,
+      "hp_scale": 9.7285,
+      "property": 8,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10021": {
+      "parse_status": "atk_ok",
+      "atk": 241371,
+      "atkSource": "maindata",
+      "hp": 1015529,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1727,
+      "atk_base": 545,
+      "hp_scale": 13.2373,
+      "property": 6,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10027": {
+      "parse_status": "atk_ok",
+      "atk": 160766,
+      "atkSource": "maindata",
+      "hp": 1522186,
+      "hpSource": "tenka_ref",
+      "cd": 3,
+      "hp_base": 1837,
+      "atk_base": 363,
+      "hp_scale": 18.6536,
+      "property": 7,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10033": {
+      "parse_status": "atk_ok",
+      "atk": 186896,
+      "atkSource": "maindata",
+      "hp": 1309160,
+      "hpSource": "tenka_ref",
+      "cd": 3,
+      "hp_base": 1842,
+      "atk_base": 422,
+      "hp_scale": 15.9995,
+      "property": 4,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10038": {
+      "parse_status": "atk_ok",
+      "atk": 252886,
+      "atkSource": "maindata",
+      "hp": 920309,
+      "hpSource": "tenka_ref",
+      "cd": 5,
+      "hp_base": 1843,
+      "atk_base": 571,
+      "hp_scale": 11.2411,
+      "property": 7,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10043": {
+      "parse_status": "atk_ok",
+      "atk": 281230,
+      "atkSource": "maindata",
+      "hp": 960611,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1842,
+      "atk_base": 635,
+      "hp_scale": 11.7398,
+      "property": 1,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10045": {
+      "parse_status": "atk_ok",
+      "atk": 265287,
+      "atkSource": "maindata",
+      "hp": 922524,
+      "hpSource": "tenka_ref",
+      "cd": 1,
+      "hp_base": 3328,
+      "atk_base": 599,
+      "hp_scale": 6.2402,
+      "property": 4,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10051": {
+      "parse_status": "base_only",
+      "atk": 414538,
+      "atkSource": "maindata",
+      "hp_base": 136,
+      "atk_base": 936,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10052": {
+      "parse_status": "atk_ok",
+      "atk": 260858,
+      "atkSource": "maindata",
+      "hp": 1035459,
+      "hpSource": "tenka_ref",
+      "cd": 5,
+      "hp_base": 9354,
+      "atk_base": 589,
+      "hp_scale": 2.4919,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10057": {
+      "parse_status": "atk_ok",
+      "atk": 248014,
+      "atkSource": "maindata",
+      "hp": 988513,
+      "hpSource": "tenka_ref",
+      "cd": 3,
+      "hp_base": 1842,
+      "atk_base": 560,
+      "hp_scale": 12.0808,
+      "property": 4,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10062": {
+      "parse_status": "atk_ok",
+      "atk": 255986,
+      "atkSource": "maindata",
+      "hp": 956183,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 10159,
+      "atk_base": 578,
+      "hp_scale": 2.1188,
+      "property": 1,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10063": {
+      "parse_status": "atk_ok",
+      "atk": 261301,
+      "atkSource": "maindata",
+      "hp": 938024,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1792,
+      "atk_base": 590,
+      "hp_scale": 11.7836,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10067": {
+      "parse_status": "atk_ok",
+      "atk": 279902,
+      "atkSource": "maindata",
+      "hp": 964597,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 2304,
+      "atk_base": 632,
+      "hp_scale": 9.4247,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10072": {
+      "parse_status": "atk_ok",
+      "atk": 281673,
+      "atkSource": "maindata",
+      "hp": 958397,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 4096,
+      "atk_base": 636,
+      "hp_scale": 5.2673,
+      "property": 7,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10074": {
+      "parse_status": "atk_ok",
+      "atk": 257315,
+      "atkSource": "maindata",
+      "hp": 1049631,
+      "hpSource": "tenka_ref",
+      "cd": 3,
+      "hp_base": 1683,
+      "atk_base": 581,
+      "hp_scale": 14.0396,
+      "property": 6,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10078": {
+      "parse_status": "atk_ok",
+      "atk": 299832,
+      "atkSource": "maindata",
+      "hp": 900822,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1843,
+      "atk_base": 677,
+      "hp_scale": 11.0031,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10081": {
+      "parse_status": "atk_ok",
+      "atk": 276359,
+      "atkSource": "maindata",
+      "hp": 976555,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1683,
+      "atk_base": 624,
+      "hp_scale": 13.0622,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10082": {
+      "parse_status": "atk_ok",
+      "atk": 275473,
+      "atkSource": "maindata",
+      "hp": 980984,
+      "hpSource": "tenka_ref",
+      "cd": 5,
+      "hp_base": 1840,
+      "atk_base": 622,
+      "hp_scale": 12.0019,
+      "property": 7,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10084": {
+      "parse_status": "atk_ok",
+      "atk": 266172,
+      "atkSource": "maindata",
+      "hp": 920752,
+      "hpSource": "tenka_ref",
+      "cd": 3,
+      "hp_base": 15528,
+      "atk_base": 601,
+      "hp_scale": 1.3348,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10085": {
+      "parse_status": "atk_ok",
+      "atk": 263515,
+      "atkSource": "maindata",
+      "hp": 1023944,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1841,
+      "atk_base": 595,
+      "hp_scale": 12.5206,
+      "property": 7,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10088": {
+      "parse_status": "atk_ok",
+      "atk": 285216,
+      "atkSource": "maindata",
+      "hp": 946882,
+      "hpSource": "tenka_ref",
+      "cd": 3,
+      "hp_base": 1683,
+      "atk_base": 644,
+      "hp_scale": 12.6653,
+      "property": 6,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10089": {
+      "parse_status": "atk_ok",
+      "atk": 189111,
+      "atkSource": "maindata",
+      "hp": 1426967,
+      "hpSource": "tenka_ref",
+      "cd": 3,
+      "hp_base": 1683,
+      "atk_base": 427,
+      "hp_scale": 19.0868,
+      "property": 6,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10093": {
+      "parse_status": "atk_ok",
+      "atk": 266615,
+      "atkSource": "maindata",
+      "hp": 1012872,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1574,
+      "atk_base": 602,
+      "hp_scale": 14.4862,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10094": {
+      "parse_status": "ok",
+      "atk": 268387,
+      "atkSource": "maindata",
+      "hp": 1006736,
+      "hpSource": "maindata",
+      "cd": 50,
+      "hp_base": 22663,
+      "atk_base": 606,
+      "note": "hp=hp_base×44.422, atk=atk_base×442.8826"
+    },
+    "10096": {
+      "parse_status": "atk_ok",
+      "atk": 302046,
+      "atkSource": "maindata",
+      "hp": 894179,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1684,
+      "atk_base": 682,
+      "hp_scale": 11.9531,
+      "property": 6,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10098": {
+      "parse_status": "atk_ok",
+      "atk": 286988,
+      "atkSource": "maindata",
+      "hp": 941125,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1842,
+      "atk_base": 648,
+      "hp_scale": 11.5017,
+      "property": 7,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10100": {
+      "parse_status": "atk_ok",
+      "atk": 261301,
+      "atkSource": "maindata",
+      "hp": 1033244,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1573,
+      "atk_base": 590,
+      "hp_scale": 14.7868,
+      "property": 6,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10112": {
+      "parse_status": "base_only",
+      "atk": 414538,
+      "atkSource": "maindata",
+      "hp_base": 136,
+      "atk_base": 936,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10114": {
+      "parse_status": "atk_ok",
+      "atk": 267058,
+      "atkSource": "maindata",
+      "hp": 1010657,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1843,
+      "atk_base": 603,
+      "hp_scale": 12.3447,
+      "property": 7,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10115": {
+      "parse_status": "atk_ok",
+      "atk": 277687,
+      "atkSource": "maindata",
+      "hp": 972569,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 4354,
+      "atk_base": 627,
+      "hp_scale": 5.0285,
+      "property": 7,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10117": {
+      "parse_status": "atk_ok",
+      "atk": 295846,
+      "atkSource": "maindata",
+      "hp": 913223,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1844,
+      "atk_base": 668,
+      "hp_scale": 11.1486,
+      "property": 1,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10119": {
+      "parse_status": "atk_ok",
+      "atk": 271044,
+      "atkSource": "maindata",
+      "hp": 996485,
+      "hpSource": "tenka_ref",
+      "cd": 3,
+      "hp_base": 1844,
+      "atk_base": 612,
+      "hp_scale": 12.165,
+      "property": 6,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10131": {
+      "parse_status": "atk_ok",
+      "atk": 285659,
+      "atkSource": "maindata",
+      "hp": 945111,
+      "hpSource": "tenka_ref",
+      "cd": 3,
+      "hp_base": 1845,
+      "atk_base": 645,
+      "hp_scale": 11.5315,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10133": {
+      "parse_status": "atk_ok",
+      "atk": 291417,
+      "atkSource": "maindata",
+      "hp": 926067,
+      "hpSource": "tenka_ref",
+      "cd": 3,
+      "hp_base": 2820,
+      "atk_base": 658,
+      "hp_scale": 7.3926,
+      "property": 3,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10143": {
+      "parse_status": "atk_ok",
+      "atk": 269716,
+      "atkSource": "maindata",
+      "hp": 1001799,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 2198,
+      "atk_base": 609,
+      "hp_scale": 10.2601,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10145": {
+      "parse_status": "atk_ok",
+      "atk": 186011,
+      "atkSource": "maindata",
+      "hp": 1453097,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1922,
+      "atk_base": 420,
+      "hp_scale": 17.0194,
+      "property": 7,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10159": {
+      "parse_status": "atk_ok",
+      "atk": 255543,
+      "atkSource": "maindata",
+      "hp": 1056717,
+      "hpSource": "tenka_ref",
+      "cd": 4,
+      "hp_base": 1848,
+      "atk_base": 577,
+      "hp_scale": 12.8724,
+      "note": "atk 已从 maindata 解析；hp 需 LvUp/RankUp 倍率（见 hp_scale）"
+    },
+    "10280": {
+      "parse_status": "base_only",
+      "atk": 114707,
+      "atkSource": "maindata",
+      "hp_base": 10281,
+      "atk_base": 259,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10281": {
+      "parse_status": "base_only",
+      "atk": 114707,
+      "atkSource": "maindata",
+      "hp_base": 548,
+      "atk_base": 259,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10378": {
+      "parse_status": "base_only",
+      "atk": 456612,
+      "atkSource": "maindata",
+      "hp_base": 494258,
+      "atk_base": 1031,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10395": {
+      "parse_status": "base_only",
+      "atk": 266172,
+      "atkSource": "maindata",
+      "hp_base": 1571,
+      "atk_base": 601,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10416": {
+      "parse_status": "base_only",
+      "atk": 265730,
+      "atkSource": "maindata",
+      "hp_base": 1613,
+      "atk_base": 600,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10419": {
+      "parse_status": "base_only",
+      "atk": 456612,
+      "atkSource": "maindata",
+      "hp_base": 256,
+      "atk_base": 1031,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10500": {
+      "parse_status": "base_only",
+      "atk": 189554,
+      "atkSource": "maindata",
+      "hp_base": 1643,
+      "atk_base": 428,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10542": {
+      "parse_status": "base_only",
+      "atk": 458383,
+      "atkSource": "maindata",
+      "hp_base": 10543,
+      "atk_base": 1035,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10543": {
+      "parse_status": "base_only",
+      "atk": 458383,
+      "atkSource": "maindata",
+      "hp_base": 109021,
+      "atk_base": 1035,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10622": {
+      "parse_status": "base_only",
+      "atk": 458383,
+      "atkSource": "maindata",
+      "hp_base": 10623,
+      "atk_base": 1035,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10623": {
+      "parse_status": "base_only",
+      "atk": 458383,
+      "atkSource": "maindata",
+      "hp_base": 2745,
+      "atk_base": 1035,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10639": {
+      "parse_status": "base_only",
+      "atk": 458383,
+      "atkSource": "maindata",
+      "hp_base": 2692,
+      "atk_base": 1035,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10650": {
+      "parse_status": "base_only",
+      "atk": 186896,
+      "atkSource": "maindata",
+      "hp_base": 420961,
+      "atk_base": 422,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10663": {
+      "parse_status": "base_only",
+      "atk": 458383,
+      "atkSource": "maindata",
+      "hp_base": 1981,
+      "atk_base": 1035,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10681": {
+      "parse_status": "base_only",
+      "atk": 458383,
+      "atkSource": "maindata",
+      "hp_base": 2737,
+      "atk_base": 1035,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10801": {
+      "parse_status": "base_only",
+      "atk": 340577,
+      "atkSource": "maindata",
+      "hp_base": 8864,
+      "atk_base": 769,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10802": {
+      "parse_status": "base_only",
+      "atk": 258643,
+      "atkSource": "maindata",
+      "hp_base": 176819,
+      "atk_base": 584,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10803": {
+      "parse_status": "base_only",
+      "atk": 227199,
+      "atkSource": "maindata",
+      "hp_base": 413051,
+      "atk_base": 513,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10804": {
+      "parse_status": "base_only",
+      "atk": 115149,
+      "atkSource": "maindata",
+      "hp_base": 1205,
+      "atk_base": 260,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10805": {
+      "parse_status": "base_only",
+      "atk": 453955,
+      "atkSource": "maindata",
+      "hp_base": 9615,
+      "atk_base": 1025,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10806": {
+      "parse_status": "base_only",
+      "atk": 265730,
+      "atkSource": "maindata",
+      "hp_base": 259,
+      "atk_base": 600,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10807": {
+      "parse_status": "base_only",
+      "atk": 227199,
+      "atkSource": "maindata",
+      "hp_base": 671,
+      "atk_base": 513,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10808": {
+      "parse_status": "base_only",
+      "atk": 567333,
+      "atkSource": "maindata",
+      "hp_base": 9398,
+      "atk_base": 1281,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10809": {
+      "parse_status": "base_only",
+      "atk": 228085,
+      "atkSource": "maindata",
+      "hp_base": 269503,
+      "atk_base": 515,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10811": {
+      "parse_status": "base_only",
+      "atk": 414538,
+      "atkSource": "maindata",
+      "hp_base": 491699,
+      "atk_base": 936,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10812": {
+      "parse_status": "base_only",
+      "atk": 235614,
+      "atkSource": "maindata",
+      "hp_base": 473131,
+      "atk_base": 532,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10869": {
+      "parse_status": "base_only",
+      "atk": 254657,
+      "atkSource": "maindata",
+      "hp_base": 1613,
+      "atk_base": 575,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10880": {
+      "parse_status": "base_only",
+      "atk": 227199,
+      "atkSource": "maindata",
+      "hp_base": 471351,
+      "atk_base": 513,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10881": {
+      "parse_status": "base_only",
+      "atk": 227199,
+      "atkSource": "maindata",
+      "hp_base": 471371,
+      "atk_base": 513,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10882": {
+      "parse_status": "base_only",
+      "atk": 228970,
+      "atkSource": "maindata",
+      "hp_base": 471361,
+      "atk_base": 517,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10883": {
+      "parse_status": "base_only",
+      "atk": 227199,
+      "atkSource": "maindata",
+      "hp_base": 109490,
+      "atk_base": 513,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10884": {
+      "parse_status": "base_only",
+      "atk": 113821,
+      "atkSource": "maindata",
+      "hp_base": 109490,
+      "atk_base": 257,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10885": {
+      "parse_status": "base_only",
+      "atk": 340577,
+      "atkSource": "maindata",
+      "hp_base": 109490,
+      "atk_base": 769,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10886": {
+      "parse_status": "base_only",
+      "atk": 115149,
+      "atkSource": "maindata",
+      "hp_base": 109490,
+      "atk_base": 260,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10887": {
+      "parse_status": "base_only",
+      "atk": 568218,
+      "atkSource": "maindata",
+      "hp_base": 432050,
+      "atk_base": 1283,
+      "property": 15,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10889": {
+      "parse_status": "base_only",
+      "atk": 113378,
+      "atkSource": "maindata",
+      "hp_base": 109531,
+      "atk_base": 256,
+      "property": 9,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10891": {
+      "parse_status": "base_only",
+      "atk": 113378,
+      "atkSource": "maindata",
+      "hp_base": 109531,
+      "atk_base": 256,
+      "property": 9,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10892": {
+      "parse_status": "base_only",
+      "atk": 113378,
+      "atkSource": "maindata",
+      "hp_base": 432091,
+      "atk_base": 256,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10895": {
+      "parse_status": "base_only",
+      "atk": 414538,
+      "atkSource": "maindata",
+      "hp_base": 136,
+      "atk_base": 936,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10901": {
+      "parse_status": "base_only",
+      "atk": 414538,
+      "atkSource": "maindata",
+      "hp_base": 136,
+      "atk_base": 936,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10902": {
+      "parse_status": "base_only",
+      "atk": 414538,
+      "atkSource": "maindata",
+      "hp_base": 136,
+      "atk_base": 936,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10903": {
+      "parse_status": "base_only",
+      "atk": 414538,
+      "atkSource": "maindata",
+      "hp_base": 136,
+      "atk_base": 936,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10904": {
+      "parse_status": "base_only",
+      "atk": 414538,
+      "atkSource": "maindata",
+      "hp_base": 136,
+      "atk_base": 936,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10905": {
+      "parse_status": "base_only",
+      "atk": 414538,
+      "atkSource": "maindata",
+      "hp_base": 136,
+      "atk_base": 936,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10906": {
+      "parse_status": "base_only",
+      "atk": 153680,
+      "atkSource": "maindata",
+      "hp_base": 769,
+      "atk_base": 347,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10907": {
+      "parse_status": "base_only",
+      "atk": 233842,
+      "atkSource": "maindata",
+      "hp_base": 471841,
+      "atk_base": 528,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10908": {
+      "parse_status": "base_only",
+      "atk": 114264,
+      "atkSource": "maindata",
+      "hp_base": 74936,
+      "atk_base": 258,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10909": {
+      "parse_status": "base_only",
+      "atk": 113821,
+      "atkSource": "maindata",
+      "hp_base": 74936,
+      "atk_base": 257,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10910": {
+      "parse_status": "base_only",
+      "atk": 115149,
+      "atkSource": "maindata",
+      "hp_base": 74936,
+      "atk_base": 260,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10911": {
+      "parse_status": "base_only",
+      "atk": 115149,
+      "atkSource": "maindata",
+      "hp_base": 74936,
+      "atk_base": 260,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10912": {
+      "parse_status": "base_only",
+      "atk": 1212170,
+      "atkSource": "maindata",
+      "hp_base": 361,
+      "atk_base": 2737,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10913": {
+      "parse_status": "base_only",
+      "atk": 114264,
+      "atkSource": "maindata",
+      "hp_base": 1205,
+      "atk_base": 258,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10914": {
+      "parse_status": "base_only",
+      "atk": 114264,
+      "atkSource": "maindata",
+      "hp_base": 432071,
+      "atk_base": 258,
+      "property": 19,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10915": {
+      "parse_status": "base_only",
+      "atk": 23030,
+      "atkSource": "maindata",
+      "hp_base": 432081,
+      "atk_base": 52,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10916": {
+      "parse_status": "base_only",
+      "atk": 227199,
+      "atkSource": "maindata",
+      "hp_base": 37554,
+      "atk_base": 513,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10917": {
+      "parse_status": "base_only",
+      "atk": 228085,
+      "atkSource": "maindata",
+      "hp_base": 27777,
+      "atk_base": 515,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10918": {
+      "parse_status": "base_only",
+      "atk": 268830,
+      "atkSource": "maindata",
+      "hp_base": 421711,
+      "atk_base": 607,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10920": {
+      "parse_status": "base_only",
+      "atk": 340577,
+      "atkSource": "maindata",
+      "hp_base": 9405,
+      "atk_base": 769,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10921": {
+      "parse_status": "base_only",
+      "atk": 251114,
+      "atkSource": "maindata",
+      "hp_base": 403231,
+      "atk_base": 567,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10922": {
+      "parse_status": "base_only",
+      "atk": 414538,
+      "atkSource": "maindata",
+      "hp_base": 136,
+      "atk_base": 936,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10925": {
+      "parse_status": "base_only",
+      "atk": 147480,
+      "atkSource": "maindata",
+      "hp_base": 413261,
+      "atk_base": 333,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10926": {
+      "parse_status": "base_only",
+      "atk": 54032,
+      "atkSource": "maindata",
+      "hp_base": 516,
+      "atk_base": 122,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10927": {
+      "parse_status": "base_only",
+      "atk": 150580,
+      "atkSource": "maindata",
+      "hp_base": 18311,
+      "atk_base": 340,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10928": {
+      "parse_status": "base_only",
+      "atk": 227199,
+      "atkSource": "maindata",
+      "hp_base": 413291,
+      "atk_base": 513,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10929": {
+      "parse_status": "base_only",
+      "atk": 567333,
+      "atkSource": "maindata",
+      "hp_base": 8616,
+      "atk_base": 1281,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10930": {
+      "parse_status": "base_only",
+      "atk": 162981,
+      "atkSource": "maindata",
+      "hp_base": 38579,
+      "atk_base": 368,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10933": {
+      "parse_status": "base_only",
+      "atk": 251114,
+      "atkSource": "maindata",
+      "hp_base": 403241,
+      "atk_base": 567,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10937": {
+      "parse_status": "base_only",
+      "atk": 34545,
+      "atkSource": "maindata",
+      "hp_base": 100786,
+      "atk_base": 78,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10938": {
+      "parse_status": "base_only",
+      "atk": 115149,
+      "atkSource": "maindata",
+      "hp_base": 436,
+      "atk_base": 260,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10939": {
+      "parse_status": "base_only",
+      "atk": 265730,
+      "atkSource": "maindata",
+      "hp_base": 257,
+      "atk_base": 600,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10940": {
+      "parse_status": "base_only",
+      "atk": 114707,
+      "atkSource": "maindata",
+      "hp_base": 4752,
+      "atk_base": 259,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10941": {
+      "parse_status": "base_only",
+      "atk": 858749,
+      "atkSource": "maindata",
+      "hp_base": 522,
+      "atk_base": 1939,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10942": {
+      "parse_status": "base_only",
+      "atk": 115149,
+      "atkSource": "maindata",
+      "hp_base": 2093,
+      "atk_base": 260,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "10943": {
+      "parse_status": "base_only",
+      "atk": 228970,
+      "atkSource": "maindata",
+      "hp_base": 471381,
+      "atk_base": 517,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11013": {
+      "parse_status": "base_only",
+      "atk": 251114,
+      "atkSource": "maindata",
+      "hp_base": 1574,
+      "atk_base": 567,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11074": {
+      "parse_status": "base_only",
+      "atk": 193540,
+      "atkSource": "maindata",
+      "hp_base": 422461,
+      "atk_base": 437,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11076": {
+      "parse_status": "base_only",
+      "atk": 458383,
+      "atkSource": "maindata",
+      "hp_base": 11077,
+      "atk_base": 1035,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11077": {
+      "parse_status": "base_only",
+      "atk": 458383,
+      "atkSource": "maindata",
+      "hp_base": 10015,
+      "atk_base": 1035,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11111": {
+      "parse_status": "base_only",
+      "atk": 186454,
+      "atkSource": "maindata",
+      "hp_base": 1640,
+      "atk_base": 421,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11184": {
+      "parse_status": "base_only",
+      "atk": 968584,
+      "atkSource": "maindata",
+      "hp_base": 630,
+      "atk_base": 2187,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11361": {
+      "parse_status": "base_only",
+      "atk": 113378,
+      "atkSource": "maindata",
+      "hp_base": 11362,
+      "atk_base": 256,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11362": {
+      "parse_status": "base_only",
+      "atk": 23030,
+      "atkSource": "maindata",
+      "hp_base": 256,
+      "atk_base": 52,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11413": {
+      "parse_status": "base_only",
+      "atk": 1426968,
+      "atkSource": "maindata",
+      "hp_base": 256,
+      "atk_base": 3222,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11619": {
+      "parse_status": "base_only",
+      "atk": 36316,
+      "atkSource": "maindata",
+      "hp_base": 256,
+      "atk_base": 82,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11666": {
+      "parse_status": "base_only",
+      "atk": 277687,
+      "atkSource": "maindata",
+      "hp_base": 77,
+      "atk_base": 627,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11675": {
+      "parse_status": "base_only",
+      "atk": 228970,
+      "atkSource": "maindata",
+      "hp_base": 1280,
+      "atk_base": 517,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11927": {
+      "parse_status": "base_only",
+      "atk": 41188,
+      "atkSource": "maindata",
+      "hp_base": 101298,
+      "atk_base": 93,
+      "property": 8,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11936": {
+      "parse_status": "base_only",
+      "atk": 184239,
+      "atkSource": "maindata",
+      "hp_base": 10917,
+      "atk_base": 416,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11938": {
+      "parse_status": "base_only",
+      "atk": 281673,
+      "atkSource": "maindata",
+      "hp_base": 431282,
+      "atk_base": 636,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11939": {
+      "parse_status": "base_only",
+      "atk": 281673,
+      "atkSource": "maindata",
+      "hp_base": 431282,
+      "atk_base": 636,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11940": {
+      "parse_status": "base_only",
+      "atk": 281673,
+      "atkSource": "maindata",
+      "hp_base": 431282,
+      "atk_base": 636,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11945": {
+      "parse_status": "base_only",
+      "atk": 254657,
+      "atkSource": "maindata",
+      "hp_base": 257,
+      "atk_base": 575,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11950": {
+      "parse_status": "base_only",
+      "atk": 1078862,
+      "atkSource": "maindata",
+      "hp_base": 257,
+      "atk_base": 2436,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11953": {
+      "parse_status": "base_only",
+      "atk": 1078862,
+      "atkSource": "maindata",
+      "hp_base": 257,
+      "atk_base": 2436,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "11956": {
+      "parse_status": "base_only",
+      "atk": 414538,
+      "atkSource": "maindata",
+      "hp_base": 136,
+      "atk_base": 936,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12186": {
+      "parse_status": "base_only",
+      "atk": 180696,
+      "atkSource": "maindata",
+      "hp_base": 10805,
+      "atk_base": 408,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12195": {
+      "parse_status": "base_only",
+      "atk": 113378,
+      "atkSource": "maindata",
+      "hp_base": 101298,
+      "atk_base": 256,
+      "property": 8,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12200": {
+      "parse_status": "base_only",
+      "atk": 162981,
+      "atkSource": "maindata",
+      "hp_base": 1643,
+      "atk_base": 368,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12300": {
+      "parse_status": "base_only",
+      "atk": 179810,
+      "atkSource": "maindata",
+      "hp_base": 1607,
+      "atk_base": 406,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12341": {
+      "parse_status": "base_only",
+      "atk": 525259,
+      "atkSource": "maindata",
+      "hp_base": 1695,
+      "atk_base": 1186,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12350": {
+      "parse_status": "base_only",
+      "atk": 178925,
+      "atkSource": "maindata",
+      "hp_base": 411461,
+      "atk_base": 404,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12436": {
+      "parse_status": "base_only",
+      "atk": 193097,
+      "atkSource": "maindata",
+      "hp_base": 1644,
+      "atk_base": 436,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12450": {
+      "parse_status": "base_only",
+      "atk": 177596,
+      "atkSource": "maindata",
+      "hp_base": 1622,
+      "atk_base": 401,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12455": {
+      "parse_status": "base_only",
+      "atk": 257758,
+      "atkSource": "maindata",
+      "hp_base": 101831,
+      "atk_base": 582,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12678": {
+      "parse_status": "base_only",
+      "atk": 1304732,
+      "atkSource": "maindata",
+      "hp_base": 256,
+      "atk_base": 2946,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12695": {
+      "parse_status": "base_only",
+      "atk": 193097,
+      "atkSource": "maindata",
+      "hp_base": 1650,
+      "atk_base": 436,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12800": {
+      "parse_status": "base_only",
+      "atk": 22144,
+      "atkSource": "maindata",
+      "hp_base": 2480,
+      "atk_base": 50,
+      "property": 9,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12933": {
+      "parse_status": "base_only",
+      "atk": 22144,
+      "atkSource": "maindata",
+      "hp_base": 473631,
+      "atk_base": 50,
+      "property": 19,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12948": {
+      "parse_status": "base_only",
+      "atk": 260415,
+      "atkSource": "maindata",
+      "hp_base": 100301,
+      "atk_base": 588,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "12973": {
+      "parse_status": "base_only",
+      "atk": 114707,
+      "atkSource": "maindata",
+      "hp_base": 2737,
+      "atk_base": 259,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13124": {
+      "parse_status": "base_only",
+      "atk": 1078862,
+      "atkSource": "maindata",
+      "hp_base": 13125,
+      "atk_base": 2436,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13125": {
+      "parse_status": "base_only",
+      "atk": 1078862,
+      "atkSource": "maindata",
+      "hp_base": 103603,
+      "atk_base": 2436,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13187": {
+      "parse_status": "base_only",
+      "atk": 22587,
+      "atkSource": "maindata",
+      "hp_base": 10033,
+      "atk_base": 51,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13204": {
+      "parse_status": "base_only",
+      "atk": 114707,
+      "atkSource": "maindata",
+      "hp_base": 100561,
+      "atk_base": 259,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13236": {
+      "parse_status": "base_only",
+      "atk": 1195783,
+      "atkSource": "maindata",
+      "hp_base": 375,
+      "atk_base": 2700,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13359": {
+      "parse_status": "base_only",
+      "atk": 193097,
+      "atkSource": "maindata",
+      "hp_base": 432081,
+      "atk_base": 436,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13374": {
+      "parse_status": "base_only",
+      "atk": 261301,
+      "atkSource": "maindata",
+      "hp_base": 13375,
+      "atk_base": 590,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13375": {
+      "parse_status": "base_only",
+      "atk": 261301,
+      "atkSource": "maindata",
+      "hp_base": 100530,
+      "atk_base": 590,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13452": {
+      "parse_status": "base_only",
+      "atk": 254657,
+      "atkSource": "maindata",
+      "hp_base": 21675,
+      "atk_base": 575,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13457": {
+      "parse_status": "base_only",
+      "atk": 267944,
+      "atkSource": "maindata",
+      "hp_base": 15461,
+      "atk_base": 605,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13750": {
+      "parse_status": "base_only",
+      "atk": 172724,
+      "atkSource": "maindata",
+      "hp_base": 413231,
+      "atk_base": 390,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13885": {
+      "parse_status": "base_only",
+      "atk": 259086,
+      "atkSource": "maindata",
+      "hp_base": 13886,
+      "atk_base": 585,
+      "property": 8,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13886": {
+      "parse_status": "base_only",
+      "atk": 259086,
+      "atkSource": "maindata",
+      "hp_base": 141091,
+      "atk_base": 585,
+      "property": 8,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13983": {
+      "parse_status": "base_only",
+      "atk": 33659,
+      "atkSource": "maindata",
+      "hp_base": 303026,
+      "atk_base": 76,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "13999": {
+      "parse_status": "base_only",
+      "atk": 1424753,
+      "atkSource": "maindata",
+      "hp_base": 101042,
+      "atk_base": 3217,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "14125": {
+      "parse_status": "base_only",
+      "atk": 260415,
+      "atkSource": "maindata",
+      "hp_base": 100787,
+      "atk_base": 588,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "14261": {
+      "parse_status": "base_only",
+      "atk": 42074,
+      "atkSource": "maindata",
+      "hp_base": 101321,
+      "atk_base": 95,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "14358": {
+      "parse_status": "base_only",
+      "atk": 47831,
+      "atkSource": "maindata",
+      "hp_base": 256,
+      "atk_base": 108,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "14426": {
+      "parse_status": "base_only",
+      "atk": 24801,
+      "atkSource": "maindata",
+      "hp_base": 14427,
+      "atk_base": 56,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "14427": {
+      "parse_status": "base_only",
+      "atk": 49160,
+      "atkSource": "maindata",
+      "hp_base": 256,
+      "atk_base": 111,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "14487": {
+      "parse_status": "base_only",
+      "atk": 24801,
+      "atkSource": "maindata",
+      "hp_base": 256,
+      "atk_base": 56,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "14779": {
+      "parse_status": "base_only",
+      "atk": 259972,
+      "atkSource": "maindata",
+      "hp_base": 57,
+      "atk_base": 587,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "14997": {
+      "parse_status": "base_only",
+      "atk": 458383,
+      "atkSource": "maindata",
+      "hp_base": 2737,
+      "atk_base": 1035,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15194": {
+      "parse_status": "base_only",
+      "atk": 114707,
+      "atkSource": "maindata",
+      "hp_base": 15195,
+      "atk_base": 259,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15195": {
+      "parse_status": "base_only",
+      "atk": 114707,
+      "atkSource": "maindata",
+      "hp_base": 599,
+      "atk_base": 259,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15243": {
+      "parse_status": "base_only",
+      "atk": 408338,
+      "atkSource": "maindata",
+      "hp_base": 470341,
+      "atk_base": 922,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15262": {
+      "parse_status": "base_only",
+      "atk": 456612,
+      "atkSource": "maindata",
+      "hp_base": 10059,
+      "atk_base": 1031,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15276": {
+      "parse_status": "base_only",
+      "atk": 144380,
+      "atkSource": "maindata",
+      "hp_base": 420621,
+      "atk_base": 326,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15280": {
+      "parse_status": "base_only",
+      "atk": 456612,
+      "atkSource": "maindata",
+      "hp_base": 415331,
+      "atk_base": 1031,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15291": {
+      "parse_status": "base_only",
+      "atk": 877350,
+      "atkSource": "maindata",
+      "hp_base": 768,
+      "atk_base": 1981,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15413": {
+      "parse_status": "base_only",
+      "atk": 858749,
+      "atkSource": "maindata",
+      "hp_base": 15414,
+      "atk_base": 1939,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15414": {
+      "parse_status": "base_only",
+      "atk": 858749,
+      "atkSource": "maindata",
+      "hp_base": 522,
+      "atk_base": 1939,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15528": {
+      "parse_status": "base_only",
+      "atk": 266172,
+      "atkSource": "maindata",
+      "hp_base": 402271,
+      "atk_base": 601,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15532": {
+      "parse_status": "base_only",
+      "atk": 114707,
+      "atkSource": "maindata",
+      "hp_base": 590,
+      "atk_base": 259,
+      "property": 2,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15625": {
+      "parse_status": "base_only",
+      "atk": 566890,
+      "atkSource": "maindata",
+      "hp_base": 1792,
+      "atk_base": 1280,
+      "property": 5,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15626": {
+      "parse_status": "base_only",
+      "atk": 27016,
+      "atkSource": "maindata",
+      "hp_base": 15627,
+      "atk_base": 61,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15627": {
+      "parse_status": "base_only",
+      "atk": 226756,
+      "atkSource": "maindata",
+      "hp_base": 109490,
+      "atk_base": 512,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15758": {
+      "parse_status": "base_only",
+      "atk": 276359,
+      "atkSource": "maindata",
+      "hp_base": 100811,
+      "atk_base": 624,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15872": {
+      "parse_status": "base_only",
+      "atk": 261301,
+      "atkSource": "maindata",
+      "hp_base": 65594,
+      "atk_base": 590,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15873": {
+      "parse_status": "base_only",
+      "atk": 261301,
+      "atkSource": "maindata",
+      "hp_base": 402951,
+      "atk_base": 590,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15946": {
+      "parse_status": "base_only",
+      "atk": 228085,
+      "atkSource": "maindata",
+      "hp_base": 15947,
+      "atk_base": 515,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15947": {
+      "parse_status": "base_only",
+      "atk": 228085,
+      "atkSource": "maindata",
+      "hp_base": 583,
+      "atk_base": 515,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15957": {
+      "parse_status": "base_only",
+      "atk": 259972,
+      "atkSource": "maindata",
+      "hp_base": 470631,
+      "atk_base": 587,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15986": {
+      "parse_status": "base_only",
+      "atk": 865835,
+      "atkSource": "maindata",
+      "hp_base": 15987,
+      "atk_base": 1955,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "15987": {
+      "parse_status": "base_only",
+      "atk": 865835,
+      "atkSource": "maindata",
+      "hp_base": 63,
+      "atk_base": 1955,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "16022": {
+      "parse_status": "base_only",
+      "atk": 30116,
+      "atkSource": "maindata",
+      "hp_base": 109521,
+      "atk_base": 68,
+      "property": 9,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "16289": {
+      "parse_status": "base_only",
+      "atk": 271044,
+      "atkSource": "maindata",
+      "hp_base": 63,
+      "atk_base": 612,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "16304": {
+      "parse_status": "base_only",
+      "atk": 254657,
+      "atkSource": "maindata",
+      "hp_base": 10929,
+      "atk_base": 575,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "16405": {
+      "parse_status": "base_only",
+      "atk": 1729899,
+      "atkSource": "maindata",
+      "hp_base": 16406,
+      "atk_base": 3906,
+      "property": 5,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "16406": {
+      "parse_status": "base_only",
+      "atk": 1729899,
+      "atkSource": "maindata",
+      "hp_base": 152,
+      "atk_base": 3906,
+      "property": 9,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "16448": {
+      "parse_status": "base_only",
+      "atk": 24801,
+      "atkSource": "maindata",
+      "hp_base": 14358,
+      "atk_base": 56,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "16504": {
+      "parse_status": "base_only",
+      "atk": 28344,
+      "atkSource": "maindata",
+      "hp_base": 16505,
+      "atk_base": 64,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "16505": {
+      "parse_status": "base_only",
+      "atk": 39859,
+      "atkSource": "maindata",
+      "hp_base": 256,
+      "atk_base": 90,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "16710": {
+      "parse_status": "base_only",
+      "atk": 282116,
+      "atkSource": "maindata",
+      "hp_base": 16711,
+      "atk_base": 637,
+      "property": 8,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "16711": {
+      "parse_status": "base_only",
+      "atk": 282116,
+      "atkSource": "maindata",
+      "hp_base": 101298,
+      "atk_base": 637,
+      "property": 8,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "16923": {
+      "parse_status": "base_only",
+      "atk": 458383,
+      "atkSource": "maindata",
+      "hp_base": 16924,
+      "atk_base": 1035,
+      "property": 15,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "16924": {
+      "parse_status": "base_only",
+      "atk": 458383,
+      "atkSource": "maindata",
+      "hp_base": 10022,
+      "atk_base": 1035,
+      "property": 15,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17049": {
+      "parse_status": "base_only",
+      "atk": 456612,
+      "atkSource": "maindata",
+      "hp_base": 1981,
+      "atk_base": 1031,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17051": {
+      "parse_status": "base_only",
+      "atk": 281230,
+      "atkSource": "maindata",
+      "hp_base": 66,
+      "atk_base": 635,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17061": {
+      "parse_status": "base_only",
+      "atk": 161209,
+      "atkSource": "maindata",
+      "hp_base": 1614,
+      "atk_base": 364,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17083": {
+      "parse_status": "base_only",
+      "atk": 266172,
+      "atkSource": "maindata",
+      "hp_base": 100786,
+      "atk_base": 601,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17301": {
+      "parse_status": "base_only",
+      "atk": 113378,
+      "atkSource": "maindata",
+      "hp_base": 11619,
+      "atk_base": 256,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17455": {
+      "parse_status": "base_only",
+      "atk": 243585,
+      "atkSource": "maindata",
+      "hp_base": 17456,
+      "atk_base": 550,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17456": {
+      "parse_status": "base_only",
+      "atk": 243585,
+      "atkSource": "maindata",
+      "hp_base": 141119,
+      "atk_base": 550,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17500": {
+      "parse_status": "base_only",
+      "atk": 158109,
+      "atkSource": "maindata",
+      "hp_base": 1614,
+      "atk_base": 357,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17568": {
+      "parse_status": "base_only",
+      "atk": 234728,
+      "atkSource": "maindata",
+      "hp_base": 101298,
+      "atk_base": 530,
+      "property": 10,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17719": {
+      "parse_status": "base_only",
+      "atk": 1304732,
+      "atkSource": "maindata",
+      "hp_base": 17720,
+      "atk_base": 2946,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17720": {
+      "parse_status": "base_only",
+      "atk": 1304732,
+      "atkSource": "maindata",
+      "hp_base": 128,
+      "atk_base": 2946,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17793": {
+      "parse_status": "base_only",
+      "atk": 58903,
+      "atkSource": "maindata",
+      "hp_base": 100786,
+      "atk_base": 133,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17814": {
+      "parse_status": "base_only",
+      "atk": 60232,
+      "atkSource": "maindata",
+      "hp_base": 768,
+      "atk_base": 136,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "17835": {
+      "parse_status": "base_only",
+      "atk": 237385,
+      "atkSource": "maindata",
+      "hp_base": 101554,
+      "atk_base": 536,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18000": {
+      "parse_status": "base_only",
+      "atk": 153680,
+      "atkSource": "maindata",
+      "hp_base": 1613,
+      "atk_base": 347,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18006": {
+      "parse_status": "base_only",
+      "atk": 31002,
+      "atkSource": "maindata",
+      "hp_base": 18007,
+      "atk_base": 70,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18007": {
+      "parse_status": "base_only",
+      "atk": 61561,
+      "atkSource": "maindata",
+      "hp_base": 512,
+      "atk_base": 139,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18061": {
+      "parse_status": "base_only",
+      "atk": 263072,
+      "atkSource": "maindata",
+      "hp_base": 70,
+      "atk_base": 594,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18187": {
+      "parse_status": "base_only",
+      "atk": 237385,
+      "atkSource": "maindata",
+      "hp_base": 18188,
+      "atk_base": 536,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18188": {
+      "parse_status": "base_only",
+      "atk": 237385,
+      "atkSource": "maindata",
+      "hp_base": 144,
+      "atk_base": 536,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18311": {
+      "parse_status": "base_only",
+      "atk": 150580,
+      "atkSource": "maindata",
+      "hp_base": 1613,
+      "atk_base": 340,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18330": {
+      "parse_status": "base_only",
+      "atk": 65547,
+      "atkSource": "maindata",
+      "hp_base": 256,
+      "atk_base": 148,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18340": {
+      "parse_status": "base_only",
+      "atk": 31445,
+      "atkSource": "maindata",
+      "hp_base": 11956,
+      "atk_base": 71,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18569": {
+      "parse_status": "base_only",
+      "atk": 1077533,
+      "atkSource": "maindata",
+      "hp_base": 551,
+      "atk_base": 2433,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18690": {
+      "parse_status": "base_only",
+      "atk": 32330,
+      "atkSource": "maindata",
+      "hp_base": 18691,
+      "atk_base": 73,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18691": {
+      "parse_status": "base_only",
+      "atk": 73076,
+      "atkSource": "maindata",
+      "hp_base": 12945,
+      "atk_base": 165,
+      "property": 1,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18750": {
+      "parse_status": "base_only",
+      "atk": 147480,
+      "atkSource": "maindata",
+      "hp_base": 1613,
+      "atk_base": 333,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "18855": {
+      "parse_status": "base_only",
+      "atk": 32330,
+      "atkSource": "maindata",
+      "hp_base": 256,
+      "atk_base": 73,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "19074": {
+      "parse_status": "base_only",
+      "atk": 77947,
+      "atkSource": "maindata",
+      "hp_base": 768,
+      "atk_base": 176,
+      "property": 7,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "19084": {
+      "parse_status": "base_only",
+      "atk": 259972,
+      "atkSource": "maindata",
+      "hp_base": 430258,
+      "atk_base": 587,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "19620": {
+      "parse_status": "base_only",
+      "atk": 159438,
+      "atkSource": "maindata",
+      "hp_base": 433587,
+      "atk_base": 360,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "19791": {
+      "parse_status": "base_only",
+      "atk": 988514,
+      "atkSource": "maindata",
+      "hp_base": 420661,
+      "atk_base": 2232,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "19968": {
+      "parse_status": "base_only",
+      "atk": 34545,
+      "atkSource": "maindata",
+      "hp_base": 100786,
+      "atk_base": 78,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "19979": {
+      "parse_status": "base_only",
+      "atk": 197526,
+      "atkSource": "maindata",
+      "hp_base": 1642,
+      "atk_base": 446,
+      "property": 6,
+      "note": "仅提取基数，面板公式未完全匹配"
+    },
+    "20000": {
+      "parse_status": "base_only",
+      "atk": 195754,
+      "atkSource": "maindata",
+      "hp_base": 471351,
+      "atk_base": 442,
+      "note": "仅提取基数，面板公式未完全匹配"
+    }
+  }
+}

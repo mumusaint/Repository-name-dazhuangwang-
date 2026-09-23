@@ -1,0 +1,1278 @@
+{
+  "source": "scripts/game_dump/index/missing_characters.json",
+  "updated": "2026-09-10T08:22:00Z",
+  "summary": {
+    "known_characters": 250,
+    "known_max_id": 12012,
+    "catalog_char_ids_ge_10000": 1428,
+    "missing_candidates": 73,
+    "high_new_id": 0,
+    "high": 0,
+    "medium": 73,
+    "note": "confidence=high 需同时有 cb+cg；high_new_id 表示 ID 超过 characters_parsed 最大 ID"
+  },
+  "missing": [
+    {
+      "char_id": 10816,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10816_assets_all_2e9fb4491a1ecb45ec21c7bbb5614480.bundle",
+        "cb10816_1.prefab",
+        "cb10816_2.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10925,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10925_assets_all_c61c273bdbb5990dc5a35ef26d39d36f.bundle",
+        "cb10925_0.prefab",
+        "cb10925_2.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10926,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10926_assets_all_e0fff9a4a8c96529ac076c543b117180.bundle",
+        "cb10926_1.prefab",
+        "cb10926_2.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10927,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10927_assets_all_7ba6fe88ff703d9eacad82b6d37bcf9a.bundle",
+        "cb10927_2.prefab",
+        "cb10927_1.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10928,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10928_assets_all_558f3cca295615b0b3c25d6e2a3ebdc3.bundle",
+        "cb10928_2.prefab",
+        "cb10928_1.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10929,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10929_assets_all_9f59bd2b392908407b6a922aacd04f12.bundle",
+        "cb10929_0.prefab",
+        "cb10929_2.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10930,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10930_assets_all_25d73ac376a8c0d941832edffdf03001.bundle",
+        "cb10930_0.prefab",
+        "cb10930_2.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10935,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10935_assets_all_b75e368cfdbc2d06bea87766284038cb.bundle",
+        "cb10935_1.prefab",
+        "cb10935_2.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10936,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10936_assets_all_cdb2ec904938b72767c2def7ac3d0811.bundle",
+        "cb10936_0.prefab",
+        "cb10936_1.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10937,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10937_assets_all_c24fec22948713df33fe98cf48712f0c.bundle",
+        "cb10937_0.prefab",
+        "cb10937_1.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10963,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10963_assets_all_6dd41e2784146f7f74ef91e592022480.bundle",
+        "cb10963_0.prefab",
+        "cb10963_2.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 12006,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb12006_assets_all_f16ea0e83b77886687c0fec0264de603.bundle",
+        "cb12006_0.prefab",
+        "cb12006_1.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 12014,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb12014_assets_all_e7aefd76290d4d55129a9ec5dd1710b3.bundle",
+        "cb12014_1.prefab",
+        "cb12014_2.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 12017,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb12017_assets_all_0ea2eacdb33c6606a9f6e97087464b1b.bundle",
+        "cb12017_0.prefab",
+        "cb12017_2.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 12020,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb12020_assets_all_2b0c2f80733dd8d210563c3c7e808572.bundle",
+        "cb12020_0.prefab",
+        "cb12020_1.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 13001,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb13001_assets_all_23275dec067b052d1451e3dfc9686785.bundle",
+        "cb13001_0.prefab",
+        "cb13001_2.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 13004,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb13004_assets_all_8cdf24aed3880e4ea5fe091ce3134cc3.bundle",
+        "cb13004_0.prefab",
+        "cb13004_2.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 13005,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb13005_assets_all_b62c85c9e6067724b554553ac120d3b3.bundle",
+        "cb13005_2.prefab",
+        "cb13005_1.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 14001,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb14001_assets_all_89073765015b227fe7fad4ca6000d151.bundle",
+        "cb14001_0.prefab",
+        "cb14001_2.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 42099,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb42099_assets_all_88dd755b0584b25b07b264db9a7298b5.bundle",
+        "cb42099_2.prefab",
+        "cb42099_1.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 47053,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb47053_assets_all_ed201ab344a6e6b9b46e4c12a0ad077a.bundle",
+        "cb47053_2.prefab",
+        "cb47053_1.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 59192,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 4,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb59192_assets_all_7fee173858b63c53f8cfde56f55b0900.bundle",
+        "cb59192_2.prefab",
+        "cb59192_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 10947,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 3,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10947_1.prefab",
+        "cb10947_0.prefab",
+        "cb10947_2.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10948,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 3,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10948_2.prefab",
+        "cb10948_1.prefab",
+        "cb10948_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10949,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 3,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10949_1.prefab",
+        "cb10949_0.prefab",
+        "cb10949_2.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10950,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 3,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10950_2.prefab",
+        "cb10950_1.prefab",
+        "cb10950_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 12003,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 3,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb12003_2.prefab",
+        "cb12003_1.prefab",
+        "cb12003_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 12004,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 3,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb12004_1.prefab",
+        "cb12004_0.prefab",
+        "cb12004_2.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 12005,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 3,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb12005_0.prefab",
+        "cb12005_1.prefab",
+        "cb12005_2.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 12009,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 3,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb12009_assets_all_141c87278ea01500c43a7a7abb7a5bc3.bundle",
+        "cb12009_1.prefab",
+        "cb12009_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 13002,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 3,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb13002_0.prefab",
+        "cb13002_1.prefab",
+        "cb13002_2.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 10938,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10938_assets_all_1d5fe89fd7a459841a35c9f0b689cb20.bundle",
+        "cb10938_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10939,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10939_assets_all_d83a9f17279132c9dab063af7732d433.bundle",
+        "cb10939_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10940,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10940_assets_all_44e8771641e6154d35509e18d75148f8.bundle",
+        "cb10940_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10943,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10943_assets_all_c67b3f11b5e0d0f239c077b416756bc9.bundle",
+        "cb10943_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10944,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10944_assets_all_274258b48cbc2950a0200ca1268a402d.bundle",
+        "cb10944_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10945,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10945_assets_all_bff46370d5e72bd890df70fb069708a8.bundle",
+        "cb10945_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10946,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10946_assets_all_5c34c08bcb40fcc1499ebf1e26df81ac.bundle",
+        "cb10946_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10953,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10953_assets_all_7d8799b0eff743c1f5e4d9e4e39ec9b2.bundle",
+        "cb10953_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10954,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10954_assets_all_3de8013fd8db93344a5c944d1d52317d.bundle",
+        "cb10954_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10955,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10955_assets_all_b2436805af925a5f6fcdf1baaac9bcf1.bundle",
+        "cb10955_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10956,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10956_assets_all_172f1255639c321efc437f18993c7673.bundle",
+        "cb10956_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10957,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10957_assets_all_758b38b31534f7195956686891cc0483.bundle",
+        "cb10957_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10958,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10958_assets_all_ea3442c3acefae947f2ddb243affe976.bundle",
+        "cb10958_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10959,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10959_assets_all_e6513693aa39645b4c5c3f391725274d.bundle",
+        "cb10959_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10960,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10960_assets_all_1fedb8ebcb8c6833df0ff496f47db376.bundle",
+        "cb10960_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10964,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10964_assets_all_163ce089bb15c92ead6bb82242a1e0b7.bundle",
+        "cb10964_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 12007,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb12007_assets_all_e090f9152db8b43fa6fce33e2bb9d315.bundle",
+        "cb12007_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 12008,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb12008_assets_all_9400027a9320fc478ec6aeec174f29f5.bundle",
+        "cb12008_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 12013,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb12013_assets_all_20dd1e81d9bbd68290f51e0eef1b7076.bundle",
+        "cb12013_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 13006,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb13006_assets_all_97caf4c0714b92601c8eb46fac91b15b.bundle",
+        "cb13006_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 13007,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb13007_assets_all_00b1a11b93fa1070ac43e6752d5e28b5.bundle",
+        "cb13007_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 20061,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb20061_assets_all_32dbf93e6e05dbd86fed1d393ab8441a.bundle",
+        "cb20061_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 21611,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb21611_assets_all_f36618f4a764fec30768e20f268f40a2.bundle",
+        "cb21611_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 21701,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb21701_assets_all_ee18884bfc110ee80497d1a6581d8397.bundle",
+        "cb21701_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 21781,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb21781_assets_all_8142412b5c207a740f071f110157a4fc.bundle",
+        "cb21781_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 22021,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb22021_assets_all_46b6df2f353c340e9f32cd6df5531fcb.bundle",
+        "cb22021_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 22061,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb22061_assets_all_71c965e223467f3257cfee70b5302d16.bundle",
+        "cb22061_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 28021,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb28021_assets_all_a801ff40f77ba1c7c1d2e7648d6bbbab.bundle",
+        "cb28021_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 47359,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb47359_assets_all_d4133bb55970144c993339285ebe2595.bundle",
+        "cb47359_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 59128,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb59128_assets_all_34ce57b22f92fc982ea112f55c29545c.bundle",
+        "cb59128_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 59148,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb59148_assets_all_cd96c9daffd8535913ed4a5cbc2e888f.bundle",
+        "cb59148_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 59286,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 2,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb59286_assets_all_1ff4430559ddeb5c9af24aef465b9f5a.bundle",
+        "cb59286_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 10965,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 1,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10965_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10966,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 1,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10966_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10967,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 1,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10967_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10968,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 1,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10968_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 10969,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 1,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb10969_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 12010,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 1,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb12010_0.prefab"
+      ],
+      "note": "有 cb 资源但未入库，可能是新角色或换皮"
+    },
+    {
+      "char_id": 13010,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 1,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb13010_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 13011,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 1,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb13011_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 21711,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 1,
+      "local_bundles": 0,
+      "sound_locales": [],
+      "sample_files": [
+        "cb21711_0.prefab"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    },
+    {
+      "char_id": 21771,
+      "confidence": "medium",
+      "kinds": [
+        "cb"
+      ],
+      "has_cb": true,
+      "has_cg": false,
+      "catalog_bundles": 1,
+      "local_bundles": 1,
+      "sound_locales": [],
+      "sample_files": [
+        "cb21771_assets_all_1d7030a425bba983a70f63f3882b36de.bundle"
+      ],
+      "note": "ID 大于当前库最大 ID，较可能是新角色"
+    }
+  ]
+}

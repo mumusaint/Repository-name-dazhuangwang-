@@ -1,0 +1,45 @@
+{
+  "updated": "2026-09-10T08:22:00Z",
+  "il2cpp_dump": {
+    "ok": true,
+    "path": "scripts/game_dump/il2cpp_dump/dump.cs",
+    "size_bytes": 15259374,
+    "key_classes": [
+      "TCharData (hpBase/atkBase)",
+      "TPlayerChar (GetHp/GetAtk)",
+      "TStageData (battleLevel/battleRare)",
+      "BattleCalculator (GetDamageValue)",
+      "BattleSys (SetEnemyCharData)"
+    ],
+    "note": "精确打桩仍用 TenkaAssist calculator.v3.js；dump.cs 供研究与后续对齐"
+  },
+  "maindata": {
+    "overlay_count": 251,
+    "atk_from_maindata": 251,
+    "hp_from_maindata": 2,
+    "formula": {
+      "k_hp": 44.422,
+      "k_atk": 442.8826
+    },
+    "parse_status": {
+      "hp_atk_panel": "partial_formula",
+      "detail": "atk=atk_base×442.8826；hp=hp_base×44.422（ok=双匹配，atk_ok=仅攻击）",
+      "indexed_characters": 393,
+      "with_tenka_ref": 184,
+      "hp_parsed": 2,
+      "atk_parsed": 251
+    }
+  },
+  "game_names": {
+    "mapped": 42
+  },
+  "new_characters": {
+    "candidates": 73,
+    "high_new_id": 0
+  },
+  "stages": {
+    "parsed": 470,
+    "battle_level_max": 189,
+    "note": "TStageData battleLevel/battleRare（启发式，供 Boss 页参考）"
+  }
+}

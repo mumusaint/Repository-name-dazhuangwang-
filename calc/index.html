@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>打桩模拟 - 打桩网</title>
+  <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main class="main-container">
+    <div class="block-header">
+      <h1 class="page-title" style="margin:0">打桩模拟</h1>
+      <div class="btn-group">
+        <button class="btn btn-sm" onclick="resetSim()">重置</button>
+        <button class="btn btn-sm" id="autoBtn" onclick="autoPlay()">自动打桩</button>
+        <a href="../team/index.html" class="btn btn-sm">返回编队</a>
+      </div>
+    </div>
+
+    <div id="modeNotice" class="notice"></div>
+
+    <div id="precisePanel" class="block" style="display:none">
+      <div class="block-title">精确计算结果（官方引擎）</div>
+      <div class="turn-info" style="margin-top:0.75rem">
+        <div class="stat-box">
+          <div class="stat-value" id="preciseDmg">-</div>
+          <div class="stat-label">13 回合伤害（重算）</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="officialDmg">-</div>
+          <div class="stat-label">官方记录</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="preciseScarecrow">-</div>
+          <div class="stat-label">木椿存活</div>
+        </div>
+      </div>
+      <div class="block-title" style="margin-top:0.75rem">出招顺序</div>
+      <div id="commandPreview" class="command-panel" style="margin-top:0.5rem"></div>
+      <div id="preciseDeck" class="comp-deck" style="margin-top:0.75rem"></div>
+    </div>
+
+    <div class="sim-layout">
+      <div>
+        <div class="block">
+          <div class="boss-bar-wrap">
+            <div class="boss-bar-label">
+              <span>木椿生命值</span>
+              <span id="bossHpText">10,854,389,981</span>
+            </div>
+            <div class="boss-bar">
+              <div id="bossBarFill" class="boss-bar-fill" style="width:100%"></div>
+            </div>
+          </div>
+
+          <div class="turn-info">
+            <div class="stat-box">
+              <div class="stat-value" id="turnDisplay">1</div>
+              <div class="stat-label">当前回合</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-value" id="totalDmg">0</div>
+              <div class="stat-label">累计伤害</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-value" id="turn13Dmg">0</div>
+              <div class="stat-label">13 回合伤害</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-value" id="scarecrowTurn">-</div>
+              <div class="stat-label">木椿存活回合</div>
+            </div>
+          </div>
+
+          <div id="actionPanel" class="action-panel"></div>
+
+          <div class="block-title">行动日志</div>
+          <div id="logPanel" class="log-panel" style="margin-top:0.5rem"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="block">
+          <div class="block-title">队伍状态</div>
+          <div id="charStatus" class="char-status-list" style="margin-top:0.75rem"></div>
+        </div>
+        <div class="block">
+          <div class="block-title">伤害分类</div>
+          <div id="dmgBreakdown" style="margin-top:0.75rem;font-size:0.85rem;color:var(--text-muted)"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="../characterJson.js"></script>
+  <script src="../assets/js/accounts.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/calculator.v3.js"></script>
+  <script src="../assets/js/autocalc.v3.js"></script>
+  <script src="../assets/js/calcengine.js"></script>
+  <script src="../assets/js/api.js"></script>
+  <script src="../assets/js/command.js"></script>
+  <script src="calc.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boss 配队 - 打桩网</title>
+  <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main class="main-container">
+    <div class="comp-list-header">
+      <h1 class="page-title" style="margin:0">Boss 配队</h1>
+      <span id="bossCount" class="comp-count">加载中…</span>
+    </div>
+
+    <div class="notice">
+      社区配队库<strong>未标注 Boss 名</strong>，本站按 Boss 攻略（核心角色 / 属性 / 精选编号）从本地库匹配推荐队。
+      可在 <code>data/boss_guides.json</code> 补充 <code>featuredCompIds</code>。
+    </div>
+
+    <div class="boss-layout">
+      <aside class="boss-sidebar block">
+        <div class="block-title">选择 Boss</div>
+        <input type="text" id="bossSearch" class="search-input" placeholder="搜索 Boss…" style="width:100%;margin-bottom:0.5rem">
+        <div id="bossNav"></div>
+      </aside>
+
+      <section class="boss-main">
+        <div id="bossDetail" class="block" style="display:none">
+          <div class="block-header" style="margin-bottom:0.5rem">
+            <h2 class="page-title" style="margin:0;font-size:1.1rem" id="bossTitle"></h2>
+            <div class="btn-group">
+              <a id="bossSmartBtn" class="btn btn-primary btn-sm" href="#">智能打桩</a>
+              <button type="button" class="btn btn-sm" id="reloadBossBtn" onclick="reloadBossComps()">刷新列表</button>
+            </div>
+          </div>
+          <div id="bossTags" class="smart-tags" style="margin-bottom:0.5rem"></div>
+          <div id="bossStageLine" class="smart-tags" style="margin-bottom:0.5rem"></div>
+          <p id="bossNotes" class="stat-muted" style="font-size:0.85rem;margin:0 0 0.75rem"></p>
+          <div id="bossCoreBar" class="banner-selected-bar" style="margin-bottom:0.75rem"></div>
+          <select id="bossSortSelect" class="sort-select" style="margin-bottom:0.75rem"></select>
+        </div>
+
+        <div id="bossCompList"></div>
+        <div id="bossLoadTrigger" class="load-trigger">向下滚动加载更多</div>
+      </section>
+    </div>
+  </main>
+
+  <script src="../assets/js/vendor/pako.min.js"></script>
+  <script src="../assets/js/accounts.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/api.js"></script>
+  <script src="../assets/js/compbrowse.js"></script>
+  <script src="../assets/js/bossguide.js"></script>
+  <script src="boss.js"></script>
+</body>
+</html>

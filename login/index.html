@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>账号 - 打桩网</title>
+  <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main class="main-container" style="max-width:480px">
+    <h1 class="page-title">账号</h1>
+
+    <div class="block" id="currentPanel">
+      <div class="block-title">当前账号</div>
+      <p id="currentUser" style="margin-top:0.75rem;font-size:1.1rem;color:var(--accent)">未登录</p>
+      <div class="btn-group" style="margin-top:1rem">
+        <button class="btn btn-sm" onclick="doLogout()" id="logoutBtn" style="display:none">退出登录</button>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">登录 / 切换账号</div>
+      <div style="margin-top:0.75rem;display:flex;gap:0.5rem">
+        <input type="text" id="usernameInput" class="search-input" placeholder="输入账号名" style="max-width:100%;flex:1">
+        <button class="btn btn-primary" onclick="doLogin()">登录</button>
+      </div>
+      <p style="margin-top:0.75rem;font-size:0.85rem;color:var(--text-muted)">
+        预设演示账号 <strong>木木</strong>（mumu）已导入截图中的 71 名持有角色。
+      </p>
+    </div>
+
+    <div class="block">
+      <div class="block-title">创建新账号</div>
+      <div style="margin-top:0.75rem;display:flex;gap:0.5rem">
+        <input type="text" id="newUserInput" class="search-input" placeholder="新账号名" style="max-width:100%;flex:1">
+        <button class="btn" onclick="doCreate()">创建</button>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">已有账号</div>
+      <div id="accountList" style="margin-top:0.75rem"></div>
+    </div>
+  </main>
+  <script src="../assets/js/accounts.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>

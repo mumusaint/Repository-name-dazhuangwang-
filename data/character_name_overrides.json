@@ -1,0 +1,1054 @@
+{
+  "updated": "2026-09-10T08:22:00Z",
+  "note": "game_stringdata 自动合并；手工条目保留优先",
+  "overrides": [
+    {
+      "id": 10001,
+      "nameSc": "巴尔",
+      "nameSource": "game_stringdata",
+      "title": "破败玫瑰",
+      "nameEn": "Baal",
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10002,
+      "nameSc": "撒旦",
+      "nameSource": "game_stringdata",
+      "title": "夏日",
+      "nameEn": "Satan",
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10003,
+      "nameSc": "伊布力斯",
+      "nameSource": "game_stringdata",
+      "title": "凋零蔷薇",
+      "nameEn": "Iblis",
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10004,
+      "nameSc": "赛露西亚",
+      "nameSource": "game_stringdata",
+      "title": "优雅女僕",
+      "nameEn": "Salucia"
+    },
+    {
+      "id": 10005,
+      "nameSc": "兰儿",
+      "nameSource": "game_stringdata",
+      "title": "乘风破浪",
+      "nameEn": "Lana",
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10006,
+      "nameSc": "露露",
+      "nameSource": "game_stringdata",
+      "title": "白衣天使",
+      "nameEn": "Lulu",
+      "gameProperty": 3,
+      "gameElementName": "风"
+    },
+    {
+      "id": 10007,
+      "nameSc": "圣米勒",
+      "nameSource": "game_stringdata",
+      "title": "夏日",
+      "nameEn": "Milae"
+    },
+    {
+      "id": 10008,
+      "nameSc": "KS-Ⅷ",
+      "nameSource": "game_stringdata",
+      "title": "夏日",
+      "nameEn": "KS-Ⅷ"
+    },
+    {
+      "id": 10009,
+      "nameSc": "艾可",
+      "nameSource": "game_stringdata",
+      "title": "夏日",
+      "nameEn": "Aiko"
+    },
+    {
+      "id": 10011,
+      "gameProperty": 4,
+      "gameElementName": "光"
+    },
+    {
+      "id": 10012,
+      "nameSc": "凛月",
+      "nameSource": "game_stringdata",
+      "title": "女忍者",
+      "nameEn": "Ritsuki"
+    },
+    {
+      "id": 10013,
+      "nameSc": "神无雪",
+      "nameSource": "game_stringdata",
+      "title": "剑圣",
+      "nameEn": "Minayomi"
+    },
+    {
+      "id": 10016,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10018,
+      "nameSc": "古勇",
+      "nameSource": "game_stringdata",
+      "nameEn": "Uruta"
+    },
+    {
+      "id": 10019,
+      "gameProperty": 8
+    },
+    {
+      "id": 10020,
+      "nameSc": "未勇",
+      "nameSource": "game_stringdata",
+      "nameEn": "Muila"
+    },
+    {
+      "id": 10021,
+      "nameSc": "贤者",
+      "nameSource": "game_stringdata",
+      "nameEn": "Shiro",
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10022,
+      "nameSc": "狂犬",
+      "nameSource": "game_stringdata",
+      "nameEn": "Noma"
+    },
+    {
+      "id": 10027,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10028,
+      "nameSc": "千鹤",
+      "nameSource": "game_stringdata",
+      "title": "梦游魔境",
+      "nameEn": "Chizuru"
+    },
+    {
+      "id": 10033,
+      "nameSc": "睡萝",
+      "nameSource": "game_stringdata",
+      "nameEn": "Aridya",
+      "gameProperty": 4,
+      "gameElementName": "光"
+    },
+    {
+      "id": 10036,
+      "nameSc": "娜芙菈菈",
+      "nameSource": "game_stringdata",
+      "title": "史莱姆女王",
+      "nameEn": "Nafrala"
+    },
+    {
+      "id": 10038,
+      "nameSc": "托特拉",
+      "nameSource": "game_stringdata",
+      "nameEn": "Tyrella",
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10043,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10045,
+      "gameProperty": 4,
+      "gameElementName": "光"
+    },
+    {
+      "id": 10047,
+      "nameSc": "狄",
+      "nameSource": "game_stringdata",
+      "title": "夜星",
+      "nameEn": "Didi"
+    },
+    {
+      "id": 10048,
+      "nameSc": "莫默",
+      "nameSource": "game_stringdata",
+      "title": "毒蝎",
+      "nameEn": "Momo"
+    },
+    {
+      "id": 10049,
+      "nameSc": "法雅",
+      "nameSource": "game_stringdata",
+      "title": "高等魔族",
+      "nameEn": "Faya"
+    },
+    {
+      "id": 10050,
+      "nameSc": "凯萨",
+      "nameSource": "game_stringdata",
+      "title": "娇蛮凶护",
+      "nameEn": "F.Caesar"
+    },
+    {
+      "id": 10051,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10054,
+      "nameSc": "驯鹿",
+      "nameSource": "game_stringdata",
+      "nameEn": "Evie"
+    },
+    {
+      "id": 10057,
+      "nameSc": "煌星",
+      "nameSource": "game_stringdata",
+      "nameEn": "Daphne",
+      "gameProperty": 4,
+      "gameElementName": "光"
+    },
+    {
+      "id": 10058,
+      "nameSc": "沃沃",
+      "nameSource": "game_stringdata",
+      "title": "胆小纸袋狼",
+      "nameEn": "Fufu"
+    },
+    {
+      "id": 10062,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10068,
+      "nameSc": "莲",
+      "nameSource": "game_stringdata",
+      "nameEn": "Lotus"
+    },
+    {
+      "id": 10069,
+      "nameSc": "铃兰",
+      "nameSource": "game_stringdata",
+      "title": "春情白兔",
+      "nameEn": "Lillane"
+    },
+    {
+      "id": 10071,
+      "nameSc": "丝塔夏",
+      "nameSource": "game_stringdata",
+      "title": "诅咒凝视",
+      "nameEn": "Sasha"
+    },
+    {
+      "id": 10072,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10074,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10082,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10085,
+      "nameSc": "花魁",
+      "nameSource": "game_stringdata",
+      "nameEn": "Kana",
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10088,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10089,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10096,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10098,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10100,
+      "nameSc": "兔姬",
+      "nameSource": "game_stringdata",
+      "title": "御前神使",
+      "nameEn": "Usagihime",
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10112,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10114,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10115,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10117,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10119,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10124,
+      "nameSc": "香草奈若",
+      "nameSource": "game_stringdata",
+      "title": "沁夏淡粉",
+      "nameEn": "Nyoro"
+    },
+    {
+      "id": 10133,
+      "nameSc": "奈奈美",
+      "nameSource": "game_stringdata",
+      "nameEn": "Nanami",
+      "gameProperty": 3,
+      "gameElementName": "风"
+    },
+    {
+      "id": 10136,
+      "nameSc": "雪豹",
+      "nameSource": "game_stringdata",
+      "nameEn": "Angelina"
+    },
+    {
+      "id": 10140,
+      "nameSc": "主祭",
+      "nameSource": "game_stringdata",
+      "nameEn": "Lelya"
+    },
+    {
+      "id": 10145,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10149,
+      "nameSc": "椿",
+      "nameSource": "game_stringdata",
+      "title": "美艳少妇",
+      "nameEn": "Tsubaki"
+    },
+    {
+      "id": 10152,
+      "nameSc": "苏珊",
+      "nameSource": "game_stringdata",
+      "title": "治癒之星",
+      "nameEn": "Susan"
+    },
+    {
+      "id": 10161,
+      "nameSc": "赤龙",
+      "nameSource": "game_stringdata",
+      "nameEn": "Zaskia"
+    },
+    {
+      "id": 10174,
+      "nameSc": "鯊魚",
+      "nameSource": "game_stringdata",
+      "nameEn": "Forneusa"
+    },
+    {
+      "id": 10197,
+      "nameSc": "小泱",
+      "nameSource": "game_stringdata",
+      "title": "浪行魅狐",
+      "nameEn": "Cos.Yanko"
+    },
+    {
+      "id": 10198,
+      "nameSc": "毛毛",
+      "nameSource": "game_stringdata",
+      "title": "冷豔锋刃",
+      "nameEn": "Cos.Momo"
+    },
+    {
+      "id": 10202,
+      "nameSc": "娜莉",
+      "nameSource": "game_stringdata",
+      "title": "邪恶之星",
+      "nameEn": "Nali"
+    },
+    {
+      "id": 10203,
+      "aliases": [
+        "龙宫之主",
+        "龙宫乙姬",
+        "龙宫之主乙姬"
+      ]
+    },
+    {
+      "id": 10204,
+      "nameSc": "夏日布兰妮",
+      "nameTc": "夏日布蘭妮",
+      "nameEn": "Britney (Summer)",
+      "aliases": [
+        "夏布",
+        "布兰妮",
+        "夏日布兰妮",
+        "布蕾妮"
+      ]
+    },
+    {
+      "id": 10205,
+      "nameSc": "夏奈",
+      "nameTc": "夏奈",
+      "nameEn": "Nanami (Summer)",
+      "aliases": [
+        "奈奈美",
+        "夏日奈奈美",
+        "星空奈奈美"
+      ]
+    },
+    {
+      "id": 10206,
+      "nameSc": "巨兽",
+      "nameTc": "巨兽",
+      "aliases": [
+        "莉可菈",
+        "魔导巨兽",
+        "魔导巨兽莉可菈",
+        "震导巨兽",
+        "巨兽克拉肯"
+      ]
+    },
+    {
+      "id": 10280,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10281,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10395,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10416,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10419,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10500,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10622,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10623,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10639,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10663,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10681,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10802,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10804,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10805,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10806,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10807,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10808,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10809,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10812,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10869,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10887,
+      "gameProperty": 15
+    },
+    {
+      "id": 10889,
+      "gameProperty": 9
+    },
+    {
+      "id": 10891,
+      "gameProperty": 9
+    },
+    {
+      "id": 10895,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10901,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10902,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10903,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10904,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10905,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10906,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10907,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10908,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10909,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10911,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10913,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10914,
+      "gameProperty": 19
+    },
+    {
+      "id": 10920,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10922,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10926,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10938,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10939,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10940,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 10941,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 10942,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 11013,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 11076,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 11077,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 11111,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 11361,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 11362,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 11413,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 11619,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 11666,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 11675,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 11927,
+      "gameProperty": 8
+    },
+    {
+      "id": 11936,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 11945,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 11950,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 11953,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 11956,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 12186,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 12195,
+      "gameProperty": 8
+    },
+    {
+      "id": 12200,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 12300,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 12341,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 12436,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 12450,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 12695,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 12800,
+      "gameProperty": 9
+    },
+    {
+      "id": 12933,
+      "gameProperty": 19
+    },
+    {
+      "id": 13187,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 13236,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 13452,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 13457,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 13885,
+      "gameProperty": 8
+    },
+    {
+      "id": 13886,
+      "gameProperty": 8
+    },
+    {
+      "id": 13983,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 14358,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 14426,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 14427,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 14779,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 15291,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 15413,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 15414,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 15532,
+      "gameProperty": 2,
+      "gameElementName": "水"
+    },
+    {
+      "id": 15625,
+      "gameProperty": 5,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 15946,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 15947,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 15986,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 15987,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 16022,
+      "gameProperty": 9
+    },
+    {
+      "id": 16289,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 16304,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 16405,
+      "gameProperty": 5,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 16406,
+      "gameProperty": 9
+    },
+    {
+      "id": 16448,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 16504,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 16505,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 16710,
+      "gameProperty": 8
+    },
+    {
+      "id": 16711,
+      "gameProperty": 8
+    },
+    {
+      "id": 16923,
+      "gameProperty": 15
+    },
+    {
+      "id": 16924,
+      "gameProperty": 15
+    },
+    {
+      "id": 17049,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 17051,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 17061,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 17301,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 17455,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 17456,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 17500,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 17568,
+      "gameProperty": 10
+    },
+    {
+      "id": 17720,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 18000,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 18006,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 18007,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 18061,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 18187,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 18188,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 18311,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 18330,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 18691,
+      "gameProperty": 1,
+      "gameElementName": "火"
+    },
+    {
+      "id": 18750,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 19074,
+      "gameProperty": 7,
+      "gameElementName": "暗"
+    },
+    {
+      "id": 19979,
+      "gameProperty": 6,
+      "gameElementName": "暗"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>配队详情 - 打桩网</title>
+  <link rel="stylesheet" href="../assets/css/common.css">
+  <style>
+    .dmg-row { display: flex; gap: 1.5rem; flex-wrap: wrap; margin: 1rem 0; }
+    .dmg-item { text-align: center; }
+    .dmg-item .val { font-size: 1.2rem; font-weight: 700; color: var(--accent); }
+    .dmg-item .lbl { font-size: 0.75rem; color: var(--text-muted); }
+    .bond-row { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0.75rem 0; }
+    .bond-input {
+      width: 48px; padding: 0.35rem; text-align: center;
+      border-radius: 6px; border: 1px solid var(--border);
+      background: var(--bg); color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main class="main-container">
+    <div class="block-header">
+      <h1 class="page-title" style="margin:0" id="compTitle">配队详情</h1>
+      <div class="btn-group">
+        <button class="btn btn-sm" onclick="copyCommand()">复制顺序</button>
+        <button class="btn btn-sm" onclick="addCompToTeam()">加入编队</button>
+        <button class="btn btn-sm" id="wishlistBtn" onclick="toggleCompWishlist()">心愿单</button>
+        <button class="btn btn-sm" onclick="addMissingWishlist()">缺人加入心愿</button>
+        <button class="btn btn-sm" onclick="goSmartMustInclude()">设为必带</button>
+        <button class="btn btn-primary btn-sm" onclick="goCalc()">精确打桩</button>
+        <a href="../comps/index.html" class="btn btn-sm">配队列表</a>
+        <a href="../smart/index.html" class="btn btn-sm">智能打桩</a>
+      </div>
+    </div>
+
+    <div class="block" id="compDeck"></div>
+
+    <div class="block">
+      <div class="block-title">羁绊对比</div>
+      <div id="bondCompareRow" class="bond-compare-row"></div>
+    </div>
+
+    <div class="block" id="similarSection" style="display:none">
+      <div class="block-title">相似配队（换 1 人）</div>
+      <div id="similarList"></div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">伤害数据</div>
+      <div class="dmg-row">
+        <div class="dmg-item"><div class="val" id="dmg13">-</div><div class="lbl">13 回合伤害（5 羁绊）</div></div>
+        <div class="dmg-item"><div class="val" id="dmg131">-</div><div class="lbl">13 回合伤害（1 羁绊）</div></div>
+        <div class="dmg-item"><div class="val" id="scarecrow">-</div><div class="lbl">木椿存活回合</div></div>
+        <div class="dmg-item"><div class="val" id="calcDmg">-</div><div class="lbl">按当前羁绊重算</div></div>
+      </div>
+      <div class="block-title">羁绊设置（1~5 号位）</div>
+      <div class="bond-row" id="bondRow"></div>
+      <button class="btn btn-sm" onclick="recalc()">重算伤害</button>
+    </div>
+
+    <div class="block">
+      <div class="block-title">出招顺序 <span style="font-weight:400;color:var(--text-muted)">· 攻=普攻 / 大=必杀 / 防=防御</span></div>
+      <div id="commandBox" class="command-panel" style="margin-top:0.5rem;max-height:none">加载中...</div>
+    </div>
+
+    <div class="block" style="font-size:0.85rem;color:var(--text-muted)">
+      <div id="metaInfo"></div>
+    </div>
+  </main>
+  <script src="../assets/js/vendor/pako.min.js"></script>
+  <script src="../assets/js/accounts.js"></script>
+  <script src="../characterJson.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/userdata.js"></script>
+  <script src="../assets/js/bossguide.js"></script>
+  <script src="../assets/js/calculator.v3.js"></script>
+  <script src="../assets/js/autocalc.v3.js"></script>
+  <script src="../assets/js/calcengine.js"></script>
+  <script src="../assets/js/api.js"></script>
+  <script src="../assets/js/command.js"></script>
+  <script src="../assets/js/compdata.js"></script>
+  <script src="comp.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>编队 - 打桩网</title>
+  <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main class="main-container">
+    <div class="block-header">
+      <h1 class="page-title" style="margin:0">编队</h1>
+      <div class="btn-group">
+        <button class="btn btn-sm" onclick="setAllBond(1)">全 1 羁绊</button>
+        <button class="btn btn-sm" onclick="setAllBond(5)">全 5 羁绊</button>
+        <button class="btn btn-sm" onclick="clearTeam()">清空</button>
+        <button class="btn btn-primary btn-sm" onclick="startCalc()">开始打桩</button>
+      </div>
+    </div>
+    <p id="userInfo" class="user-info-bar">加载中…</p>
+
+    <div class="block">
+      <div class="block-title">当前队伍（拖拽调整顺序，点击移除）</div>
+      <div id="teamSlots" class="team-slots"></div>
+    </div>
+
+    <div class="block">
+      <div class="filter-row">
+        <input type="text" id="searchInput" class="search-input" placeholder="搜索角色...">
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          <input type="checkbox" id="ownedOnly" checked> 仅显示持有
+        </label>
+      </div>
+      <div class="filter-row" id="filters" style="margin-top:0.5rem">
+        <button class="filter-chip" data-group="element" data-value="all">全部</button>
+        <button class="filter-chip" data-group="element" data-value="0">火</button>
+        <button class="filter-chip" data-group="element" data-value="1">水</button>
+        <button class="filter-chip" data-group="element" data-value="2">风</button>
+        <button class="filter-chip" data-group="element" data-value="3">光</button>
+        <button class="filter-chip" data-group="element" data-value="4">暗</button>
+      </div>
+    </div>
+
+    <div class="block">
+      <div id="charGrid" class="char-grid"></div>
+    </div>
+  </main>
+  <script src="../assets/js/accounts.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="team.js"></script>
+</body>
+</html>

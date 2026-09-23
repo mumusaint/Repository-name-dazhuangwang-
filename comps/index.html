@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>配队列表 - 打桩网</title>
+
+  <link rel="stylesheet" href="../assets/css/common.css">
+
+</head>
+
+<body>
+
+  <header id="site-header" class="site-header"></header>
+
+  <main class="main-container">
+
+    <div class="comp-list-header">
+
+      <h1 class="page-title" style="margin:0">配队列表</h1>
+
+      <div style="display:flex;gap:0.75rem;align-items:center;flex-wrap:wrap">
+
+        <span id="compCount" class="comp-count">加载中...</span>
+
+        <select id="sortSelect" class="sort-select"></select>
+
+      </div>
+
+    </div>
+
+    <div class="block" style="margin-bottom:0.75rem;padding:0.65rem 0.85rem">
+      <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap">
+        <span style="font-size:0.82rem;color:var(--text-muted)">Boss 配队</span>
+        <div class="boss-quick-row" style="margin:0">
+          <a href="../boss/index.html?id=scarecrow" class="btn btn-sm">木椿伤害</a>
+          <a href="../boss/index.html?id=gb-fire" class="btn btn-sm">GB 火</a>
+          <a href="../boss/index.html?id=gb-water" class="btn btn-sm">GB 水</a>
+          <a href="../boss/index.html?id=tower-burst" class="btn btn-sm">魔狱塔爆发</a>
+          <a href="../boss/index.html" class="btn btn-sm btn-primary">全部 Boss</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="block comp-filter-block" id="compFilters">
+
+      <div class="block-title" style="margin-bottom:0.5rem">按队伍筛选</div>
+
+      <div class="filter-row comp-filter-row">
+
+        <span class="comp-filter-label">快捷</span>
+
+        <button type="button" class="filter-chip" data-group="preset" data-value="fire">火队</button>
+
+        <button type="button" class="filter-chip" data-group="preset" data-value="water">水队</button>
+
+        <button type="button" class="filter-chip" data-group="preset" data-value="wind">风队</button>
+
+        <button type="button" class="filter-chip" data-group="preset" data-value="light">光队</button>
+
+        <button type="button" class="filter-chip" data-group="preset" data-value="dark">暗队</button>
+
+        <button type="button" class="filter-chip" data-group="preset" data-value="water-support">水辅</button>
+
+        <button type="button" class="filter-chip" data-group="preset" data-value="fire-dps">火输出</button>
+
+      </div>
+
+      <div class="filter-row comp-filter-row">
+
+        <span class="comp-filter-label">属性</span>
+
+        <button type="button" class="filter-chip active" data-group="element" data-value="all">全部</button>
+
+        <button type="button" class="filter-chip element-chip-0" data-group="element" data-value="0">火</button>
+
+        <button type="button" class="filter-chip element-chip-1" data-group="element" data-value="1">水</button>
+
+        <button type="button" class="filter-chip element-chip-2" data-group="element" data-value="2">风</button>
+
+        <button type="button" class="filter-chip element-chip-3" data-group="element" data-value="3">光</button>
+
+        <button type="button" class="filter-chip element-chip-4" data-group="element" data-value="4">暗</button>
+
+      </div>
+
+      <div class="filter-row comp-filter-row">
+
+        <span class="comp-filter-label">职业</span>
+
+        <button type="button" class="filter-chip active" data-group="role" data-value="all">全部</button>
+
+        <button type="button" class="filter-chip" data-group="role" data-value="0">输出</button>
+
+        <button type="button" class="filter-chip" data-group="role" data-value="1">治疗</button>
+
+        <button type="button" class="filter-chip" data-group="role" data-value="2">坦克</button>
+
+        <button type="button" class="filter-chip" data-group="role" data-value="3">辅助</button>
+
+        <button type="button" class="filter-chip" data-group="role" data-value="4">干扰</button>
+
+      </div>
+
+      <div class="filter-row comp-filter-row" style="align-items:center;gap:0.75rem;margin-top:0.35rem">
+
+        <label class="comp-filter-same" style="font-size:0.82rem;color:var(--text-muted);display:flex;align-items:center;gap:0.35rem;cursor:pointer">
+
+          <input type="checkbox" id="sameCharFilter"> 属性+职业同一角色（如「水辅」）
+
+        </label>
+
+        <button type="button" class="btn btn-sm" id="clearCompFilters">清除筛选</button>
+
+      </div>
+
+      <p id="filterHint" class="stat-muted" style="font-size:0.78rem;margin:0.5rem 0 0">未筛选 · 滚动加载社区排行（在线分页）</p>
+
+    </div>
+
+
+
+    <div id="compList"></div>
+
+    <div id="loadTrigger" class="load-trigger">向下滚动加载更多</div>
+
+  </main>
+
+  <script src="../assets/js/vendor/pako.min.js"></script>
+
+  <script src="../assets/js/accounts.js"></script>
+
+  <script src="../assets/js/common.js"></script>
+
+  <script src="../assets/js/api.js"></script>
+
+  <script src="../assets/js/compbrowse.js"></script>
+
+  <script src="../assets/js/compdata.js"></script>
+
+  <script src="comps.js"></script>
+
+</body>
+
+</html>
+

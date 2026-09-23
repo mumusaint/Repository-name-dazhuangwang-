@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>组合搜索 - 打桩网</title>
+  <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main class="main-container">
+    <div class="block-header">
+      <h1 class="page-title" style="margin:0">组合搜索</h1>
+      <button class="btn btn-primary btn-sm" onclick="doSearch()">搜索配队</button>
+    </div>
+
+    <div class="block">
+      <div class="search-mode-bar">
+        <button class="mode-btn active" id="modeMust" onclick="setMode('must')">必须包含</button>
+        <button class="mode-btn" id="modeBan" onclick="setMode('ban')">排除角色</button>
+      </div>
+      <div class="block-title">已选条件</div>
+      <div id="selectedTags" class="selected-tags">
+        <span style="color:var(--text-muted);font-size:0.85rem">点击角色添加筛选条件</span>
+      </div>
+    </div>
+
+    <div class="block" id="filters">
+      <input type="text" id="searchInput" class="search-input" placeholder="搜索角色名..." style="max-width:100%;margin-bottom:0.5rem">
+      <div class="filter-row">
+        <button class="filter-chip active" data-group="rarity" data-value="3">超稀有</button>
+        <button class="filter-chip" data-group="rarity" data-value="2">稀有</button>
+        <button class="filter-chip" data-group="rarity" data-value="1">罕见</button>
+        <button class="filter-chip" data-group="rarity" data-value="0">普通</button>
+      </div>
+    </div>
+
+    <div class="block">
+      <div id="charGrid" class="char-grid"></div>
+    </div>
+
+    <div id="resultsSection" style="display:none;margin-top:1.5rem">
+      <div class="comp-list-header">
+        <h2 class="page-title" style="margin:0;font-size:1.1rem">搜索结果</h2>
+        <div style="display:flex;gap:0.75rem;align-items:center">
+          <span id="searchCount" class="comp-count"></span>
+          <select id="sortSelect" class="sort-select"></select>
+        </div>
+      </div>
+      <div id="compList"></div>
+      <div id="loadTrigger" class="load-trigger"></div>
+    </div>
+  </main>
+  <script src="../assets/js/accounts.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/api.js"></script>
+  <script src="search.js"></script>
+</body>
+</html>

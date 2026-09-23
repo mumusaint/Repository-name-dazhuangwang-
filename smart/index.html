@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>智能打桩 - 打桩网</title>
+  <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main class="main-container">
+    <div class="block-header">
+      <h1 class="page-title" style="margin:0">智能打桩</h1>
+      <div class="btn-group">
+        <button class="btn btn-primary" id="startBtn" onclick="startSmart()">开始分析</button>
+        <a href="../have/index.html" class="btn btn-sm">管理持有</a>
+      </div>
+    </div>
+
+    <div class="notice">
+      两阶段精确分析：快速筛选后按你的<strong>真实羁绊</strong>精确重算 13 回合伤害（默认高精度模式）。
+      紧凑四队默认按<strong>组合总伤</strong>回溯选队；高精度会精确重算约 2800 套（分批执行，避免卡死）。「官方」为全 5 花参考。
+    </div>
+
+    <div class="block">
+      <div class="block-title">当前账号</div>
+      <p id="userInfo" style="margin-top:0.5rem;color:var(--text-muted);font-size:0.9rem">加载中…</p>
+    </div>
+
+    <div class="block">
+      <div class="block-header" style="margin-bottom:0.5rem">
+        <div class="block-title" style="margin:0">必带角色</div>
+        <button class="btn btn-sm" onclick="clearMustInclude()">清空</button>
+      </div>
+      <p id="mustIncludeHint" style="font-size:0.8rem;color:var(--text-muted);margin-bottom:0.5rem"></p>
+      <div id="mustIncludeBar" class="must-include-bar"></div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">筛选与排序</div>
+      <div class="filter-row" style="margin-top:0.75rem;align-items:center;flex-wrap:wrap;gap:0.75rem">
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          队长生命加成最低
+          <select id="hpUpMin" class="sort-select" style="margin-left:0.35rem">
+            <option value="0">0</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20" selected>20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+          </select>
+        </label>
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          13 回合伤害下限（亿）
+          <select id="fit13tMin" class="sort-select" style="margin-left:0.35rem">
+            <option value="0">不限</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20" selected>20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+          </select>
+        </label>
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          分析精度
+          <select id="precisionMode" class="sort-select" style="margin-left:0.35rem">
+            <option value="standard">标准（估算 Top 1000）</option>
+            <option value="high" selected>高精度（Top 2800 + 达标）</option>
+            <option value="max">最高（≤5000 套）</option>
+          </select>
+        </label>
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          排序方式
+          <select id="sortBy" class="sort-select" style="margin-left:0.35rem">
+            <option value="damage" selected>重算伤害</option>
+            <option value="efficiency">羁绊效率</option>
+            <option value="scarecrow">木椿存活</option>
+            <option value="bond">总羁绊</option>
+          </select>
+        </label>
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          显示数量
+          <select id="topN" class="sort-select" style="margin-left:0.35rem">
+            <option value="50">50</option>
+            <option value="100" selected>100</option>
+            <option value="150">150</option>
+            <option value="200">200</option>
+            <option value="300">300</option>
+            <option value="500">500</option>
+          </select>
+        </label>
+      </div>
+      <div class="filter-row" style="margin-top:0.5rem;gap:1rem">
+        <label style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.35rem">
+          <input type="checkbox" id="dedupeCheck" checked> 同角色组合去重（保留最高伤害）
+        </label>
+        <label style="font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.35rem">
+          <input type="checkbox" id="nearMissCheck" checked> 分析差 1 人配队
+        </label>
+      </div>
+    </div>
+
+    <div class="block" id="progressPanel" style="display:none">
+      <div class="block-title">分析进度</div>
+      <p id="progressText" style="margin-top:0.5rem;font-size:0.85rem;color:var(--text-muted)">准备中…</p>
+      <div class="boss-bar" style="margin-top:0.5rem">
+        <div id="progressBar" class="boss-bar-fill" style="width:0%;background:var(--accent)"></div>
+      </div>
+    </div>
+
+    <div id="insightPanel" class="block insight-panel" style="display:none"></div>
+
+    <div id="pinnedTeamsPanel" class="block" style="display:none;margin-top:0.75rem"></div>
+
+    <div id="resultsSection" style="display:none">
+      <div class="comp-list-header">
+        <h2 class="page-title" style="margin:0;font-size:1.1rem">推荐配队</h2>
+        <div class="btn-group" style="flex-wrap:wrap">
+          <button type="button" class="btn btn-sm" onclick="exportSmartReport()">导出报告</button>
+          <button type="button" class="btn btn-sm" onclick="openCompCompareModal()">对比收藏</button>
+          <button type="button" class="btn btn-sm" onclick="refreshPinnedFromResults()">固定四队</button>
+          <button type="button" class="btn btn-sm view-mode-btn" data-view-mode="compact" onclick="setSmartViewMode('compact')">紧凑对比</button>
+          <button type="button" class="btn btn-sm view-mode-btn" data-view-mode="grid" onclick="setSmartViewMode('grid')">网格详情</button>
+          <button type="button" class="btn btn-sm view-mode-btn" data-view-mode="list" onclick="setSmartViewMode('list')">列表折叠</button>
+          <button type="button" class="btn btn-sm" id="expandAllBtn" onclick="expandAllSmartCards()">展开全部</button>
+          <button type="button" class="btn btn-sm" id="collapseAllBtn" onclick="collapseAllSmartCards()">收起全部</button>
+        </div>
+        <span id="resultSummary" class="comp-count"></span>
+      </div>
+      <p style="font-size:0.8rem;color:var(--text-muted);margin-bottom:0.75rem">
+        <strong>紧凑对比</strong>：在全量候选池上做<strong>组合总伤</strong>束搜索（单队可排 500+ 名，与 TenkaAssist 一致）
+      </p>
+      <div id="resultList" class="smart-results-compact"></div>
+    </div>
+
+    <div id="nearMissSection" style="display:none;margin-top:1.5rem">
+      <div class="comp-list-header">
+        <h2 class="page-title" style="margin:0;font-size:1.1rem">差 1 人可组成</h2>
+      </div>
+      <p style="font-size:0.8rem;color:var(--text-muted);margin-bottom:0.75rem">以下高配队仅缺 1 名角色，可作为抽卡/换池参考</p>
+      <div id="nearMissList"></div>
+    </div>
+
+    <div class="block advice-block" id="investAdviceBlock">
+      <div class="block-header" style="margin-bottom:0.5rem">
+        <div class="block-title" style="margin:0">培养建议</div>
+        <button class="btn btn-primary btn-sm" id="investBtn" onclick="startInvestAdvice()">一键分析</button>
+      </div>
+      <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:0.75rem">
+        合并<strong>优先抽取</strong>与<strong>升羁绊性价比</strong> · 抽取结果提供<strong>四队参考</strong>（角色互不重复）
+        · <a href="../banner/index.html" style="color:var(--accent)">当期卡池 UP 专项分析 →</a>
+      </p>
+      <div class="filter-row" style="gap:0.75rem;flex-wrap:wrap;margin-bottom:0.75rem">
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          参考伤害下限（亿）
+          <select id="investMinOfficial" class="sort-select" style="margin-left:0.35rem">
+            <option value="10">10</option>
+            <option value="15" selected>15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+          </select>
+        </label>
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          假设新角色花数
+          <select id="pullAssumeBond" class="sort-select" style="margin-left:0.35rem">
+            <option value="1" selected>1 花</option>
+            <option value="3">3 花</option>
+            <option value="5">5 花</option>
+          </select>
+        </label>
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          最少解锁配队数
+          <select id="pullMinTeams" class="sort-select" style="margin-left:0.35rem">
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+            <option value="5">5</option>
+          </select>
+        </label>
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          升花策略
+          <select id="bondTargetMode" class="sort-select" style="margin-left:0.35rem">
+            <option value="auto" selected>自动（性价比最优）</option>
+            <option value="max">直接拉到 5 花</option>
+            <option value="step">仅 +1 花</option>
+          </select>
+        </label>
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          升花最低增益（亿）
+          <select id="bondMinGain" class="sort-select" style="margin-left:0.35rem">
+            <option value="0">不限</option>
+            <option value="0.3" selected>0.3</option>
+            <option value="0.5">0.5</option>
+            <option value="1">1</option>
+          </select>
+        </label>
+        <label style="font-size:0.85rem;color:var(--text-muted)">
+          各榜显示数量
+          <select id="investTopN" class="sort-select" style="margin-left:0.35rem">
+            <option value="10">10</option>
+            <option value="15" selected>15</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="advice-tabs" id="investTabs">
+        <button type="button" class="advice-tab active" data-tab="pull" onclick="switchInvestTab('pull')">优先抽取</button>
+        <button type="button" class="advice-tab" data-tab="bond" onclick="switchInvestTab('bond')">升羁绊</button>
+      </div>
+
+      <div id="pullResultsSection" style="display:none;margin-top:0.75rem">
+        <div class="comp-list-header">
+          <h3 class="page-title" style="margin:0;font-size:1rem">四队参考</h3>
+          <span id="pullSummary" class="comp-count"></span>
+        </div>
+        <div id="pullCompactPanel"></div>
+        <div class="comp-list-header" style="margin-top:1rem">
+          <h3 class="page-title" style="margin:0;font-size:0.95rem">完整缺员列表</h3>
+        </div>
+        <div id="pullList"></div>
+      </div>
+
+      <div id="bondResultsSection" style="display:none;margin-top:0.75rem">
+        <div class="comp-list-header">
+          <h3 class="page-title" style="margin:0;font-size:1rem">升羁绊优先级</h3>
+          <span id="bondUpgradeSummary" class="comp-count"></span>
+        </div>
+        <div id="bondUpgradeList"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="../assets/js/accounts.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/userdata.js"></script>
+  <script src="../assets/js/export-report.js"></script>
+  <script src="smart.js"></script>
+</body>
+</html>

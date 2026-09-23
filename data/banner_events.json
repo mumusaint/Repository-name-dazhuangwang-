@@ -1,0 +1,100 @@
+{
+  "note": "9/9 维护后新卡池；数据来源 tenkafuma.wikiru.jp / nutaku.net。中文活动名为暂译，待 cht 官方公告确认后校正",
+  "version": "2.4.0",
+  "updateAt": "2026-09-10T16:00:00+08:00",
+  "source": "tenkafuma.wikiru.jp / nutaku.net",
+  "sourceUrl": "https://tenkafuma.wikiru.jp/index.php?%E5%A4%A9%E4%B8%8B%E5%B8%83%E9%AD%94%E6%94%BB%E7%95%A5+Wiki",
+  "event": {
+    "id": "ultimate-smasher-2026",
+    "titleSc": "终极粉碎者 · 刃之怒（暂译）",
+    "startAt": "2026-09-09T14:00:00+08:00",
+    "endAt": "2026-10-07T10:00:00+08:00",
+    "currencySc": "召唤契约 / 魔晶石",
+    "ssrRateTotal": 0.015,
+    "pityHard": 100,
+    "wishUnlock": null,
+    "wishNoteSc": null
+  },
+  "newCharacters": [
+    { "id": 10211, "nameSc": "卡利伯", "nameEn": "Calibur", "role": "输出", "elementSc": "光", "disciplineBonus": true },
+    { "id": 10212, "nameSc": "薇塔", "nameEn": "Vita", "role": "输出", "elementSc": "暗", "disciplineBonus": true },
+    { "id": 10213, "nameSc": "藤花", "nameEn": "Fujihana", "role": "输出", "elementSc": "火", "disciplineBonus": true }
+  ],
+  "bannerSections": [
+    { "id": "crystal", "labelSc": "魔晶 · 召唤契约", "descSc": "消耗魔晶石或各类召唤契约" },
+    { "id": "soul", "labelSc": "魂晶召唤", "descSc": "消耗魂晶（含 STEP 魂晶、眷恋贝壳等）" }
+  ],
+  "rerunBanners": [],
+  "banners": [
+    {
+      "id": "ultimate-smasher-1",
+      "section": "limited",
+      "currencyType": "crystal",
+      "nameSc": "终极粉碎者",
+      "kind": "limited",
+      "startAt": "2026-09-09T14:00:00+08:00",
+      "endAt": "2026-10-07T10:00:00+08:00",
+      "currencySc": "召唤契约 / 魔晶石",
+      "ssrRateTotal": 0.015,
+      "pityHard": 100,
+      "wishUnlock": null,
+      "ids": [10211, 10212, 10213],
+      "pickup": [
+        { "id": 10211, "nameSc": "卡利伯", "rate": 0.005 },
+        { "id": 10212, "nameSc": "薇塔", "rate": 0.005 },
+        { "id": 10213, "nameSc": "藤花", "rate": 0.005 }
+      ],
+      "noteSc": "三限定输出角池；各 0.5%，总 SSR 1.5%，100 抽保底。数据来源 wikiru/nutaku，待 cht 官方公告校正"
+    }
+  ],
+  "extras": [
+    "9/9 维护后至 10/7 新限定活动「终极粉碎者」",
+    "9/9 12:20 服务器停机维护（wikiru）",
+    "EROLABS 版：9 月 9 日前需完成账号连携，否则游客账号无法登录",
+    "常驻活动：时空裂缝（赛季 26，8/12–11/11）",
+    "常驻活动：魔狱塔（赛季 29，7/15–10/14）",
+    "限时活动：俺様的赌场（8/26–9/9）",
+    "限时活动：星宿之导（9/2–9/9）"
+  ],
+  "history": [
+    {
+      "version": "2.3.1",
+      "archivedAt": "2026-09-10T16:00:00+08:00",
+      "note": "6/3–7/8 严寒之夏档案；详见 git/历史数据",
+      "event": {
+        "id": "frost-echo-2026",
+        "titleSc": "冰霜下的残响 · 严寒之夏",
+        "startAt": "2026-06-03T11:20:00+08:00",
+        "endAt": "2026-07-08T10:00:00+08:00",
+        "currencySc": "寒夏召唤契约",
+        "ssrRateTotal": 0.012,
+        "pityHard": 100,
+        "wishUnlock": 300
+      },
+      "newCharacters": [
+        { "id": 10204, "nameSc": "夏日布兰妮", "role": "辅助" },
+        { "id": 10205, "nameSc": "夏日星空奈奈美", "nameAlt": "夏奈", "role": "输出" },
+        { "id": 10203, "nameSc": "龙宫之主乙姬", "nameAlt": "乙姬", "role": "输出" },
+        { "id": 10206, "nameSc": "魔导巨兽莉可菈", "nameAlt": "巨兽", "role": "坦克" }
+      ]
+    },
+    {
+      "version": "2.2.0-prev",
+      "archivedAt": "2026-09-10T16:00:00+08:00",
+      "note": "8/5–9/9 犬之时光档案（Puppy Time / 犬とスパイス）",
+      "event": {
+        "id": "puppy-time-2026",
+        "titleSc": "犬之时光（暂译）",
+        "startAt": "2026-08-05T11:00:00+08:00",
+        "endAt": "2026-09-09T10:00:00+08:00",
+        "currencySc": "召唤契约 / 魔晶石",
+        "ssrRateTotal": 0.012,
+        "pityHard": 100
+      },
+      "newCharacters": [
+        { "id": 10209, "nameSc": "*狂犬", "nameEn": "Noma", "role": "输出", "elementSc": "风" },
+        { "id": 10210, "nameSc": "希耶儿", "nameEn": "Ciel", "role": "辅助", "elementSc": "暗" }
+      ]
+    }
+  ]
+}

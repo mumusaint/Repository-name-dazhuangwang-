@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 游戏逆向 dump 中间产物(4.3GB,远超 GitHub 100MB 限制,不入库)
+scripts/game_dump/
+
+# Logs / temp
+*.log
+tmp/
+temp/
+*.tmp
+
+# Trae / agent 本地缓存
+.trae/

@@ -1,0 +1,163 @@
+{
+  "version": "1.0.0",
+  "note": "Boss 配队索引：社区库无 Boss 标签，通过核心角色/属性/精选 ID 匹配。可在 bosses[].featuredCompIds 填入社区配队编号。",
+  "categories": [
+    { "id": "dummy", "nameSc": "打桩木椿" },
+    { "id": "guild", "nameSc": "公会 GB" },
+    { "id": "tower", "nameSc": "魔狱塔" },
+    { "id": "world", "nameSc": "世界 Boss" }
+  ],
+  "bosses": [
+    {
+      "id": "scarecrow",
+      "category": "dummy",
+      "nameSc": "木椿 · 13 回合伤害",
+      "bossElement": -1,
+      "sortDefault": 1,
+      "notesSc": "TenkaAssist 默认打桩目标。按 13 回合总伤害（5 羁绊）排序，适合比较纯输出配队。",
+      "match": { "type": "all", "minOfficial": 15000000000 }
+    },
+    {
+      "id": "scarecrow-survival",
+      "category": "dummy",
+      "nameSc": "木椿 · 生存回合",
+      "bossElement": -1,
+      "sortDefault": 0,
+      "notesSc": "按木椿存活回合数排序，适合偏生存、拉防或长线配队。",
+      "match": { "type": "all", "minOfficial": 10000000000, "minRanking": 12 }
+    },
+    {
+      "id": "gb-water",
+      "category": "guild",
+      "nameSc": "GB · 水属性",
+      "bossElement": 1,
+      "weakToElement": 2,
+      "sortDefault": 1,
+      "notesSc": "水属性 GB：风属性通常有克制加成，可优先组风队输出。",
+      "match": {
+        "type": "filter",
+        "preferElements": [2],
+        "minElementMatch": 2,
+        "coreCharIds": [10197, 10147, 10152],
+        "minCoreMatch": 1,
+        "minOfficial": 15000000000
+      }
+    },
+    {
+      "id": "gb-fire",
+      "category": "guild",
+      "nameSc": "GB · 火属性",
+      "bossElement": 0,
+      "weakToElement": 1,
+      "sortDefault": 1,
+      "notesSc": "火属性 GB：水属性输出常见，也可组高爆发火队硬打。",
+      "match": {
+        "type": "filter",
+        "preferElements": [1, 0],
+        "minElementMatch": 2,
+        "coreCharIds": [10196, 10193, 10134],
+        "minCoreMatch": 1,
+        "minOfficial": 15000000000
+      }
+    },
+    {
+      "id": "gb-wind",
+      "category": "guild",
+      "nameSc": "GB · 风属性",
+      "bossElement": 2,
+      "weakToElement": 0,
+      "sortDefault": 1,
+      "notesSc": "风属性 GB：火属性输出或高倍率风队。",
+      "match": {
+        "type": "filter",
+        "preferElements": [0, 2],
+        "minElementMatch": 2,
+        "coreCharIds": [10197, 10168, 10177],
+        "minCoreMatch": 1,
+        "minOfficial": 15000000000
+      }
+    },
+    {
+      "id": "gb-light",
+      "category": "guild",
+      "nameSc": "GB · 光属性",
+      "bossElement": 3,
+      "weakToElement": 4,
+      "sortDefault": 1,
+      "notesSc": "光属性 GB：暗属性输出或光暗混合队。",
+      "match": {
+        "type": "filter",
+        "preferElements": [4, 3],
+        "minElementMatch": 2,
+        "coreCharIds": [10195, 10181, 10163],
+        "minCoreMatch": 1,
+        "minOfficial": 15000000000
+      }
+    },
+    {
+      "id": "gb-dark",
+      "category": "guild",
+      "nameSc": "GB · 暗属性",
+      "bossElement": 4,
+      "weakToElement": 3,
+      "sortDefault": 1,
+      "notesSc": "暗属性 GB：光属性输出或暗队爆发。",
+      "match": {
+        "type": "filter",
+        "preferElements": [3, 4],
+        "minElementMatch": 2,
+        "coreCharIds": [10197, 10151, 10167],
+        "minCoreMatch": 1,
+        "minOfficial": 15000000000
+      }
+    },
+    {
+      "id": "tower-burst",
+      "category": "tower",
+      "nameSc": "魔狱塔 · 爆发秒杀",
+      "bossElement": -1,
+      "stageId": 2493,
+      "sortDefault": 1,
+      "notesSc": "适合机制简单、需快速叠层/必杀的关卡。优先高 13 回合伤害配队。参考关卡 Lv 120（游戏 Stage_C 估算）。",
+      "match": {
+        "type": "filter",
+        "coreCharIds": [10197, 10147, 10152, 10196],
+        "minCoreMatch": 2,
+        "preferRoles": [0],
+        "minRoleMatch": 2,
+        "minOfficial": 18000000000
+      }
+    },
+    {
+      "id": "tower-defense",
+      "category": "tower",
+      "nameSc": "魔狱塔 · 拉防/生存",
+      "bossElement": -1,
+      "stageId": 84,
+      "sortDefault": 0,
+      "notesSc": "需拉防、叠层或长线运营的关卡。按木椿存活回合排序，并偏好坦克/治疗。参考关卡 Lv 131（游戏 Stage_C 估算）。",
+      "match": {
+        "type": "filter",
+        "preferRoles": [2, 1],
+        "minRoleMatch": 1,
+        "minRanking": 14,
+        "minOfficial": 8000000000
+      }
+    },
+    {
+      "id": "world-general",
+      "category": "world",
+      "nameSc": "世界 Boss · 通用",
+      "bossElement": -1,
+      "stageId": 5632,
+      "sortDefault": 1,
+      "notesSc": "世界 Boss 机制各异，此处列出社区高配通用队；具体关卡请对照机制调整。参考高难关卡 Lv 182（游戏 Stage_C 估算）。",
+      "match": {
+        "type": "filter",
+        "coreCharIds": [10197, 10147, 10134, 10193],
+        "minCoreMatch": 2,
+        "minOfficial": 20000000000
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>更新日志 - 打桩网</title>
+  <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main class="main-container">
+    <div class="block-header">
+      <h1 class="page-title" style="margin:0">更新日志</h1>
+      <a href="../index.html" class="btn btn-sm">返回首页</a>
+    </div>
+    <div id="changelogList">加载中…</div>
+  </main>
+  <script src="../assets/js/common.js"></script>
+  <script>
+    renderHeader("home");
+    fetchJsonWithTimeout(`${getSiteBase()}/data/changelog.json`)
+      .then((data) => {
+        const el = document.getElementById("changelogList");
+        el.innerHTML = (data.entries || [])
+          .map(
+            (e) => `<div class="block changelog-entry">
+              <div class="block-header" style="margin-bottom:0.5rem">
+                <h2 class="page-title" style="margin:0;font-size:1.05rem">v${escapeHtml(e.version)} · ${escapeHtml(e.title || "")}</h2>
+                <span class="stat-muted">${escapeHtml(e.date || "")}</span>
+              </div>
+              <ul class="changelog-list">${(e.changes || []).map((c) => `<li>${escapeHtml(c)}</li>`).join("")}</ul>
+            </div>`
+          )
+          .join("");
+      })
+      .catch((e) => {
+        document.getElementById("changelogList").innerHTML =
+          `<p class="empty-hint">${escapeHtml(formatErrorMessage(e))}</p>`;
+      });
+  </script>
+</body>
+</html>

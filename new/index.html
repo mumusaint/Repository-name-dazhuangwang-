@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新角色 - 打桩网</title>
+  <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main class="main-container">
+    <div class="block-header">
+      <h1 class="page-title" style="margin:0">新角色</h1>
+      <div class="btn-group">
+        <a href="../have/index.html" class="btn btn-sm">返回持有</a>
+        <a href="../smart/index.html" class="btn btn-primary btn-sm">智能打桩</a>
+      </div>
+    </div>
+    <p id="userInfo" class="user-info-bar">加载中…</p>
+
+    <div class="notice">
+      TenkaAssist 社区库<strong>尚未收录</strong>的角色，数据来自游戏 catalog / maindata 与本地手工录入。
+      可在此标记持有；精确打桩可能不完整（<code>estimateOnly</code>）。
+      立绘来自游戏 bundle 提取，存于 <code>assets/images/new-characters/</code>。
+    </div>
+
+    <div class="block" id="filters">
+      <div class="filter-row">
+        <input type="text" id="searchInput" class="search-input" placeholder="搜索 ID / 名称…">
+        <span id="newCharCount" class="stat-muted" style="margin-left:auto;font-size:0.85rem"></span>
+      </div>
+    </div>
+
+    <div id="newCharGrid" class="new-char-grid"></div>
+  </main>
+  <script src="../assets/js/accounts.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="new.js"></script>
+</body>
+</html>

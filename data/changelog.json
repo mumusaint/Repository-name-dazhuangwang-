@@ -1,0 +1,64 @@
+{
+  "current": "2.4.0",
+  "entries": [
+    {
+      "version": "2.4.0",
+      "date": "2026-09-10",
+      "title": "季度维护 · 卡池数据与同步健壮性",
+      "changes": [
+        "卡池数据更新为 9/9 维护后新限定「终极粉碎者」（10211 卡利伯 / 10212 薇塔 / 10213 藤花，各 0.5%，至 10/7），旧「严寒之夏」「犬之时光」归档到 history",
+        "tenka_sync.py 拆分必同步与可选脚本：calculator.v3.js / autocalc.v3.js 远端已 404 时静默保留本地副本，不再每 6h 刷日志噪音",
+        "数据来源标注 tenkafuma.wikiru.jp / nutaku.net；中文活动名为暂译，待 cht 官方公告校正",
+        "前端资源引用自检：110 个本地 src/href 全部存在，无缺失文件",
+        "确认沙盒环境下同步失败的根因为网络限制；用户实际环境 server.py + 同步功能正常（角色 250 / 配队库 5.8MB）"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "date": "2026-06-12",
+      "title": "关卡数值与 Boss 参考档位",
+      "changes": [
+        "解析 maindata Stage_C / EventStage_C → data/stage_overlay.json（TStageData battleLevel/battleRare）",
+        "Boss 配队页展示参考关卡档位（魔狱塔 / 世界 Boss 已关联 stageId）",
+        "高优先新角色 manual 条目补充冰霜活动 eventTag",
+        "export_game_data_to_site.py 一键导出关卡覆盖"
+      ]
+    },
+    {
+      "version": "2.3.0",
+      "date": "2026-06-11",
+      "title": "游戏逆向数据接入",
+      "changes": [
+        "Il2Cpp dump.cs 已拉取：TCharData / BattleCalculator / TStageData 等类可供研究",
+        "maindata 面板覆盖 251 角色 ATK（hp_base/atk_base 显示在角色卡提示）",
+        "stringdata 游戏简中译名 42+ 条自动合并到译名覆盖",
+        "首页展示游戏数据状态与新角色 catalog 候选（86 个）",
+        "新增 python scripts/export_game_data_to_site.py 一键导出到 data/",
+        "精确打桩仍用 TenkaAssist 引擎；游戏 ATK 用于 UI 与后续公式对齐"
+      ]
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-06-03",
+      "title": "严寒之夏 · 卡池与 UX",
+      "changes": [
+        "卡池推荐页：复刻 / 限定分区、双池对比、保底心愿提示",
+        "新角色：夏日布兰妮、夏奈、乙姬、巨兽（部分为估算伤害）",
+        "智能打桩懒加载引擎、首页 workflow、同步状态 API",
+        "三向卡池对比、抽 N 张模拟、升羁绊 vs 再抽建议",
+        "导出 Markdown 报告、收藏配队、主力四队面板",
+        "全局搜索、心愿单、配队详情增强"
+      ]
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-05-01",
+      "title": "精确打桩与社区同步",
+      "changes": [
+        "TenkaAssist 后台同步角色与配队库",
+        "精确 13 回合重算、差 1 人配队列表",
+        "培养建议：优先抽取 + 升羁绊合并分析"
+      ]
+    }
+  ]
+}

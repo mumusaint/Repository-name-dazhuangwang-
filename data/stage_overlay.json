@@ -1,0 +1,4112 @@
+{
+  "source": "maindata.bundle / Stage_C.bytes + EventStage_C.bytes",
+  "updated": "2026-09-10T08:22:00Z",
+  "schema": "TStageData.battleLevel / battleRare / battle（启发式）",
+  "summary": {
+    "stage_main": 447,
+    "stage_event": 56,
+    "by_id_total": 470,
+    "battle_level_min": 1,
+    "battle_level_max": 189
+  },
+  "byId": {
+    "1": {
+      "stageId": 1,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 1,
+        "battleLevel": 15,
+        "battleRare": 1,
+        "battle": 10014,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "2": {
+      "stageId": 2,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 513,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 2,
+        "battleLevel": 78,
+        "battleRare": 5,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "3": {
+      "stageId": 3,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 3,
+        "battleLevel": 5,
+        "battleRare": 5,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "4": {
+      "stageId": 4,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1332,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 4,
+        "battleLevel": 5,
+        "battleRare": 5,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "5": {
+      "stageId": 5,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1301,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 5,
+        "battleLevel": 3,
+        "battleRare": 3,
+        "battle": 127,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "6": {
+      "stageId": 6,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1340,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 6,
+        "battleLevel": 5,
+        "battleRare": 5,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "7": {
+      "stageId": 7,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 7,
+        "battleLevel": 78,
+        "battleRare": 5,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "8": {
+      "stageId": 8,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 2062,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 8,
+        "battleLevel": 5,
+        "battleRare": 5,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "9": {
+      "stageId": 9,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 9,
+        "battleLevel": 5,
+        "battleRare": 5,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "10": {
+      "stageId": 10,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 10,
+        "battleLevel": 49,
+        "battleRare": 1,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "11": {
+      "stageId": 11,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 2820,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12": {
+      "stageId": 12,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 24352,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 12,
+        "battleLevel": 39,
+        "battleRare": 3,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "15": {
+      "stageId": 15,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "18": {
+      "stageId": 18,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 40626,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 18,
+        "battleLevel": 3,
+        "battleRare": 3,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "21": {
+      "stageId": 21,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 25100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "24": {
+      "stageId": 24,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10025,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 24,
+        "battleLevel": 3,
+        "battleRare": 3,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "27": {
+      "stageId": 27,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10017,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "30": {
+      "stageId": 30,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 30,
+        "battleLevel": 2,
+        "battleRare": 2,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "33": {
+      "stageId": 33,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10009,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "36": {
+      "stageId": 36,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10039,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "48": {
+      "stageId": 48,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10050,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "50": {
+      "stageId": 50,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 22064,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "51": {
+      "stageId": 51,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 24700,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "54": {
+      "stageId": 54,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10062,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "57": {
+      "stageId": 57,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 24600,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "59": {
+      "stageId": 59,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1330,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "60": {
+      "stageId": 60,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10045,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "63": {
+      "stageId": 63,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10088,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "78": {
+      "stageId": 78,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10085,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "79": {
+      "stageId": 79,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "80": {
+      "stageId": 80,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 20501,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "81": {
+      "stageId": 81,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 20802,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "82": {
+      "stageId": 82,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "83": {
+      "stageId": 83,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 393,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "84": {
+      "stageId": 84,
+      "battleLevel": 131,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "85": {
+      "stageId": 85,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "86": {
+      "stageId": 86,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 22051,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "87": {
+      "stageId": 87,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "88": {
+      "stageId": 88,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 35507,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "89": {
+      "stageId": 89,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 22808,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "90": {
+      "stageId": 90,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10085,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "91": {
+      "stageId": 91,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 104,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "92": {
+      "stageId": 92,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 115,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "93": {
+      "stageId": 93,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 119,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "94": {
+      "stageId": 94,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1089,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "95": {
+      "stageId": 95,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 24353,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "96": {
+      "stageId": 96,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10058,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "97": {
+      "stageId": 97,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10003,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "98": {
+      "stageId": 98,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "99": {
+      "stageId": 99,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 537,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "100": {
+      "stageId": 100,
+      "battleLevel": 52,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 100,
+        "battleLevel": 76,
+        "battleRare": 4,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "117": {
+      "stageId": 117,
+      "battleLevel": 98,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 117,
+        "battleLevel": 1,
+        "battleRare": 1,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "125": {
+      "stageId": 125,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 394,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "129": {
+      "stageId": 129,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "131": {
+      "stageId": 131,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "132": {
+      "stageId": 132,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 132,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "133": {
+      "stageId": 133,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 34001,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "136": {
+      "stageId": 136,
+      "battleLevel": 10,
+      "battleRare": 2,
+      "battle": 136,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "137": {
+      "stageId": 137,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "139": {
+      "stageId": 139,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 304,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "147": {
+      "stageId": 147,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 147,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "148": {
+      "stageId": 148,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 148,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "149": {
+      "stageId": 149,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 149,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "150": {
+      "stageId": 150,
+      "battleLevel": 25,
+      "battleRare": 5,
+      "battle": 150,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "152": {
+      "stageId": 152,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "155": {
+      "stageId": 155,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 41650,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "157": {
+      "stageId": 157,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 157,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "158": {
+      "stageId": 158,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "160": {
+      "stageId": 160,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "162": {
+      "stageId": 162,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 162,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "164": {
+      "stageId": 164,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 42203,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "165": {
+      "stageId": 165,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 165,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "166": {
+      "stageId": 166,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "170": {
+      "stageId": 170,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 791,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "171": {
+      "stageId": 171,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 792,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "178": {
+      "stageId": 178,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "180": {
+      "stageId": 180,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 180,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "256": {
+      "stageId": 256,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 513,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 256,
+        "battleLevel": 3,
+        "battleRare": 3,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "258": {
+      "stageId": 258,
+      "battleLevel": 102,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 258,
+        "battleLevel": 127,
+        "battleRare": 2,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "260": {
+      "stageId": 260,
+      "battleLevel": 24,
+      "battleRare": 3,
+      "battle": 20552,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "266": {
+      "stageId": 266,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 266,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "271": {
+      "stageId": 271,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 271,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "276": {
+      "stageId": 276,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 276,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "281": {
+      "stageId": 281,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 281,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "300": {
+      "stageId": 300,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 300,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "308": {
+      "stageId": 308,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "400": {
+      "stageId": 400,
+      "battleLevel": 66,
+      "battleRare": 2,
+      "battle": 400,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "409": {
+      "stageId": 409,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 409,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "411": {
+      "stageId": 411,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "441": {
+      "stageId": 441,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "442": {
+      "stageId": 442,
+      "battleLevel": 100,
+      "battleRare": 3,
+      "battle": 40114,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 442,
+        "battleLevel": 40,
+        "battleRare": 4,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "512": {
+      "stageId": 512,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 305,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 512,
+        "battleLevel": 78,
+        "battleRare": 5,
+        "battle": 10033,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "516": {
+      "stageId": 516,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 10913,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "522": {
+      "stageId": 522,
+      "battleLevel": 9,
+      "battleRare": 5,
+      "battle": 33715,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "527": {
+      "stageId": 527,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 21901,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "532": {
+      "stageId": 532,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 532,
+        "battleLevel": 3,
+        "battleRare": 3,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "537": {
+      "stageId": 537,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 537,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "542": {
+      "stageId": 542,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 542,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "547": {
+      "stageId": 547,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 547,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "701": {
+      "stageId": 701,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "702": {
+      "stageId": 702,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "768": {
+      "stageId": 768,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 768,
+        "battleLevel": 2,
+        "battleRare": 2,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "772": {
+      "stageId": 772,
+      "battleLevel": 72,
+      "battleRare": 3,
+      "battle": 20563,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 772,
+        "battleLevel": 1,
+        "battleRare": 1,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "788": {
+      "stageId": 788,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 788,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "793": {
+      "stageId": 793,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "798": {
+      "stageId": 798,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 798,
+        "battleLevel": 4,
+        "battleRare": 4,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "808": {
+      "stageId": 808,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 808,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "813": {
+      "stageId": 813,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 813,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "819": {
+      "stageId": 819,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 819,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "936": {
+      "stageId": 936,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 936,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "937": {
+      "stageId": 937,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "938": {
+      "stageId": 938,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "939": {
+      "stageId": 939,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "941": {
+      "stageId": 941,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "943": {
+      "stageId": 943,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "949": {
+      "stageId": 949,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "953": {
+      "stageId": 953,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "955": {
+      "stageId": 955,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "957": {
+      "stageId": 957,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1024": {
+      "stageId": 1024,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 2564,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 1024,
+        "battleLevel": 5,
+        "battleRare": 5,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "1026": {
+      "stageId": 1026,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1032": {
+      "stageId": 1032,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1033": {
+      "stageId": 1033,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1036": {
+      "stageId": 1036,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1040": {
+      "stageId": 1040,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1043": {
+      "stageId": 1043,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1046": {
+      "stageId": 1046,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1049": {
+      "stageId": 1049,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 42930,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1050": {
+      "stageId": 1050,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1051": {
+      "stageId": 1051,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1052": {
+      "stageId": 1052,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1059": {
+      "stageId": 1059,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 1059,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1065": {
+      "stageId": 1065,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1066": {
+      "stageId": 1066,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1069": {
+      "stageId": 1069,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 1069,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1073": {
+      "stageId": 1073,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 1073,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1074": {
+      "stageId": 1074,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 1074,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1083": {
+      "stageId": 1083,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1084": {
+      "stageId": 1084,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1085": {
+      "stageId": 1085,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1087": {
+      "stageId": 1087,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1091": {
+      "stageId": 1091,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1098": {
+      "stageId": 1098,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1101": {
+      "stageId": 1101,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1102": {
+      "stageId": 1102,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1103": {
+      "stageId": 1103,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1104": {
+      "stageId": 1104,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1113": {
+      "stageId": 1113,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1117": {
+      "stageId": 1117,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1118": {
+      "stageId": 1118,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1119": {
+      "stageId": 1119,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1120": {
+      "stageId": 1120,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1129": {
+      "stageId": 1129,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1144": {
+      "stageId": 1144,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1146": {
+      "stageId": 1146,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1148": {
+      "stageId": 1148,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1154": {
+      "stageId": 1154,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1154,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1160": {
+      "stageId": 1160,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1280": {
+      "stageId": 1280,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1420,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 1280,
+        "battleLevel": 127,
+        "battleRare": 2,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "1284": {
+      "stageId": 1284,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 43699,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1289": {
+      "stageId": 1289,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1310": {
+      "stageId": 1310,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1310,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1315": {
+      "stageId": 1315,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1315,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1317": {
+      "stageId": 1317,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1320": {
+      "stageId": 1320,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1320,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1325": {
+      "stageId": 1325,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1325,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1330": {
+      "stageId": 1330,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1330,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1335": {
+      "stageId": 1335,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1335,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1340": {
+      "stageId": 1340,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1340,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1351": {
+      "stageId": 1351,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1351,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1418": {
+      "stageId": 1418,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1418,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1536": {
+      "stageId": 1536,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 15110,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 1536,
+        "battleLevel": 127,
+        "battleRare": 2,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "1615": {
+      "stageId": 1615,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1792": {
+      "stageId": 1792,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1814": {
+      "stageId": 1814,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1915,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "1817": {
+      "stageId": 1817,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1817,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2048": {
+      "stageId": 2048,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 2048,
+        "battleLevel": 5,
+        "battleRare": 5,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "2120": {
+      "stageId": 2120,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 2120,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2185": {
+      "stageId": 2185,
+      "battleLevel": 13,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2304": {
+      "stageId": 2304,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1801,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 2304,
+        "battleLevel": 5,
+        "battleRare": 5,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "2493": {
+      "stageId": 2493,
+      "battleLevel": 120,
+      "battleRare": 4,
+      "battle": 1069,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2560": {
+      "stageId": 2560,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1081,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 2560,
+        "battleLevel": 3,
+        "battleRare": 3,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "2650": {
+      "stageId": 2650,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 271,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2652": {
+      "stageId": 2652,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2654": {
+      "stageId": 2654,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 271,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2655": {
+      "stageId": 2655,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 266,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2656": {
+      "stageId": 2656,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 24702,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2657": {
+      "stageId": 2657,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 24902,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2658": {
+      "stageId": 2658,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2720": {
+      "stageId": 2720,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 527,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2727": {
+      "stageId": 2727,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 42930,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2740": {
+      "stageId": 2740,
+      "battleLevel": 35,
+      "battleRare": 3,
+      "battle": 1345,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2749": {
+      "stageId": 2749,
+      "battleLevel": 62,
+      "battleRare": 4,
+      "battle": 819,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "2816": {
+      "stageId": 2816,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1803,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 2816,
+        "battleLevel": 127,
+        "battleRare": 2,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "3072": {
+      "stageId": 3072,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1156,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "3261": {
+      "stageId": 3261,
+      "battleLevel": 51,
+      "battleRare": 3,
+      "battle": 808,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "3328": {
+      "stageId": 3328,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1084,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "3514": {
+      "stageId": 3514,
+      "battleLevel": 100,
+      "battleRare": 3,
+      "battle": 41650,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "3517": {
+      "stageId": 3517,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 271,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "3584": {
+      "stageId": 3584,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 613,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "3840": {
+      "stageId": 3840,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 2063,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "3925": {
+      "stageId": 3925,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "3926": {
+      "stageId": 3926,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "3930": {
+      "stageId": 3930,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 23202,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "3931": {
+      "stageId": 3931,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 532,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "3932": {
+      "stageId": 3932,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 23602,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "3934": {
+      "stageId": 3934,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "3999": {
+      "stageId": 3999,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 40626,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "4000": {
+      "stageId": 4000,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "4002": {
+      "stageId": 4002,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "4007": {
+      "stageId": 4007,
+      "battleLevel": 179,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "4029": {
+      "stageId": 4029,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "4096": {
+      "stageId": 4096,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "4285": {
+      "stageId": 4285,
+      "battleLevel": 65,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "4352": {
+      "stageId": 4352,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "4541": {
+      "stageId": 4541,
+      "battleLevel": 64,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "4608": {
+      "stageId": 4608,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "4610": {
+      "stageId": 4610,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 614,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "4797": {
+      "stageId": 4797,
+      "battleLevel": 54,
+      "battleRare": 1,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "4864": {
+      "stageId": 4864,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "4903": {
+      "stageId": 4903,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1419,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5120": {
+      "stageId": 5120,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 5120,
+        "battleLevel": 5,
+        "battleRare": 5,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "5121": {
+      "stageId": 5121,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 276,
+      "table": "Stage_C",
+      "confidence": "heuristic",
+      "eventStage": {
+        "stageId": 5121,
+        "battleLevel": 3,
+        "battleRare": 3,
+        "battle": 100,
+        "table": "EventStage_C",
+        "confidence": "heuristic"
+      }
+    },
+    "5124": {
+      "stageId": 5124,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1064,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5199": {
+      "stageId": 5199,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 276,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5200": {
+      "stageId": 5200,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 20602,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5203": {
+      "stageId": 5203,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5205": {
+      "stageId": 5205,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5209": {
+      "stageId": 5209,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 532,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5210": {
+      "stageId": 5210,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 793,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5211": {
+      "stageId": 5211,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 793,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5212": {
+      "stageId": 5212,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5215": {
+      "stageId": 5215,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5216": {
+      "stageId": 5216,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 24653,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5217": {
+      "stageId": 5217,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 24953,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5218": {
+      "stageId": 5218,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 25151,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5252": {
+      "stageId": 5252,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5276": {
+      "stageId": 5276,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 40114,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5279": {
+      "stageId": 5279,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 40626,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5282": {
+      "stageId": 5282,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 41650,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5283": {
+      "stageId": 5283,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 41650,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5309": {
+      "stageId": 5309,
+      "battleLevel": 23,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5376": {
+      "stageId": 5376,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 1301,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5377": {
+      "stageId": 5377,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 277,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5632": {
+      "stageId": 5632,
+      "battleLevel": 182,
+      "battleRare": 1,
+      "battle": 411,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5802": {
+      "stageId": 5802,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 793,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5821": {
+      "stageId": 5821,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "5888": {
+      "stageId": 5888,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 554,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "6077": {
+      "stageId": 6077,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "6144": {
+      "stageId": 6144,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1304,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "6148": {
+      "stageId": 6148,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1108,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "6314": {
+      "stageId": 6314,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 794,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "6400": {
+      "stageId": 6400,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1305,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "6485": {
+      "stageId": 6485,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "6532": {
+      "stageId": 6532,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1054,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "6589": {
+      "stageId": 6589,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 2820,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "6656": {
+      "stageId": 6656,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1306,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "6912": {
+      "stageId": 6912,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1307,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7082": {
+      "stageId": 7082,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 798,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7101": {
+      "stageId": 7101,
+      "battleLevel": 95,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7168": {
+      "stageId": 7168,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1308,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7174": {
+      "stageId": 7174,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1564,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7299": {
+      "stageId": 7299,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 801,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7424": {
+      "stageId": 7424,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7680": {
+      "stageId": 7680,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1310,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7684": {
+      "stageId": 7684,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1119,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7686": {
+      "stageId": 7686,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 7686,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7710": {
+      "stageId": 7710,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 7710,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7759": {
+      "stageId": 7759,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7760": {
+      "stageId": 7760,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7763": {
+      "stageId": 7763,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7764": {
+      "stageId": 7764,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 21607,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7765": {
+      "stageId": 7765,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 542,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7769": {
+      "stageId": 7769,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7774": {
+      "stageId": 7774,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 1059,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7797": {
+      "stageId": 7797,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7805": {
+      "stageId": 7805,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 32101,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "7936": {
+      "stageId": 7936,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1311,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "8192": {
+      "stageId": 8192,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1312,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "8356": {
+      "stageId": 8356,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "8362": {
+      "stageId": 8362,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1060,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "8381": {
+      "stageId": 8381,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 1058,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "8448": {
+      "stageId": 8448,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 801,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "8612": {
+      "stageId": 8612,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "8704": {
+      "stageId": 8704,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 1314,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "8743": {
+      "stageId": 8743,
+      "battleLevel": 20,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "8746": {
+      "stageId": 8746,
+      "battleLevel": 178,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "8868": {
+      "stageId": 8868,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "8893": {
+      "stageId": 8893,
+      "battleLevel": 18,
+      "battleRare": 2,
+      "battle": 1343,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "8960": {
+      "stageId": 8960,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "8962": {
+      "stageId": 8962,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "9085": {
+      "stageId": 9085,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 32101,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "9124": {
+      "stageId": 9124,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "9216": {
+      "stageId": 9216,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1316,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "9380": {
+      "stageId": 9380,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 532,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "9472": {
+      "stageId": 9472,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 1061,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "9642": {
+      "stageId": 9642,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1065,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "9658": {
+      "stageId": 9658,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "9728": {
+      "stageId": 9728,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 1062,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "9859": {
+      "stageId": 9859,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1067,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "9886": {
+      "stageId": 9886,
+      "battleLevel": 98,
+      "battleRare": 2,
+      "battle": 40406,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "9984": {
+      "stageId": 9984,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 551,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10023": {
+      "stageId": 10023,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 2419,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10116": {
+      "stageId": 10116,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10116,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10148": {
+      "stageId": 10148,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10240": {
+      "stageId": 10240,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 808,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10320": {
+      "stageId": 10320,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10321": {
+      "stageId": 10321,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10323": {
+      "stageId": 10323,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 1064,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10324": {
+      "stageId": 10324,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 1325,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10325": {
+      "stageId": 10325,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 808,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10329": {
+      "stageId": 10329,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 808,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10335": {
+      "stageId": 10335,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 813,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10336": {
+      "stageId": 10336,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 813,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10338": {
+      "stageId": 10338,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 813,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10365": {
+      "stageId": 10365,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 537,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10397": {
+      "stageId": 10397,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 40114,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10496": {
+      "stageId": 10496,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 809,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10752": {
+      "stageId": 10752,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 21802,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10806": {
+      "stageId": 10806,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 10806,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10808": {
+      "stageId": 10808,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 10808,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10922": {
+      "stageId": 10922,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1071,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10930": {
+      "stageId": 10930,
+      "battleLevel": 35,
+      "battleRare": 3,
+      "battle": 803,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10937": {
+      "stageId": 10937,
+      "battleLevel": 9,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10938": {
+      "stageId": 10938,
+      "battleLevel": 9,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10939": {
+      "stageId": 10939,
+      "battleLevel": 9,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "10940": {
+      "stageId": 10940,
+      "battleLevel": 9,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11008": {
+      "stageId": 11008,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11012": {
+      "stageId": 11012,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11013": {
+      "stageId": 11013,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11014": {
+      "stageId": 11014,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11016": {
+      "stageId": 11016,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11024": {
+      "stageId": 11024,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11028": {
+      "stageId": 11028,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11030": {
+      "stageId": 11030,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11044": {
+      "stageId": 11044,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11049": {
+      "stageId": 11049,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11085": {
+      "stageId": 11085,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11086": {
+      "stageId": 11086,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11102": {
+      "stageId": 11102,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11133": {
+      "stageId": 11133,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11136": {
+      "stageId": 11136,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11137": {
+      "stageId": 11137,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11139": {
+      "stageId": 11139,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11145": {
+      "stageId": 11145,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11153": {
+      "stageId": 11153,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11264": {
+      "stageId": 11264,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11434": {
+      "stageId": 11434,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1072,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11453": {
+      "stageId": 11453,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11520": {
+      "stageId": 11520,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11604": {
+      "stageId": 11604,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 1330,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11685": {
+      "stageId": 11685,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 42205,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11686": {
+      "stageId": 11686,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 42418,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11776": {
+      "stageId": 11776,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 814,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "11942": {
+      "stageId": 11942,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12032": {
+      "stageId": 12032,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 304,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12198": {
+      "stageId": 12198,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12202": {
+      "stageId": 12202,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1076,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12221": {
+      "stageId": 12221,
+      "battleLevel": 40,
+      "battleRare": 5,
+      "battle": 1315,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12288": {
+      "stageId": 12288,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 304,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12419": {
+      "stageId": 12419,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1333,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12449": {
+      "stageId": 12449,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12450": {
+      "stageId": 12450,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12544": {
+      "stageId": 12544,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 561,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12546": {
+      "stageId": 12546,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 610,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12706": {
+      "stageId": 12706,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12714": {
+      "stageId": 12714,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1077,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12734": {
+      "stageId": 12734,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 40371,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12800": {
+      "stageId": 12800,
+      "battleLevel": 51,
+      "battleRare": 1,
+      "battle": 306,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "12989": {
+      "stageId": 12989,
+      "battleLevel": 45,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13056": {
+      "stageId": 13056,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 563,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13059": {
+      "stageId": 13059,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13217": {
+      "stageId": 13217,
+      "battleLevel": 65,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13312": {
+      "stageId": 13312,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 308,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13351": {
+      "stageId": 13351,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13449": {
+      "stageId": 13449,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 813,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13482": {
+      "stageId": 13482,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1337,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13501": {
+      "stageId": 13501,
+      "battleLevel": 63,
+      "battleRare": 5,
+      "battle": 1086,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13568": {
+      "stageId": 13568,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 565,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13607": {
+      "stageId": 13607,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13648": {
+      "stageId": 13648,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13731": {
+      "stageId": 13731,
+      "battleLevel": 98,
+      "battleRare": 3,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13824": {
+      "stageId": 13824,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13827": {
+      "stageId": 13827,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1078,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13994": {
+      "stageId": 13994,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1084,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14080": {
+      "stageId": 14080,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 2103,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14336": {
+      "stageId": 14336,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 2104,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14375": {
+      "stageId": 14375,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14499": {
+      "stageId": 14499,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 41650,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14525": {
+      "stageId": 14525,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14592": {
+      "stageId": 14592,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14631": {
+      "stageId": 14631,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14755": {
+      "stageId": 14755,
+      "battleLevel": 20,
+      "battleRare": 2,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14762": {
+      "stageId": 14762,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1343,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14848": {
+      "stageId": 14848,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 2106,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14887": {
+      "stageId": 14887,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14979": {
+      "stageId": 14979,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1343,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14990": {
+      "stageId": 14990,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14991": {
+      "stageId": 14991,
+      "battleLevel": 35,
+      "battleRare": 3,
+      "battle": 271,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14993": {
+      "stageId": 14993,
+      "battleLevel": 35,
+      "battleRare": 3,
+      "battle": 271,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "14995": {
+      "stageId": 14995,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 257,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15037": {
+      "stageId": 15037,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15104": {
+      "stageId": 15104,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 2107,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15143": {
+      "stageId": 15143,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 256,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15274": {
+      "stageId": 15274,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1089,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15293": {
+      "stageId": 15293,
+      "battleLevel": 90,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15360": {
+      "stageId": 15360,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 2108,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15365": {
+      "stageId": 15365,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1084,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15367": {
+      "stageId": 15367,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15368": {
+      "stageId": 15368,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15369": {
+      "stageId": 15369,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 1340,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15371": {
+      "stageId": 15371,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 2819,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15399": {
+      "stageId": 15399,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15454": {
+      "stageId": 15454,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 1345,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15491": {
+      "stageId": 15491,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1348,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15517": {
+      "stageId": 15517,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 40114,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15521": {
+      "stageId": 15521,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1345,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15530": {
+      "stageId": 15530,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1346,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15616": {
+      "stageId": 15616,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 2109,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15655": {
+      "stageId": 15655,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15805": {
+      "stageId": 15805,
+      "battleLevel": 45,
+      "battleRare": 4,
+      "battle": 1320,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15872": {
+      "stageId": 15872,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 15166,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "15911": {
+      "stageId": 15911,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "16128": {
+      "stageId": 16128,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 2111,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "16167": {
+      "stageId": 16167,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "16384": {
+      "stageId": 16384,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 2112,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "16423": {
+      "stageId": 16423,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "16570": {
+      "stageId": 16570,
+      "battleLevel": 98,
+      "battleRare": 3,
+      "battle": 41650,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "16640": {
+      "stageId": 16640,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10107,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "16679": {
+      "stageId": 16679,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "16896": {
+      "stageId": 16896,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1602,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "16935": {
+      "stageId": 16935,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "17152": {
+      "stageId": 17152,
+      "battleLevel": 98,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "17191": {
+      "stageId": 17191,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "17408": {
+      "stageId": 17408,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1345,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "17447": {
+      "stageId": 17447,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": null,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "17664": {
+      "stageId": 17664,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 10014,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "17920": {
+      "stageId": 17920,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 2118,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "18176": {
+      "stageId": 18176,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 2119,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "18432": {
+      "stageId": 18432,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1608,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "18688": {
+      "stageId": 18688,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1609,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "18944": {
+      "stageId": 18944,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "19200": {
+      "stageId": 19200,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1611,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "19456": {
+      "stageId": 19456,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1612,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "19712": {
+      "stageId": 19712,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 1101,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "19901": {
+      "stageId": 19901,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "19968": {
+      "stageId": 19968,
+      "battleLevel": 1,
+      "battleRare": 1,
+      "battle": 1614,
+      "table": "Stage_C",
+      "confidence": "heuristic"
+    },
+    "13": {
+      "stageId": 13,
+      "battleLevel": 44,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "17": {
+      "stageId": 17,
+      "battleLevel": 78,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "19": {
+      "stageId": 19,
+      "battleLevel": 78,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "22": {
+      "stageId": 22,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "25": {
+      "stageId": 25,
+      "battleLevel": 78,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "39": {
+      "stageId": 39,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 127,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "52": {
+      "stageId": 52,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "257": {
+      "stageId": 257,
+      "battleLevel": 127,
+      "battleRare": 2,
+      "battle": 257,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "554": {
+      "stageId": 554,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "639": {
+      "stageId": 639,
+      "battleLevel": 127,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "646": {
+      "stageId": 646,
+      "battleLevel": 2,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "775": {
+      "stageId": 775,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "1957": {
+      "stageId": 1957,
+      "battleLevel": 5,
+      "battleRare": 5,
+      "battle": 127,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "3111": {
+      "stageId": 3111,
+      "battleLevel": 33,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "3367": {
+      "stageId": 3367,
+      "battleLevel": 43,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "4252": {
+      "stageId": 4252,
+      "battleLevel": 78,
+      "battleRare": 5,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "4650": {
+      "stageId": 4650,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "5018": {
+      "stageId": 5018,
+      "battleLevel": 78,
+      "battleRare": 1,
+      "battle": 127,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "5150": {
+      "stageId": 5150,
+      "battleLevel": 52,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "6186": {
+      "stageId": 6186,
+      "battleLevel": 3,
+      "battleRare": 3,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "7682": {
+      "stageId": 7682,
+      "battleLevel": 4,
+      "battleRare": 4,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "7719": {
+      "stageId": 7719,
+      "battleLevel": 52,
+      "battleRare": 1,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    },
+    "7720": {
+      "stageId": 7720,
+      "battleLevel": 189,
+      "battleRare": 2,
+      "battle": 100,
+      "table": "EventStage_C",
+      "confidence": "heuristic"
+    }
+  },
+  "highLevelSamples": [
+    {
+      "stageId": 5632,
+      "battleLevel": 182,
+      "battleRare": 1,
+      "battle": 411
+    },
+    {
+      "stageId": 4007,
+      "battleLevel": 179,
+      "battleRare": 3,
+      "battle": 100
+    },
+    {
+      "stageId": 8746,
+      "battleLevel": 178,
+      "battleRare": 1,
+      "battle": 100
+    },
+    {
+      "stageId": 84,
+      "battleLevel": 131,
+      "battleRare": 1,
+      "battle": 100
+    },
+    {
+      "stageId": 2493,
+      "battleLevel": 120,
+      "battleRare": 4,
+      "battle": 1069
+    },
+    {
+      "stageId": 258,
+      "battleLevel": 102,
+      "battleRare": 2,
+      "battle": 100
+    },
+    {
+      "stageId": 442,
+      "battleLevel": 100,
+      "battleRare": 3,
+      "battle": 40114
+    },
+    {
+      "stageId": 3514,
+      "battleLevel": 100,
+      "battleRare": 3,
+      "battle": 41650
+    },
+    {
+      "stageId": 117,
+      "battleLevel": 98,
+      "battleRare": 2,
+      "battle": 100
+    },
+    {
+      "stageId": 9886,
+      "battleLevel": 98,
+      "battleRare": 2,
+      "battle": 40406
+    },
+    {
+      "stageId": 13731,
+      "battleLevel": 98,
+      "battleRare": 3,
+      "battle": 257
+    },
+    {
+      "stageId": 16570,
+      "battleLevel": 98,
+      "battleRare": 3,
+      "battle": 41650
+    }
+  ]
+}

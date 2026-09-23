@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>打桩网 - 天下布魔伤害模拟</title>
+  <link rel="stylesheet" href="assets/css/common.css">
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main class="main-container">
+    <section class="hero">
+      <div class="hero-text">
+        <h1 class="hero-title">打桩网</h1>
+        <p class="hero-desc">天下布魔社区工具 — 管理持有、智能配队、精确重算 13 回合木椿伤害</p>
+      </div>
+      <div class="hero-action" id="quickAction">
+        <div class="skeleton-line w80" style="height:1rem;margin-bottom:0.5rem"></div>
+        <div class="skeleton-line w60" style="height:2rem"></div>
+      </div>
+    </section>
+
+    <section class="workflow">
+      <div class="workflow-step">
+        <span class="workflow-num">0</span>
+        <span>登录账号</span>
+      </div>
+      <span class="workflow-arrow">→</span>
+      <div class="workflow-step">
+        <span class="workflow-num">1</span>
+        <span>持有角色</span>
+      </div>
+      <span class="workflow-arrow">→</span>
+      <div class="workflow-step">
+        <span class="workflow-num">2</span>
+        <span>卡池推荐</span>
+      </div>
+      <span class="workflow-arrow">→</span>
+      <div class="workflow-step">
+        <span class="workflow-num">3</span>
+        <span>智能打桩</span>
+      </div>
+      <span class="workflow-arrow">→</span>
+      <div class="workflow-step">
+        <span class="workflow-num">4</span>
+        <span>精确打桩</span>
+      </div>
+    </section>
+
+    <div class="feature-grid">
+      <a href="login/index.html" class="feature-card">
+        <span class="tag">步骤 0</span>
+        <h3>账号登录</h3>
+        <p>登录或创建账号，持有数据按账号保存。演示账号 <strong>mumu</strong>（木木）已预置持有角色。</p>
+        <span class="btn btn-primary btn-sm">进入</span>
+      </a>
+      <a href="smart/index.html" class="feature-card feature-primary">
+        <span class="tag tag-hot">步骤 3</span>
+        <h3>智能打桩</h3>
+        <p>精确重算 13 回合伤害，推荐最优配队，并分析优先抽取角色与羁绊提升。</p>
+        <span class="btn btn-primary btn-sm">进入</span>
+      </a>
+      <a href="banner/index.html" class="feature-card">
+        <span class="tag tag-hot">步骤 2</span>
+        <h3>卡池推荐</h3>
+        <p>选择当期 UP 角色，按你的持有分析<strong>优先抽谁</strong>、能解锁多少高配队。</p>
+        <span class="btn btn-primary btn-sm">进入</span>
+      </a>
+      <a href="have/index.html" class="feature-card">
+        <span class="tag">步骤 1</span>
+        <h3>持有角色</h3>
+        <p>选择拥有的角色并设置羁绊。支持本地保存、导入导出分享码。</p>
+        <span class="btn btn-primary btn-sm">进入</span>
+      </a>
+      <a href="new/index.html" class="feature-card">
+        <span class="tag tag-hot">新收录</span>
+        <h3>新角色</h3>
+        <p>社区库尚未收录的角色单独管理：立绘、面板与持有标记，与主列表分离。</p>
+        <span class="btn btn-primary btn-sm">进入</span>
+      </a>
+      <a href="comps/index.html" class="feature-card">
+        <span class="tag">社区</span>
+        <h3>配队列表</h3>
+        <p>浏览社区配队排行，按 13 回合伤害、木椿存活、更新时间排序。</p>
+        <span class="btn btn-primary btn-sm">进入</span>
+      </a>
+      <a href="boss/index.html" class="feature-card">
+        <span class="tag tag-hot">攻略</span>
+        <h3>Boss 配队</h3>
+        <p>按 Boss 类型（木椿 / GB / 魔狱塔）匹配社区高配队，支持按 Boss 属性重算。</p>
+        <span class="btn btn-primary btn-sm">进入</span>
+      </a>
+      <a href="search/index.html" class="feature-card">
+        <span class="tag">社区</span>
+        <h3>组合搜索</h3>
+        <p>指定必须包含或排除的角色，搜索匹配的社区配队。</p>
+        <span class="btn btn-primary btn-sm">进入</span>
+      </a>
+      <a href="team/index.html" class="feature-card">
+        <span class="tag">步骤 2</span>
+        <h3>编队</h3>
+        <p>从持有列表选 5 人组队，拖拽调整顺序，设置每人羁绊。</p>
+        <span class="btn btn-primary btn-sm">进入</span>
+      </a>
+      <a href="calc/index.html" class="feature-card">
+        <span class="tag">步骤 4</span>
+        <h3>打桩模拟</h3>
+        <p>从社区配队进入可精确重算；建议优先使用智能打桩推荐。</p>
+        <span class="btn btn-primary btn-sm">进入</span>
+      </a>
+      <a href="changelog/index.html" class="feature-card">
+        <span class="tag">文档</span>
+        <h3>更新日志</h3>
+        <p>查看版本变更、新角色收录与功能说明。</p>
+        <span class="btn btn-primary btn-sm">查看</span>
+      </a>
+    </div>
+
+    <div class="block" style="margin-top: 1.5rem;">
+      <div class="block-title">数据概览</div>
+      <div id="stats" class="stats-bar">加载中…</div>
+    </div>
+
+    <div class="block" style="margin-top: 1rem;">
+      <div class="block-title">游戏逆向数据 <span class="stat-muted" style="font-weight:normal;font-size:0.85rem">maindata · stringdata · Il2Cpp</span></div>
+      <div id="gameDataStats" class="stats-bar">加载中…</div>
+      <div id="newCharPreview" class="new-char-preview" style="margin-top:0.75rem"></div>
+    </div>
+  </main>
+  <script src="assets/js/accounts.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script>
+    renderHeader("home");
+    loadCharacters()
+      .then(async (data) => {
+        if (typeof initAccounts === "function") await initAccounts();
+        renderAccountBadge();
+        const owned = getOwned();
+        const team = getTeam();
+        const user = typeof getCurrentUser === "function" ? getCurrentUser() : null;
+        const okCount = data.data.filter((c) => c.ok).length;
+        const bond5 = owned.filter((o) => o.bond >= 5).length;
+        const md = maindataOverlay?.summary;
+        const mdLine = md
+          ? `<span>精确算 <strong class="stat-accent">${md.overlay_count}</strong>/<strong>${data.total}</strong> <span class="stat-muted" title="maindata 面板覆盖">(ATK ${md.atk_from_maindata})</span></span>`
+          : "";
+
+        document.getElementById("stats").innerHTML = `
+          ${user ? `<span>账号 <strong class="stat-accent">${user}</strong></span>` : `<span class="stat-muted">未登录</span>`}
+          <span>角色 <strong id="statCharTotal">${data.total}</strong></span>
+          <span>可用 <strong id="statCharOk">${okCount}</strong></span>
+          ${mdLine}
+          <span id="syncStatLine" class="stat-muted">同步 …</span>
+          <span>已持有 <strong class="stat-accent">${owned.length}</strong></span>
+          <span>满羁绊 <strong>${bond5}</strong></span>
+          <span>编队 <strong class="stat-accent">${team.filter(Boolean).length}/5</strong></span>`;
+
+        function renderSyncStatLine(s) {
+          const el = document.getElementById("syncStatLine");
+          if (!el || !s) return;
+          const t = s.characters_updated_at || s.compdata_updated_at || s.last_sync_at;
+          const dateStr = t ? t.split("T")[0] : "";
+          if (s.syncing) {
+            el.innerHTML = `<span class="stat-muted">TenkaAssist 同步中…</span>`;
+            return;
+          }
+          if (s.last_sync_ok === false) {
+            const parts = [];
+            if (s.characters_ok === false) parts.push("角色");
+            if (s.compdata_ok === false) parts.push("配队");
+            const hint = parts.length ? parts.join("、") + "未同步" : "部分未同步";
+            el.innerHTML = dateStr
+              ? `<span style="color:var(--warning)">${hint}</span> · ${dateStr}`
+              : `<span style="color:var(--warning)">${hint}</span>`;
+            return;
+          }
+          const fillLink = (typeof isLocalServer === "function" && isLocalServer())
+            ? ` · <a href="#" onclick="runAutoFill();return false" style="font-size:0.85em">补全新角色</a>`
+            : "";
+          el.innerHTML = dateStr
+            ? `TenkaAssist 已同步 <strong>${dateStr}</strong>${fillLink}`
+            : `<span class="stat-muted">TenkaAssist 待同步</span>`;
+        }
+
+        async function runAutoFill() {
+          if (typeof isLocalServer === "function" && !isLocalServer()) {
+            alert("静态站点不支持自动补全，请在本地运行 python server.py 后操作");
+            return;
+          }
+          if (!confirm("扫描游戏数据并自动补全 TenkaAssist 未收录的新角色？")) return;
+          const el = document.getElementById("syncStatLine");
+          if (el) el.innerHTML = `<span class="stat-muted">补全中…</span>`;
+          try {
+            const r = await fetch(`${getSiteBase()}/api/autofill/run`, { method: "POST" });
+            const d = await r.json();
+            const lines = (d.output || "").split("\n");
+            const fillLine = lines.find((l) => l.startsWith("已追加"));
+            alert(d.ok ? (fillLine || lines[lines.length - 1] || "完成") : (d.error || "失败"));
+            location.reload();
+          } catch (e) { alert("补全失败: " + e.message); }
+        }
+
+        fetch(`${getSiteBase()}/data/sync_meta.json`)
+          .then((r) => (r.ok ? r.json() : null))
+          .then((s) => { if (s && !("syncing" in s)) s.syncing = false; return s; })
+          .then(renderSyncStatLine)
+          .catch(() => {});
+
+        document.addEventListener("dazhuang:data-synced", (ev) => {
+          renderSyncStatLine(ev.detail);
+          loadCharacters().then((d) => {
+            const totalEl = document.getElementById("statCharTotal");
+            const okEl = document.getElementById("statCharOk");
+            if (totalEl) totalEl.textContent = d.total;
+            if (okEl) okEl.textContent = d.data.filter((c) => c.ok).length;
+          });
+        });
+
+        const action = getRecommendedAction();
+        document.getElementById("quickAction").innerHTML = `
+          <p class="quick-action-desc">${action.desc}</p>
+          <a href="${action.href}" class="btn btn-primary">${action.btn}</a>`;
+
+        Promise.all([
+          loadGameDataStatus(),
+          fetch(`${getSiteBase()}/data/new_character_candidates.json`).then((r) => (r.ok ? r.json() : null)),
+        ])
+          .then(([gds, newChars]) => {
+            const el = document.getElementById("gameDataStats");
+            if (!gds) {
+              el.innerHTML = `<span class="stat-muted">运行 python scripts/export_game_data_to_site.py 生成游戏数据</span>`;
+              return;
+            }
+            const il = gds.il2cpp_dump || {};
+            const md = gds.maindata || {};
+            const gn = gds.game_names || {};
+            const nc = gds.new_characters || {};
+            const st = gds.stages || {};
+            const dumpMb = il.size_bytes ? (il.size_bytes / 1024 / 1024).toFixed(1) : "0";
+            el.innerHTML = `
+              <span>Il2Cpp <strong class="stat-accent">${il.ok ? "dump.cs ✓" : "待拉取"}</strong> <span class="stat-muted">${dumpMb}MB</span></span>
+              <span>maindata ATK <strong>${md.atk_from_maindata || 0}</strong> / HP <strong>${md.hp_from_maindata || 0}</strong></span>
+              <span>关卡 <strong>${st.parsed || 0}</strong> <span class="stat-muted">(Lv≤${st.battle_level_max || "?"})</span></span>
+              <span>游戏译名 <strong>${gn.mapped || 0}</strong></span>
+              <span>新角色候选 <strong class="stat-accent">${nc.candidates || 0}</strong> <span class="stat-muted">(高优先 ${nc.high_new_id || 0})</span></span>`;
+
+            const preview = document.getElementById("newCharPreview");
+            const manualList = getNewCharacters();
+            if (manualList.length) {
+              preview.innerHTML = `
+                <div class="stat-muted" style="margin-bottom:0.35rem">已手工收录 <strong>${manualList.length}</strong> 名新角色 · <a href="new/index.html" style="color:var(--accent)">前往新角色页</a></div>
+                <div class="new-char-chips">${manualList
+                  .slice(0, 10)
+                  .map((ch) => {
+                    const n = charDisplayName(ch);
+                    return `<a class="chip chip-muted" href="new/index.html" title="${escapeHtml(n)}">#${ch.id} ${escapeHtml(n)}</a>`;
+                  })
+                  .join("")}${manualList.length > 10 ? `<span class="chip chip-muted">+${manualList.length - 10}</span>` : ""}</div>`;
+              return;
+            }
+            const list = (newChars?.missing || []).filter((x) =>
+              ["high_new_id", "high"].includes(x.confidence)
+            ).slice(0, 8);
+            if (!list.length) {
+              preview.innerHTML = "";
+              return;
+            }
+            preview.innerHTML = `
+              <div class="stat-muted" style="margin-bottom:0.35rem">catalog 有资源、社区库暂无 · <a href="new/index.html" style="color:var(--accent)">新角色页</a></div>
+              <div class="new-char-chips">${list
+                .map(
+                  (x) =>
+                    `<span class="chip chip-muted" title="${(x.sample_files || []).join(", ")}">#${x.char_id} · ${x.confidence}</span>`
+                )
+                .join("")}</div>`;
+          })
+          .catch(() => {
+            document.getElementById("gameDataStats").innerHTML =
+              `<span class="stat-muted">游戏数据状态加载失败</span>`;
+          });
+      })
+      .catch(async (e) => {
+        document.getElementById("stats").innerHTML =
+          `<span class="stat-muted">数据加载失败：${formatErrorMessage(e)}</span>`;
+        try {
+          if (typeof initAccounts === "function") {
+            await initAccounts();
+            renderAccountBadge();
+          }
+        } catch { /* ignore */ }
+        document.getElementById("quickAction").innerHTML = `
+          <p class="quick-action-desc">角色数据暂不可用，可先登录并管理持有</p>
+          <a href="login/index.html" class="btn btn-primary">登录账号</a>`;
+        showToast("角色数据加载失败", "error");
+      });
+  </script>
+</body>
+</html>

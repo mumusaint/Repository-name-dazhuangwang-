@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "interval_hours": 6,
+  "sync_on_startup": true,
+  "sync_characters": true,
+  "sync_compdata": true,
+  "note": "运行 python server.py 时自动与 TenkaAssist 同步；也可手动 python scripts/update_all_data.py"
+}
