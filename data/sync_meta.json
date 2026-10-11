@@ -6,16 +6,16 @@
   },
   "compdata_bytes": 6281115,
   "compdata_updated_at": "2026-09-23T13:53:17Z",
-  "revision": 1790171597,
+  "revision": 1791434548,
   "last_sync_at": "2026-09-23T13:53:06Z",
   "last_sync_ok": true,
-  "character_total": 250,
+  "character_total": 252,
   "characters_ok": true,
-  "characters_updated_at": "2026-09-23T13:27:00Z",
+  "characters_updated_at": "2026-10-08T04:42:28Z",
   "characters_remote": {
-    "etag": "\"6ab15ae4-c2f0\"",
-    "last_modified": "Mon, 21 Sep 2026 16:27:16 GMT",
-    "content_length": "49904"
+    "etag": "\"6ac62fd2-c508\"",
+    "last_modified": "Wed, 07 Oct 2026 11:41:06 GMT",
+    "content_length": "50440"
   },
   "compdata_ok": true,
   "characters_error": null,

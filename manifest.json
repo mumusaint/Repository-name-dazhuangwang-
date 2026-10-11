@@ -1,0 +1,27 @@
+{
+  "name": "打桩网 - 天下布魔伤害模拟",
+  "short_name": "打桩网",
+  "description": "天下布魔社区工具 — 管理持有、智能配队、精确重算 13 回合木椿伤害",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "icons": [
+    {
+      "src": "assets/images/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["games", "utilities"],
+  "lang": "zh-CN"
+}

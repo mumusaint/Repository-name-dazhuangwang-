@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a1a2e">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="assets/images/icon.svg">
   <title>打桩网 - 天下布魔伤害模拟</title>
   <link rel="stylesheet" href="assets/css/common.css">
 </head>
@@ -293,6 +296,11 @@
           <a href="login/index.html" class="btn btn-primary">登录账号</a>`;
         showToast("角色数据加载失败", "error");
       });
+  </script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js").catch(() => {});
+    }
   </script>
 </body>
 </html>

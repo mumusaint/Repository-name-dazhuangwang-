@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#1a1a2e" rx="96" ry="96"/>
+  <rect x="48" y="48" width="416" height="416" fill="#16213e" rx="64" ry="64" opacity="0.6"/>
+  <text x="256" y="300" font-family="sans-serif" font-size="180" font-weight="bold" fill="#e94560" text-anchor="middle" dominant-baseline="middle">桩</text>
+  <text x="256" y="410" font-family="sans-serif" font-size="48" fill="#e94560" text-anchor="middle" opacity="0.8">打桩网</text>
+</svg>

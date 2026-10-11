@@ -1,5 +1,7 @@
-const address = "https://inittt.github.io/tenkaassist"
-// const address = "http://127.0.0.1:5500";
+// Resolve the site base URL from the current origin instead of hard-coding the production host. Local debugging serves the repo root directly (so the base is just the origin), while GitHub Pages deployments live under a /tenkaassist path. Either way every nav link, cross-page redirect and image stays on whatever deployment the user is currently browsing, never bouncing back to the production site.
+const address = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
+   ? location.origin
+   : location.origin + "/tenkaassist";
 
 const server = "https://port-0-tenkafuma-assistant-server-1272llx2xidhk.sel5.cloudtype.app"
 const noImg = `${address}/images/default.jpg`;
@@ -73,19 +75,19 @@ function formatNumber(value) {
       else if (value >= 1000000) return (value / 1000000).toFixed(0) + 'M';
       else return value.toString();
    } else if (lang == "sc") {
-      if (value >= 100000000) return (value / 100000000).toFixed(2) + '亿';
+      if (value >= 100000000) return (value / 100000000).toFixed(1) + '亿';
       else if (value >= 10000) return (value / 10000).toFixed(0) + '万';
       else return value.toString();
    } else if (lang == "tc") {
-      if (value >= 100000000) return (value / 100000000).toFixed(2) + '億';
+      if (value >= 100000000) return (value / 100000000).toFixed(1) + '億';
       else if (value >= 10000) return (value / 10000).toFixed(0) + '萬';
       else return value.toString();
    } else if (lang == "jp") {
-      if (value >= 100000000) return (value / 100000000).toFixed(2) + '億';
+      if (value >= 100000000) return (value / 100000000).toFixed(1) + '億';
       else if (value >= 10000) return (value / 10000).toFixed(0) + '万';
       else return value.toString();
    } else {
-      if (value >= 100000000) return (value / 100000000).toFixed(2) + '억';
+      if (value >= 100000000) return (value / 100000000).toFixed(1) + '억';
       else if (value >= 10000) return (value / 10000).toFixed(0) + '만';
       else return value.toString();
    }
@@ -194,6 +196,7 @@ const translate = {
    "허수+(5) " : {en : "dummy+", sc : "木椿+", tc : "木椿+", jp : "かかし+"},
    "허수+(5)" : {en : "dummy+(5)", sc : "木椿+(5)", tc : "木椿+(5)", jp : "かかし+(5)"},
    "13턴딜" : {en : "13t dmg", sc : "13t伤害", tc : "13t傷害", jp : "13t dmg"},
+   "13턴딜(E)" : {en : "13t dmg(E)", sc : "13t伤害(E)", tc : "13t傷害(E)", jp : "13t dmg(E)"},
    "13턴딜(5)" : {en : "13t dmg(5)", sc : "13t伤害(5)", tc : "13t傷害(5)", jp : "13t dmg(5)"},
    "13턴딜(1)" : {en : "13t dmg(1)", sc : "13t伤害(1)", tc : "13t傷害(1)", jp : "13t dmg(1)"},
    "13턴(5)" : {en : "13t (5)", sc : "13t (5)", tc : "13t (5)", jp : "13t(5)"},
@@ -380,6 +383,7 @@ const translate = {
    "붙여넣기" : {en : "Paste", sc : "粘贴", tc : "貼上", jp : "貼り付け"},
    "최소조건" : {en : "Min", sc : "最低条件", tc : "最低條件", jp : "必要条件"},
    "상시\u200B" : {en : "Eternal", sc : "常驻", tc : "常駐", jp : "常駐"},
+   "적 속성" : {en : "Enemy Attr", sc : "敌属性", tc : "敵屬性", jp : "敵属性"},
 
 
    // 로그인
@@ -795,11 +799,14 @@ const translate = {
    "수나미" : {en : "S.Nanami", sc : "夏奈", tc : "夏奈", jp : "夏の日 星空ななみ"},
    "릴리엘자" : {en : "LilyElsa", sc : "莉莉", tc : "莉莉", jp : "リリエルザ"},
    "라엘리" : {en : "SE.Noel", sc : "水黑", tc : "水黑", jp : "配信限定 ノエル"},
-   "시엘" : {en : "Ciel", sc : "希耶儿", tc : "希耶兒", jp : "シエル"},
-   "달놀라" : {en : "*Noma", sc : "*狂犬", tc : "*狂犬", jp : "月下の狂狼 ノルディ"},
+   "시엘" : {en : "Ciel", sc : "福瑞", tc : "福瑞", jp : "シエル"},
+   "달놀라" : {en : "W.Noma", sc : "风犬", tc : "風犬", jp : "月下の狂狼 ノルディ"},
    "칼리버" : {en : "Calibur", sc : "圣剑", tc : "聖劍", jp : "カリバー"},
    "비타" : {en : "Vita", sc : "魔剑", tc : "魔劍", jp : "ヴィータ"},
    "후지카" : {en : "Fujihana", sc : "妖刀", tc : "妖刀", jp : "藤花"},
+   
+   "농바알" : {en : "H.Baal", sc : "万巴", tc : "幼巴", jp : "ロリ バル"},
+   "할벤더" : {en : "H.Bedard", sc : "万肥", tc : "萬肥", jp : "狼女 ラベンダー"},
 };
 
 //---------------------------------------------------------------------------

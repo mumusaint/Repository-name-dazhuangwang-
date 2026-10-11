@@ -1,5 +1,9 @@
 const liberationList = ["바알", "사탄", "이블리스", "살루시아", "란", "루루", "밀레", "섹돌", "치즈루", "노엘리", "페바알","신이블","이치카", "적나나", "해나나", "할살루"];
 const eternalList = ["바알", "사탄", "이블리스", "살루시아", "란", "루루", "밀레", "섹돌", "울타", "아야네", "무엘라", "치즈루", "아르티아", "메스미나", "라티아", "슈텐", "카시피나", "에피나", "이노리", "미루", "파야", "에밀리", "안젤리카", "렌", "테키", "세라프", "하쿠", "모모"];
+const pickUpList = ["할벤더", "농바알",
+   "신사기", "장사탄", "강밀레", 
+   "미아", "수사탄", "크브리", 
+   "풍오라", "크이블", "로티아", "할야네", "닌저", "장바알", "루티", "할쿠"];
 const chJSON = { data : [
 {ok : true, id : 10001, rarity : 3, po:1, hp:962383, atk:254657, cd:3, atkMag:100, ultMag:503, fullname : "마왕 바알", name : "바알", element : 0, role : 0, hpUp : 20},
 {ok : true, id : 10002, rarity : 3, po:3, hp:1384007, atk:177152, cd:3, atkMag:100, ultMag:0, fullname : "마왕 사탄", name : "사탄", element : 4, role : 2, hpUp : 0},
@@ -182,9 +186,11 @@ const chJSON = { data : [
 {ok : true, id : 10208, rarity : 3, po:1, hp:1025715, atk:275915, cd:3, atkMag:0, ultMag:397, fullname : "엘프 아이돌 릴리엘자", name : "릴리엘자", element : 3, role : 0, hpUp : 55},
 {ok : true, id : 10209, rarity : 3, po:2, hp:1190024, atk:237827, cd:5, atkMag:0, ultMag:0, fullname : "달빛 아래의 광랑 놀라이티", name : "달놀라", element : 2, role : 0, hpUp : 55},
 {ok : true, id : 10210, rarity : 3, po:1, hp:1101891, atk:256871, cd:3, atkMag:0, ultMag:0, fullname : "멍멍이 모험가 시엘", name : "시엘", element : 4, role : 3, hpUp : 55},
-{ok : true, id : 10211, rarity : 3, hp:1062474, atk:266615, cd:4, atkMag:139.3, ultMag:566.5, fullname : "전설의 성검 칼리버", name : "칼리버", element : 3, role : 0, hpUp : 55},
-{ok : true, id : 10212, rarity : 3, hp:952197, atk:297174, cd:3, atkMag:0, ultMag:719.5, fullname : "종언의 마검 비타", name : "비타", element : 4, role : 0, hpUp : 55},
-{ok : true, id : 10213, rarity : 3, hp:1000028, atk:283001, cd:50, atkMag:0, ultMag:0, fullname : "속세의 요도 후지카", name : "후지카", element : 0, role : 0, hpUp : 55},
+{ok : true, id : 10211, rarity : 3, po:1, hp:1062474, atk:266615, cd:4, atkMag:139.3, ultMag:566.5, fullname : "전설의 성검 칼리버", name : "칼리버", element : 3, role : 0, hpUp : 55},
+{ok : true, id : 10212, rarity : 3, po:1, hp:952197, atk:297174, cd:3, atkMag:0, ultMag:719.5, fullname : "종언의 마검 비타", name : "비타", element : 4, role : 0, hpUp : 55},
+{ok : true, id : 10213, rarity : 3, po:1, hp:1000028, atk:283001, cd:50, atkMag:0, ultMag:0, fullname : "속세의 요도 후지카", name : "후지카", element : 0, role : 0, hpUp : 55},
+{ok : true, id : 10214, rarity : 3, hp:1144408, atk:247571, cd:2, atkMag:100, ultMag:257, fullname : "천진난만 소악마 바알", name : "농바알", element : 1, role : 4, hpUp : 55},
+{ok : true, id : 10215, rarity : 3, hp:1072218, atk:263957, cd:4, atkMag:0, ultMag:0, fullname : "비PC주의 울프걸 라벤더", name : "할벤더", element : 2, role : 3, hpUp : 55},
 
 /*
       element  role     rarity
@@ -323,7 +329,7 @@ function getCompInvalidReason(ids) {
    if (ids.length != 5) return { kind: 'count', count: ids.length };
    const comp = ids.map(id => getCharacter(id));
 
-   // Exclude H.Satan combined with counter-attack characters — this combination is rejected not because the team cannot survive, but because the simulator cannot yet calculate the interaction damage accurately.
+   // 농탄 + 반격 캐릭터
    const refList = [10002, 10027, 10056, 10130, 10164]; // 반격캐 목록
    const farmer = comp.find(i => i.id == 10153); // H.Satan
    if (farmer) {
@@ -331,7 +337,7 @@ function getCompInvalidReason(ids) {
       if (counters.length) return { kind: 'blacklist', farmer, counters };
    }
 
-   // Noma / W.Tsubaki leaders: no healer allowed among members (must run before the generic healer check)
+   // 놀라/새바키 리더 : 힐러가 있으면 안됨
    if (comp[0].id == 10022 || comp[0].id == 10170) {
       const violators = comp.slice(1).filter(i => i.role == 1);
       if (violators.length) return { kind: 'leaderNoHealer', leader: comp[0], violators };
@@ -339,35 +345,47 @@ function getCompInvalidReason(ids) {
    }
 
    // 나리 리더
-   if (comp[0].id == 10202) return null;
+   if (comp[0].id == 10202) {
+      const violators = comp.slice(1).filter(i => i.id == 10196);
+      if (violators.length) {
+         const _ct = [0,0,0,0,0];
+         for(let i = 0; i < 5; i++) {
+            const _r = comp[i].role;
+            _ct[_r]++;
+         }
+         if (_ct[1] > 0) return null;
+         else if (_ct[3] >= 2) return { kind: 'exception' };
+      }
+      return null;
+   }
 
-   // Generic rule: passes when the team contains at least one healer
+   // 공통 : 힐러가 있어야 함
    if (comp.find(i => i.role == 1)) return null;
 
-   // S.Iblis leader: members must be attackers or healers only (must run after the generic healer check to preserve the original behavior)
+   // 수이블 리더 : 딜러만 배치 (힐러도 가능)
    if (comp[0].id == 10042) {
       const violators = comp.slice(1).filter(i => i.role != 0 && i.role != 1);
       if (violators.length) return { kind: 'leaderRole', leader: comp[0], allowedRoles: [0, 1], violators };
       return null;
    }
-   // S.Noel leader: members must be protectors or obstructers only
+   // 수엘리 리더 : 디럽/탱커만 배치 (힐러도 가능)
    if (comp[0].id == 10091) {
       const violators = comp.slice(1).filter(i => i.role != 2 && i.role != 4);
       if (violators.length) return { kind: 'leaderRole', leader: comp[0], allowedRoles: [2, 4], violators };
       return null;
    }
-   // 노엘리 리더
+   // 노엘리 리더 : 힐러 없어도 됨
    if (comp[0].id == 10026) return null;
-   // 구릴리 리더
+   // 구릴리 리더 : 힐러 없어도 됨
    if (comp[0].id == 10054) return null;
 
-   // Cos.Momo leader: members must be attackers or healers only (must run before the generic healer check)
+   // 냉모모 리더 : 딜러만 배치 (힐러도 가능)
    if (comp[0].id == 10198) {
       const violators = comp.slice(1).filter(i => i.role != 0);
       if (violators.length) return { kind: 'leaderRole', leader: comp[0], allowedRoles: [0], violators };
       return null;
    }
-   // LilyElsa leader: passes if the team has a healer; otherwise it must cover exactly 3 distinct roles
+   // 릴리엘자 리더 : 힐러가 있거나 3직군 편성해야함
    if (comp[0].id == 10208) {
       const _ct = [0,0,0,0,0];
       for(let i = 0; i < 5; i++) {
@@ -386,7 +404,7 @@ function getCompInvalidReason(ids) {
    if (comp[4].id == 10063) return true;
    */
 
-   // No healer and no leader exemption applies → the team cannot sustain itself over the long run
+   // 힐러가 없을 경우
    return { kind: 'noHealer' };
 }
 
